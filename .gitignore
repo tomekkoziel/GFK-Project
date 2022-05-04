@@ -1,0 +1,12 @@
+*
+!src/
+!include/
+!*.cpp
+!*.h
+!*.dll
+!*.png
+!*.jpeg
+!*.jpg
+!*.bmp
+!*.fbp
+!.gitignore
