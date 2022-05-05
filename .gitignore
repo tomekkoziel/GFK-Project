@@ -1,6 +1,7 @@
 *
 !src/
 !include/
+!bin/
 !*.cpp
 !*.h
 !*.dll
