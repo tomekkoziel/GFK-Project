@@ -22,7 +22,7 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	wxBoxSizer* bSizer5;
 	bSizer5 = new wxBoxSizer( wxVERTICAL );
 
-	AnimationPanel = new wxPanel( this, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL );
+	AnimationPanel = new wxPanel( this, wxID_ANY, wxDefaultPosition, wxSize( 800,600 ), wxTAB_TRAVERSAL );
 	AnimationPanel->SetBackgroundColour( wxColour( 255, 255, 255 ) );
 
 	bSizer5->Add( AnimationPanel, 1, wxALL|wxEXPAND, 5 );
@@ -51,9 +51,7 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	wxBoxSizer* bSizer10;
 	bSizer10 = new wxBoxSizer( wxVERTICAL );
 
-	ChoiceSpeed = new wxSlider( this, wxID_ANY, 1, 0, 5, wxDefaultPosition, wxDefaultSize, wxSL_HORIZONTAL );
-	ChoiceSpeed->Enable( false );
-
+	ChoiceSpeed = new wxSlider( this, wxID_ANY, 4, 0, 7, wxDefaultPosition, wxSize( 230,-1 ), wxSL_HORIZONTAL );
 	bSizer10->Add( ChoiceSpeed, 0, wxALL, 5 );
 
 
@@ -109,14 +107,15 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 
 	this->SetSizer( bSizer1 );
 	this->Layout();
+	bSizer1->Fit( this );
 	MenuBar = new wxMenuBar( 0 );
 	FileBar = new wxMenu();
 	wxMenuItem* OpenFile;
-	OpenFile = new wxMenuItem( FileBar, wxID_ANY, wxString( wxT("Open") ) , wxEmptyString, wxITEM_NORMAL );
+	OpenFile = new wxMenuItem( FileBar, wxID_ANY, wxString( wxT("Open") ) + wxT('\t') + wxT("Ctrl+O"), wxEmptyString, wxITEM_NORMAL );
 	FileBar->Append( OpenFile );
 
 	wxMenuItem* SaveFile;
-	SaveFile = new wxMenuItem( FileBar, wxID_ANY, wxString( wxT("Save") ) , wxEmptyString, wxITEM_NORMAL );
+	SaveFile = new wxMenuItem( FileBar, wxID_ANY, wxString( wxT("Save") ) + wxT('\t') + wxT("Ctrl+S"), wxEmptyString, wxITEM_NORMAL );
 	FileBar->Append( SaveFile );
 
 	MenuBar->Append( FileBar, wxT("File") );
@@ -125,8 +124,48 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 
 
 	this->Centre( wxBOTH );
+
+	// Connect Events
+	AnimationPanel->Connect( wxEVT_MOVE, wxMoveEventHandler( MyFrame::ChangeSizeOfAnimation ), NULL, this );
+	AnimationPanel->Connect( wxEVT_UPDATE_UI, wxUpdateUIEventHandler( MyFrame::Repaint_AnimationPanel ), NULL, this );
+	ProgressSlider->Connect( wxEVT_MOVE, wxMoveEventHandler( MyFrame::ChangeSizeOfProgressSlider ), NULL, this );
+	ProgressSlider->Connect( wxEVT_UPDATE_UI, wxUpdateUIEventHandler( MyFrame::Repaint_ProgressSlider ), NULL, this );
+	ChoiceSpeed->Connect( wxEVT_SCROLL_TOP, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
+	ChoiceSpeed->Connect( wxEVT_SCROLL_BOTTOM, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
+	ChoiceSpeed->Connect( wxEVT_SCROLL_LINEUP, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
+	ChoiceSpeed->Connect( wxEVT_SCROLL_LINEDOWN, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
+	ChoiceSpeed->Connect( wxEVT_SCROLL_PAGEUP, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
+	ChoiceSpeed->Connect( wxEVT_SCROLL_PAGEDOWN, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
+	ChoiceSpeed->Connect( wxEVT_SCROLL_THUMBTRACK, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
+	ChoiceSpeed->Connect( wxEVT_SCROLL_THUMBRELEASE, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
+	ChoiceSpeed->Connect( wxEVT_SCROLL_CHANGED, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
+	AnimationGoBack->Connect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MyFrame::OnClick_RewindAnimation ), NULL, this );
+	PlayAndStop->Connect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MyFrame::OnClick_PlayStopAnimation ), NULL, this );
+	AnimationGoForward->Connect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MyFrame::OnClick_GoForwardAnimation ), NULL, this );
+	AnimationReplay->Connect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MyFrame::OnClick_RestartAnimation ), NULL, this );
+	FileBar->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MyFrame::OnClick_OpenFileOnMenuSelection ), this, OpenFile->GetId());
+	FileBar->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MyFrame::OnClick_SaveAnimationToFile ), this, SaveFile->GetId());
 }
 
 MyFrame::~MyFrame()
 {
+	// Disconnect Events
+	AnimationPanel->Disconnect( wxEVT_MOVE, wxMoveEventHandler( MyFrame::ChangeSizeOfAnimation ), NULL, this );
+	AnimationPanel->Disconnect( wxEVT_UPDATE_UI, wxUpdateUIEventHandler( MyFrame::Repaint_AnimationPanel ), NULL, this );
+	ProgressSlider->Disconnect( wxEVT_MOVE, wxMoveEventHandler( MyFrame::ChangeSizeOfProgressSlider ), NULL, this );
+	ProgressSlider->Disconnect( wxEVT_UPDATE_UI, wxUpdateUIEventHandler( MyFrame::Repaint_ProgressSlider ), NULL, this );
+	ChoiceSpeed->Disconnect( wxEVT_SCROLL_TOP, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
+	ChoiceSpeed->Disconnect( wxEVT_SCROLL_BOTTOM, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
+	ChoiceSpeed->Disconnect( wxEVT_SCROLL_LINEUP, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
+	ChoiceSpeed->Disconnect( wxEVT_SCROLL_LINEDOWN, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
+	ChoiceSpeed->Disconnect( wxEVT_SCROLL_PAGEUP, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
+	ChoiceSpeed->Disconnect( wxEVT_SCROLL_PAGEDOWN, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
+	ChoiceSpeed->Disconnect( wxEVT_SCROLL_THUMBTRACK, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
+	ChoiceSpeed->Disconnect( wxEVT_SCROLL_THUMBRELEASE, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
+	ChoiceSpeed->Disconnect( wxEVT_SCROLL_CHANGED, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
+	AnimationGoBack->Disconnect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MyFrame::OnClick_RewindAnimation ), NULL, this );
+	PlayAndStop->Disconnect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MyFrame::OnClick_PlayStopAnimation ), NULL, this );
+	AnimationGoForward->Disconnect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MyFrame::OnClick_GoForwardAnimation ), NULL, this );
+	AnimationReplay->Disconnect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MyFrame::OnClick_RestartAnimation ), NULL, this );
+
 }

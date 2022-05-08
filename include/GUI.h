@@ -45,9 +45,23 @@ class MyFrame : public wxFrame
 		wxMenuBar* MenuBar;
 		wxMenu* FileBar;
 
+		// Virtual event handlers, override them in your derived class
+		virtual void ChangeSizeOfAnimation( wxMoveEvent& event ) { event.Skip(); }
+		virtual void Repaint_AnimationPanel( wxUpdateUIEvent& event ) { event.Skip(); }
+		virtual void ChangeSizeOfProgressSlider( wxMoveEvent& event ) { event.Skip(); }
+		virtual void Repaint_ProgressSlider( wxUpdateUIEvent& event ) { event.Skip(); }
+		virtual void OnSlide_AnimationSpeed( wxScrollEvent& event ) { event.Skip(); }
+		virtual void OnClick_RewindAnimation( wxCommandEvent& event ) { event.Skip(); }
+		virtual void OnClick_PlayStopAnimation( wxCommandEvent& event ) { event.Skip(); }
+		virtual void OnClick_GoForwardAnimation( wxCommandEvent& event ) { event.Skip(); }
+		virtual void OnClick_RestartAnimation( wxCommandEvent& event ) { event.Skip(); }
+		virtual void OnClick_OpenFileOnMenuSelection( wxCommandEvent& event ) { event.Skip(); }
+		virtual void OnClick_SaveAnimationToFile( wxCommandEvent& event ) { event.Skip(); }
+
+
 	public:
 
-		MyFrame( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxEmptyString, const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 569,372 ), long style = wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL );
+		MyFrame( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxEmptyString, const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( -1,-1 ), long style = wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL );
 
 		~MyFrame();
 
