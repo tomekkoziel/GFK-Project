@@ -4,7 +4,7 @@ GUIMyFrame::GUIMyFrame( wxWindow* parent )
 :
 MyFrame( parent )
 {
-
+	AnimationIsReady = false;
 }
 
 void GUIMyFrame::ChangeSizeOfAnimation( wxMoveEvent& event )
@@ -52,9 +52,16 @@ void GUIMyFrame::OnClick_RestartAnimation( wxCommandEvent& event )
 // TODO: Implement OnClick_RestartAnimation
 }
 
-void GUIMyFrame::OnClick_OpenFileOnMenuSelection( wxCommandEvent& event )
+void GUIMyFrame::OnClick_OpenFileOnMenuSelection(wxCommandEvent& event)
 {
-// TODO: Implement OnClick_OpenFileOnMenuSelection
+	// TODO: Implement OnClick_OpenFileOnMenuSelection
+	wxFileDialog OpenFileDialog(this, wxT("Choose a file"), wxT(""), wxT(""), wxT("Text file (*.txt)|*.txt"), wxFD_OPEN | wxFD_FILE_MUST_EXIST);
+
+	if (OpenFileDialog.ShowModal() == wxID_OK)
+	{
+		AnimationIsReady = ReadDataToVector(OpenFileDialog.GetFilename());
+		setButtonsActive(AnimationIsReady);
+	}
 }
 
 void GUIMyFrame::OnClick_SaveAnimationToFile( wxCommandEvent& event )
