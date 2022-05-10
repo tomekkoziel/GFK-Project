@@ -67,4 +67,7 @@ void GUIMyFrame::OnClick_OpenFileOnMenuSelection(wxCommandEvent& event)
 void GUIMyFrame::OnClick_SaveAnimationToFile( wxCommandEvent& event )
 {
 // TODO: Implement OnClick_SaveAnimationToFile
+	wxDirDialog OpenDirDialog(this, _("Choose a directory"), "", wxDD_DEFAULT_STYLE | wxDD_DIR_MUST_EXIST);
+	if (OpenDirDialog.ShowModal() == wxID_OK)
+		SaveAnimationToDir(OpenDirDialog.GetPath());
 }

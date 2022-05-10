@@ -20,6 +20,7 @@ Frame::Frame(sf::Image& img, int time) : Time{ time }, Image{ img.getSize().x, i
     }
 }
 
+
 bool GUIMyFrame::ReadDataToVector(const char* FileName)
 {
     std::fstream file;
@@ -112,9 +113,17 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
     return true;
 }
 
+
 void GUIMyFrame::setButtonsActive(bool active)
 {
     AnimationGoBack->Enable(active);
     PlayAndStop->Enable(active);
     AnimationGoForward->Enable(active);
+}
+
+
+void GUIMyFrame::SaveAnimationToDir(wxString DirPath)
+{
+    for (unsigned i = 0; i < Animation.size(); i++)
+        Animation[i].Image.SaveFile(DirPath + "image" + std::to_string(i) + ".bmp");
 }
