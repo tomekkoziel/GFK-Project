@@ -44,6 +44,7 @@ class MyFrame : public wxFrame
 		wxButton* AnimationReplay;
 		wxMenuBar* MenuBar;
 		wxMenu* FileBar;
+		wxMenu* SettingsBar;
 
 		// Virtual event handlers, override them in your derived class
 		virtual void ChangeSizeOfAnimation( wxMoveEvent& event ) { event.Skip(); }
@@ -57,6 +58,8 @@ class MyFrame : public wxFrame
 		virtual void OnClick_RestartAnimation( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnClick_OpenFileOnMenuSelection( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnClick_SaveAnimationToFile( wxCommandEvent& event ) { event.Skip(); }
+		virtual void OnClick_SetBacgroundColor( wxCommandEvent& event ) { event.Skip(); }
+		virtual void OnClick_ShowSavingOptions( wxCommandEvent& event ) { event.Skip(); }
 
 
 	public:

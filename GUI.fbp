@@ -696,6 +696,39 @@
                         <event name="OnMenuSelection">OnClick_SaveAnimationToFile</event>
                     </object>
                 </object>
+                <object class="wxMenu" expanded="1">
+                    <property name="label">Settings</property>
+                    <property name="name">SettingsBar</property>
+                    <property name="permission">protected</property>
+                    <object class="wxMenuItem" expanded="1">
+                        <property name="bitmap"></property>
+                        <property name="checked">0</property>
+                        <property name="enabled">1</property>
+                        <property name="help"></property>
+                        <property name="id">wxID_ANY</property>
+                        <property name="kind">wxITEM_NORMAL</property>
+                        <property name="label">Background color</property>
+                        <property name="name">BgColor</property>
+                        <property name="permission">none</property>
+                        <property name="shortcut"></property>
+                        <property name="unchecked_bitmap"></property>
+                        <event name="OnMenuSelection">OnClick_SetBacgroundColor</event>
+                    </object>
+                    <object class="wxMenuItem" expanded="1">
+                        <property name="bitmap"></property>
+                        <property name="checked">0</property>
+                        <property name="enabled">1</property>
+                        <property name="help"></property>
+                        <property name="id">wxID_ANY</property>
+                        <property name="kind">wxITEM_NORMAL</property>
+                        <property name="label">Saving options</property>
+                        <property name="name">SavingOptions</property>
+                        <property name="permission">none</property>
+                        <property name="shortcut"></property>
+                        <property name="unchecked_bitmap"></property>
+                        <event name="OnMenuSelection">OnClick_ShowSavingOptions</event>
+                    </object>
+                </object>
             </object>
         </object>
     </object>

@@ -120,6 +120,17 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 
 	MenuBar->Append( FileBar, wxT("File") );
 
+	SettingsBar = new wxMenu();
+	wxMenuItem* BgColor;
+	BgColor = new wxMenuItem( SettingsBar, wxID_ANY, wxString( wxT("Background color") ) , wxEmptyString, wxITEM_NORMAL );
+	SettingsBar->Append( BgColor );
+
+	wxMenuItem* SavingOptions;
+	SavingOptions = new wxMenuItem( SettingsBar, wxID_ANY, wxString( wxT("Saving options") ) , wxEmptyString, wxITEM_NORMAL );
+	SettingsBar->Append( SavingOptions );
+
+	MenuBar->Append( SettingsBar, wxT("Settings") );
+
 	this->SetMenuBar( MenuBar );
 
 
@@ -145,6 +156,8 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	AnimationReplay->Connect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MyFrame::OnClick_RestartAnimation ), NULL, this );
 	FileBar->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MyFrame::OnClick_OpenFileOnMenuSelection ), this, OpenFile->GetId());
 	FileBar->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MyFrame::OnClick_SaveAnimationToFile ), this, SaveFile->GetId());
+	SettingsBar->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MyFrame::OnClick_SetBacgroundColor ), this, BgColor->GetId());
+	SettingsBar->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MyFrame::OnClick_ShowSavingOptions ), this, SavingOptions->GetId());
 }
 
 MyFrame::~MyFrame()
