@@ -1,23 +1,8 @@
 #include "GUIMyFrame.h"
 
-
-Frame::Frame(sf::Image& img, int time) : Time{ time }, Image{ img.getSize().x, img.getSize().y }
+#include <wx/dcclient.h>
+Frame::Frame(sf::RenderTexture& buf, int time) : Time{ time }, Image{ buf.getTexture() }
 {
-    unsigned char* wxdata = Image.GetData();
-    Image.InitAlpha();
-    unsigned char* wxalpha = Image.GetAlpha();
-    const unsigned char* sfdata = img.getPixelsPtr();
-    int size = Image.GetSize().x * Image.GetSize().y;
-    for (int i = 0; i < size; i++)
-    {
-        wxdata[0] = sfdata[0];
-        wxdata[1] = sfdata[1];
-        wxdata[2] = sfdata[2];
-        wxalpha[0] = sfdata[3];
-        wxdata += 3;
-        wxalpha++;
-        sfdata += 4;
-    }
 }
 
 
@@ -41,14 +26,14 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
     sf::CircleShape elipse(0, 100);
     sf::RectangleShape rectangle;
     sf::VertexArray line(sf::Lines, 2);
-    sf::Color fillColor, penColor;
+    sf::Color fillColor = sf::Color(0, 0, 0), penColor = sf::Color(0, 0, 0);
     int a, b, c, d;
     bool flag;
-    float thickness = 0.01;
+    float thickness = 1;
 
     while (file >> time)
     {
-        buffer.clear(sf::Color::Transparent);
+        buffer.clear(sf::Color(255, 255, 255, 0));
         
         while (file >> figure && figure != "stop" && figure != "ST")
         {
@@ -105,11 +90,13 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
             }
         }
         buffer.display();
-        
-        Animation.push_back(Frame(buffer.getTexture().copyToImage(), time));
-    }
 
+
+        Animation.push_back(Frame(buffer, time));
+    }
     file.close();
+
+    wxClientDC(AnimationPanel).DrawText("Animation is ready\n", w / 2, h / 2);
     return true;
 }
 
@@ -122,8 +109,8 @@ void GUIMyFrame::setButtonsActive(bool active)
 }
 
 
-void GUIMyFrame::SaveAnimationToDir(wxString DirPath)
+void GUIMyFrame::SaveAnimationToDir(const char *DirPath)
 {
-    for (unsigned i = 0; i < Animation.size(); i++)
-        Animation[i].Image.SaveFile(DirPath + "image" + std::to_string(i) + ".bmp");
+    for(unsigned i=0; i<Animation.size(); i++)
+        Animation[i].Image.copyToImage().saveToFile(std::string(DirPath) + "\\image" + std::to_string(i) + ".png");
 }

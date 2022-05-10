@@ -2,7 +2,7 @@
 
 GUIMyFrame::GUIMyFrame( wxWindow* parent )
 :
-MyFrame( parent )
+MyFrame( parent ), Panel{ (HWND)AnimationPanel->GetHandle() }
 {
 	AnimationIsReady = false;
 }
