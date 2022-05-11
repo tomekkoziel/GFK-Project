@@ -25,6 +25,7 @@ struct Frame
 	int Time;
 	sf::Texture Image;
 	Frame(sf::RenderTexture &buf, int time);
+	Frame(sf::Texture &img, int time);
 };
 /** Implementing MyFrame */
 class GUIMyFrame : public MyFrame
@@ -44,21 +45,24 @@ class GUIMyFrame : public MyFrame
 		void OnClick_SaveAnimationToFile( wxCommandEvent& event );
 		void OnClick_SetBacgroundColor(wxCommandEvent& event);
 		void OnClick_ShowSavingOptions(wxCommandEvent& event);
-		void IfChecked_setReadTXT(wxCommandEvent& event);
-		void IfChecked_setReadImage(wxCommandEvent& event);
 	public:
 		/** Constructor */
 		GUIMyFrame( wxWindow* parent );
 	//// end generated class members
 
-		bool ReadDataToVector(const char *FileName);
-		void SaveAnimationToDir(const char *DirPath);
-		void setButtonsActive(bool active);
 
 	private:
 		sf::RenderWindow Panel;
 		std::vector<Frame> Animation;
-		bool AnimationIsReady, ReadingOption;
+		bool ReadingOption;
+		enum class States{ NoInBuffer, LoadingToBuffer, ReadyToDisplay, DuringDisplay, AfterDisplay };
+		States AnimationState;
+
+
+		void SaveAnimationToDir(const char *DirPath);
+		void setButtonsActive();
+		bool ReadImagesToVector(wxArrayString &paths);
+		bool ReadDataToVector(const char *FileName);
 };
 
 #endif // __GUIMyFrame__

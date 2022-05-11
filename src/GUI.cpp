@@ -125,6 +125,18 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	BgColor = new wxMenuItem( SettingsBar, wxID_ANY, wxString( wxT("Background color") ) , wxEmptyString, wxITEM_NORMAL );
 	SettingsBar->Append( BgColor );
 
+	ReadingFileOption = new wxMenu();
+	wxMenuItem* ReadingFileOptionItem = new wxMenuItem( SettingsBar, wxID_ANY, wxT("Read animation from.."), wxEmptyString, wxITEM_NORMAL, ReadingFileOption );
+	wxMenuItem* ReadTXT;
+	ReadTXT = new wxMenuItem( ReadingFileOption, wxID_ANY, wxString( wxT("Command file") ) , wxEmptyString, wxITEM_RADIO );
+	ReadingFileOption->Append( ReadTXT );
+
+	wxMenuItem* ReadImages;
+	ReadImages = new wxMenuItem( ReadingFileOption, wxID_ANY, wxString( wxT("Images") ) , wxEmptyString, wxITEM_RADIO );
+	ReadingFileOption->Append( ReadImages );
+
+	SettingsBar->Append( ReadingFileOptionItem );
+
 	wxMenuItem* SavingOptions;
 	SavingOptions = new wxMenuItem( SettingsBar, wxID_ANY, wxString( wxT("Saving options") ) , wxEmptyString, wxITEM_NORMAL );
 	SettingsBar->Append( SavingOptions );

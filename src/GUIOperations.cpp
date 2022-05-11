@@ -1,10 +1,8 @@
 #include "GUIMyFrame.h"
 
 #include <wx/dcclient.h>
-Frame::Frame(sf::RenderTexture& buf, int time) : Time{ time }, Image{ buf.getTexture() }
-{
-}
-
+Frame::Frame(sf::RenderTexture& buf, int time) : Time{ time }, Image{ buf.getTexture() } {}
+Frame::Frame(sf::Texture& img, int time) : Time{time}, Image{img} {}
 
 bool GUIMyFrame::ReadDataToVector(const char* FileName)
 {
@@ -101,11 +99,37 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
 }
 
 
-void GUIMyFrame::setButtonsActive(bool active)
+void GUIMyFrame::setButtonsActive()
 {
-    AnimationGoBack->Enable(active);
-    PlayAndStop->Enable(active);
-    AnimationGoForward->Enable(active);
+    switch (AnimationState)
+    {
+    case States::NoInBuffer:
+    case States::LoadingToBuffer:
+        AnimationGoBack->Enable(false);
+        PlayAndStop->Enable(false);
+        AnimationGoForward->Enable(false);
+        AnimationReplay->Enable(false);
+        break;
+    case States::ReadyToDisplay:
+        AnimationGoBack->Enable(true);
+        PlayAndStop->Enable(true);
+        AnimationGoForward->Enable(true);
+        AnimationReplay->Enable(false);
+        break;
+    case States::DuringDisplay:
+        AnimationGoBack->Enable(true);
+        PlayAndStop->Enable(true);
+        AnimationGoForward->Enable(true);
+        AnimationReplay->Enable(true);
+        break;
+    case States::AfterDisplay:
+        AnimationGoBack->Enable(true);
+        PlayAndStop->Enable(true);
+        AnimationGoForward->Enable(false);
+        AnimationReplay->Enable(true);
+        break;
+    }
+    Layout();
 }
 
 
@@ -113,4 +137,16 @@ void GUIMyFrame::SaveAnimationToDir(const char *DirPath)
 {
     for(unsigned i=0; i<Animation.size(); i++)
         Animation[i].Image.copyToImage().saveToFile(std::string(DirPath) + "\\image" + std::to_string(i) + ".png");
+}
+
+
+bool GUIMyFrame::ReadImagesToVector(wxArrayString& paths)
+{
+    sf::Texture ReadImage;
+    for (wxString &it : paths)
+    {
+        if (!ReadImage.loadFromFile(std::string(it))) return false;
+        Animation.push_back(Frame(ReadImage, 5));
+    }
+    return true;
 }

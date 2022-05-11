@@ -45,6 +45,7 @@ class MyFrame : public wxFrame
 		wxMenuBar* MenuBar;
 		wxMenu* FileBar;
 		wxMenu* SettingsBar;
+		wxMenu* ReadingFileOption;
 
 		// Virtual event handlers, override them in your derived class
 		virtual void ChangeSizeOfAnimation( wxMoveEvent& event ) { event.Skip(); }

@@ -4,16 +4,8 @@ GUIMyFrame::GUIMyFrame( wxWindow* parent )
 :
 MyFrame( parent ), Panel{ (HWND)AnimationPanel->GetHandle() }
 {
-	wxMenu *ReadingFileOption = new wxMenu();
-	ReadingFileOption->Append(wxID_ANY, _("Command file"), _(""), wxITEM_RADIO);
-	ReadingFileOption->Append(wxID_ANY, _("Image"), _(""), wxITEM_RADIO);
-
-	wxMenuItem* ReadingFileOptionItem = new wxMenuItem( SettingsBar, wxID_ANY, wxT("Read animation from..."), wxEmptyString, wxITEM_NORMAL, ReadingFileOption);
-	SettingsBar->Append( ReadingFileOptionItem );
-	SettingsBar->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler(GUIMyFrame::IfChecked_setReadTXT), this, ReadingFileOption->FindItemByPosition(0)->GetId());
-	SettingsBar->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler(GUIMyFrame::IfChecked_setReadImage), this, ReadingFileOption->FindItemByPosition(1)->GetId());
-
-	ReadingOption = AnimationIsReady = false;
+	ReadingOption = false;
+	AnimationState = States::NoInBuffer;
 }
 
 void GUIMyFrame::ChangeSizeOfAnimation( wxMoveEvent& event )
@@ -64,13 +56,33 @@ void GUIMyFrame::OnClick_RestartAnimation( wxCommandEvent& event )
 void GUIMyFrame::OnClick_OpenFileOnMenuSelection(wxCommandEvent& event)
 {
 	// TODO: Implement OnClick_OpenFileOnMenuSelection
-	wxFileDialog OpenFileDialog(this, wxT("Choose a file"), wxT(""), wxT(""), wxT("Text file (*.txt)|*.txt"), wxFD_OPEN | wxFD_FILE_MUST_EXIST);
-
-	if (OpenFileDialog.ShowModal() == wxID_OK)
+	if (ReadingFileOption->FindItemByPosition(0)->IsChecked())
 	{
-		AnimationIsReady = ReadDataToVector(OpenFileDialog.GetFilename());
-		setButtonsActive(AnimationIsReady);
+		wxFileDialog OpenFileDialog(this, wxT("Choose a file"), wxT(""), wxT(""), wxT("Text file (*.txt)|*.txt"), wxFD_OPEN | wxFD_FILE_MUST_EXIST);
+
+		if (OpenFileDialog.ShowModal() == wxID_OK)
+		{
+			AnimationState = States::LoadingToBuffer;
+			setButtonsActive();
+			if (ReadDataToVector(OpenFileDialog.GetPath())) AnimationState = States::ReadyToDisplay;
+		}
 	}
+	else
+	{
+		wxFileDialog OpenFileDialog(this, wxT("Choose a files"), wxT(""), wxT(""), wxT(""), wxFD_MULTIPLE | wxFD_FILE_MUST_EXIST);
+
+
+		if (OpenFileDialog.ShowModal() == wxID_OK)
+		{
+			AnimationState = States::LoadingToBuffer;
+			setButtonsActive();
+			wxArrayString Images;
+			OpenFileDialog.GetPaths(Images);
+			Images.Sort();
+			if (ReadImagesToVector(Images)) AnimationState = States::ReadyToDisplay;
+		}
+	}
+	setButtonsActive();
 }
 
 void GUIMyFrame::OnClick_SaveAnimationToFile( wxCommandEvent& event )
@@ -93,14 +105,4 @@ void GUIMyFrame::OnClick_SetBacgroundColor(wxCommandEvent& event)
 void GUIMyFrame::OnClick_ShowSavingOptions(wxCommandEvent& event)
 {
 	// TODO: Implement OnClick_ShowSavingOptions
-}
-
-void GUIMyFrame::IfChecked_setReadTXT(wxCommandEvent& event)
-{
-	ReadingOption = false;
-}
-
-void GUIMyFrame::IfChecked_setReadImage(wxCommandEvent& event)
-{
-	ReadingOption = true;
 }
