@@ -141,9 +141,9 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 
 	SettingsBar->Append( ReadingFileOptionItem );
 
-	wxMenuItem* SavingOptions;
-	SavingOptions = new wxMenuItem( SettingsBar, wxID_ANY, wxString( wxT("Saving options") ) , wxEmptyString, wxITEM_NORMAL );
-	SettingsBar->Append( SavingOptions );
+	wxMenuItem* OtherOptions;
+	OtherOptions = new wxMenuItem( SettingsBar, wxID_ANY, wxString( wxT("Other options") ) , wxEmptyString, wxITEM_NORMAL );
+	SettingsBar->Append( OtherOptions );
 
 	MenuBar->Append( SettingsBar, wxT("Settings") );
 
@@ -173,7 +173,7 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	FileBar->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MyFrame::OnClick_OpenFileOnMenuSelection ), this, OpenFile->GetId());
 	FileBar->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MyFrame::OnClick_SaveAnimationToFile ), this, SaveFile->GetId());
 	SettingsBar->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MyFrame::OnClick_SetBacgroundColor ), this, BgColor->GetId());
-	SettingsBar->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MyFrame::OnClick_ShowSavingOptions ), this, SavingOptions->GetId());
+	SettingsBar->Bind(wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler( MyFrame::OnClick_ShowSavingOptions ), this, OtherOptions->GetId());
 }
 
 MyFrame::~MyFrame()
@@ -228,10 +228,10 @@ OtherSettings::OtherSettings( wxWindow* parent, wxWindowID id, const wxString& t
 	m_staticText2->Wrap( -1 );
 	bSizer16->Add( m_staticText2, 0, wxALL|wxALIGN_CENTER_VERTICAL, 5 );
 
-	FileNum0001 = new wxButton( this, wxID_ANY, wxT("0001"), wxDefaultPosition, wxSize( 60,23 ), 0 );
+	FileNum0001 = new wxButton( this, wxID_ANY, wxT("0001"), wxDefaultPosition, wxSize( 60,25 ), 0 );
 	bSizer16->Add( FileNum0001, 0, wxALL|wxALIGN_CENTER_VERTICAL, 5 );
 
-	FileNum1 = new wxButton( this, wxID_ANY, wxT("1"), wxDefaultPosition, wxSize( 60,24 ), 0 );
+	FileNum1 = new wxButton( this, wxID_ANY, wxT("1"), wxDefaultPosition, wxSize( 60,25 ), 0 );
 	bSizer16->Add( FileNum1, 0, wxALL|wxALIGN_CENTER_VERTICAL, 5 );
 
 

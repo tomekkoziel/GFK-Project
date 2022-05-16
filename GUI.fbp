@@ -766,8 +766,8 @@
                         <property name="help"></property>
                         <property name="id">wxID_ANY</property>
                         <property name="kind">wxITEM_NORMAL</property>
-                        <property name="label">Saving options</property>
-                        <property name="name">SavingOptions</property>
+                        <property name="label">Other options</property>
+                        <property name="name">OtherOptions</property>
                         <property name="permission">none</property>
                         <property name="shortcut"></property>
                         <property name="unchecked_bitmap"></property>
@@ -1106,7 +1106,7 @@
                                 <property name="pressed"></property>
                                 <property name="resize">Resizable</property>
                                 <property name="show">1</property>
-                                <property name="size">60,23</property>
+                                <property name="size">60,25</property>
                                 <property name="style"></property>
                                 <property name="subclass">; ; forward_declare</property>
                                 <property name="toolbar_pane">0</property>
@@ -1180,7 +1180,7 @@
                                 <property name="pressed"></property>
                                 <property name="resize">Resizable</property>
                                 <property name="show">1</property>
-                                <property name="size">60,24</property>
+                                <property name="size">60,25</property>
                                 <property name="style"></property>
                                 <property name="subclass">; ; forward_declare</property>
                                 <property name="toolbar_pane">0</property>

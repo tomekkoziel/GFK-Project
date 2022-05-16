@@ -61,6 +61,7 @@ void GUIMyFrame::OnClick_OpenFileOnMenuSelection(wxCommandEvent& event)
 
 		if (OpenFileDialog.ShowModal() == wxID_OK)
 		{
+			Animation.clear();
 			AnimationState = States::LoadingToBuffer;
 			setButtonsActive();
 			if (ReadDataToVector(OpenFileDialog.GetPath())) AnimationState = States::ReadyToDisplay;
@@ -73,6 +74,7 @@ void GUIMyFrame::OnClick_OpenFileOnMenuSelection(wxCommandEvent& event)
 
 		if (OpenFileDialog.ShowModal() == wxID_OK)
 		{
+			Animation.clear();
 			AnimationState = States::LoadingToBuffer;
 			setButtonsActive();
 			wxArrayString Images;
