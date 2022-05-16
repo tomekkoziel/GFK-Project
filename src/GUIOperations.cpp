@@ -136,7 +136,7 @@ void GUIMyFrame::setButtonsActive()
 void GUIMyFrame::SaveAnimationToDir(const char *DirPath)
 {
     for(unsigned i=0; i<Animation.size(); i++)
-        Animation[i].Image.copyToImage().saveToFile(std::string(DirPath) + "\\image" + std::to_string(i) + ".png");
+        Animation[i].Image.copyToImage().saveToFile(std::string(DirPath) + "\\image" + std::to_string(i) + ".bmp");
 }
 
 

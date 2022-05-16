@@ -2,10 +2,9 @@
 
 GUIMyFrame::GUIMyFrame( wxWindow* parent )
 :
-MyFrame( parent ), Panel{ (HWND)AnimationPanel->GetHandle() }
+	MyFrame(parent), Panel{ (HWND)AnimationPanel->GetHandle() }, ReadingOption{ false }, AnimationState{ States::NoInBuffer },
+	ShowBg{ false }, FileNumeration{ false }, FileName{ "output" }
 {
-	ReadingOption = false;
-	AnimationState = States::NoInBuffer;
 }
 
 void GUIMyFrame::ChangeSizeOfAnimation( wxMoveEvent& event )
@@ -105,4 +104,6 @@ void GUIMyFrame::OnClick_SetBacgroundColor(wxCommandEvent& event)
 void GUIMyFrame::OnClick_ShowSavingOptions(wxCommandEvent& event)
 {
 	// TODO: Implement OnClick_ShowSavingOptions
+	GUIOtherSettings dialog(this, this);
+	dialog.ShowModal();
 }

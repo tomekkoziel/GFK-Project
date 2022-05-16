@@ -135,6 +135,10 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	ReadImages = new wxMenuItem( ReadingFileOption, wxID_ANY, wxString( wxT("Images") ) , wxEmptyString, wxITEM_RADIO );
 	ReadingFileOption->Append( ReadImages );
 
+	wxMenuItem* Read3D;
+	Read3D = new wxMenuItem( ReadingFileOption, wxID_ANY, wxString( wxT("3D Animation") ) , wxEmptyString, wxITEM_RADIO );
+	ReadingFileOption->Append( Read3D );
+
 	SettingsBar->Append( ReadingFileOptionItem );
 
 	wxMenuItem* SavingOptions;
@@ -192,5 +196,93 @@ MyFrame::~MyFrame()
 	PlayAndStop->Disconnect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MyFrame::OnClick_PlayStopAnimation ), NULL, this );
 	AnimationGoForward->Disconnect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MyFrame::OnClick_GoForwardAnimation ), NULL, this );
 	AnimationReplay->Disconnect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MyFrame::OnClick_RestartAnimation ), NULL, this );
+
+}
+
+OtherSettings::OtherSettings( wxWindow* parent, wxWindowID id, const wxString& title, const wxPoint& pos, const wxSize& size, long style ) : wxDialog( parent, id, title, pos, size, style )
+{
+	this->SetSizeHints( wxDefaultSize, wxDefaultSize );
+
+	wxBoxSizer* bSizer11;
+	bSizer11 = new wxBoxSizer( wxVERTICAL );
+
+
+	bSizer11->Add( 0, 0, 1, wxEXPAND, 5 );
+
+	EnableAnimationBackground = new wxCheckBox( this, wxID_ANY, wxT("Show animation backgroud"), wxDefaultPosition, wxDefaultSize, 0 );
+	bSizer11->Add( EnableAnimationBackground, 0, wxALL|wxALIGN_CENTER_HORIZONTAL, 5 );
+
+	AnimationBackground = new wxButton( this, wxID_ANY, wxT("Chose Animation\nBackground"), wxDefaultPosition, wxDefaultSize, 0 );
+	bSizer11->Add( AnimationBackground, 0, wxALL|wxALIGN_CENTER_HORIZONTAL, 5 );
+
+
+	bSizer11->Add( 0, 0, 1, wxEXPAND, 5 );
+
+	wxBoxSizer* bSizer16;
+	bSizer16 = new wxBoxSizer( wxHORIZONTAL );
+
+
+	bSizer16->Add( 0, 0, 1, wxEXPAND, 5 );
+
+	m_staticText2 = new wxStaticText( this, wxID_ANY, wxT("Chose numeration of saved files"), wxDefaultPosition, wxDefaultSize, 0 );
+	m_staticText2->Wrap( -1 );
+	bSizer16->Add( m_staticText2, 0, wxALL|wxALIGN_CENTER_VERTICAL, 5 );
+
+	FileNum0001 = new wxButton( this, wxID_ANY, wxT("0001"), wxDefaultPosition, wxSize( 60,23 ), 0 );
+	bSizer16->Add( FileNum0001, 0, wxALL|wxALIGN_CENTER_VERTICAL, 5 );
+
+	FileNum1 = new wxButton( this, wxID_ANY, wxT("1"), wxDefaultPosition, wxSize( 60,24 ), 0 );
+	bSizer16->Add( FileNum1, 0, wxALL|wxALIGN_CENTER_VERTICAL, 5 );
+
+
+	bSizer16->Add( 0, 0, 1, wxEXPAND, 5 );
+
+
+	bSizer11->Add( bSizer16, 1, wxEXPAND, 5 );
+
+	wxBoxSizer* bSizer15;
+	bSizer15 = new wxBoxSizer( wxHORIZONTAL );
+
+
+	bSizer15->Add( 0, 0, 1, wxEXPAND, 5 );
+
+	m_staticText1 = new wxStaticText( this, wxID_ANY, wxT("Name of saved files"), wxDefaultPosition, wxDefaultSize, 0 );
+	m_staticText1->Wrap( -1 );
+	bSizer15->Add( m_staticText1, 0, wxALL|wxALIGN_CENTER_VERTICAL, 5 );
+
+	NameOfSavedFiles = new wxTextCtrl( this, wxID_ANY, wxT("output"), wxDefaultPosition, wxDefaultSize, 0 );
+	bSizer15->Add( NameOfSavedFiles, 0, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5 );
+
+
+	bSizer15->Add( 0, 0, 1, wxEXPAND, 5 );
+
+
+	bSizer11->Add( bSizer15, 1, wxEXPAND, 5 );
+
+
+	bSizer11->Add( 0, 0, 1, wxEXPAND, 5 );
+
+
+	this->SetSizer( bSizer11 );
+	this->Layout();
+
+	this->Centre( wxBOTH );
+
+	// Connect Events
+	EnableAnimationBackground->Connect( wxEVT_COMMAND_CHECKBOX_CLICKED, wxCommandEventHandler( OtherSettings::IfCheck_ShowAnimationBackground ), NULL, this );
+	AnimationBackground->Connect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( OtherSettings::OnButton_ChoseAnimationBackground ), NULL, this );
+	FileNum0001->Connect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( OtherSettings::setSavedFileNumeration0001 ), NULL, this );
+	FileNum1->Connect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( OtherSettings::setSavedFileNumeration1 ), NULL, this );
+	NameOfSavedFiles->Connect( wxEVT_COMMAND_TEXT_UPDATED, wxCommandEventHandler( OtherSettings::ChangeSavedFileName ), NULL, this );
+}
+
+OtherSettings::~OtherSettings()
+{
+	// Disconnect Events
+	EnableAnimationBackground->Disconnect( wxEVT_COMMAND_CHECKBOX_CLICKED, wxCommandEventHandler( OtherSettings::IfCheck_ShowAnimationBackground ), NULL, this );
+	AnimationBackground->Disconnect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( OtherSettings::OnButton_ChoseAnimationBackground ), NULL, this );
+	FileNum0001->Disconnect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( OtherSettings::setSavedFileNumeration0001 ), NULL, this );
+	FileNum1->Disconnect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( OtherSettings::setSavedFileNumeration1 ), NULL, this );
+	NameOfSavedFiles->Disconnect( wxEVT_COMMAND_TEXT_UPDATED, wxCommandEventHandler( OtherSettings::ChangeSavedFileName ), NULL, this );
 
 }
