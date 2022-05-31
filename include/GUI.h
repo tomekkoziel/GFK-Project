@@ -16,6 +16,7 @@
 #include <wx/settings.h>
 #include <wx/string.h>
 #include <wx/sizer.h>
+#include <wx/gauge.h>
 #include <wx/slider.h>
 #include <wx/button.h>
 #include <wx/bitmap.h>
@@ -41,6 +42,7 @@ class MyFrame : public wxFrame
 	protected:
 		wxPanel* AnimationPanel;
 		wxPanel* ProgressSlider;
+		wxGauge* LoadingProgress;
 		wxSlider* ChoiceSpeed;
 		wxButton* AnimationGoBack;
 		wxButton* PlayAndStop;

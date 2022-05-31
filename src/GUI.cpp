@@ -39,6 +39,12 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 
 	bSizer6->Add( ProgressSlider, 1, wxEXPAND | wxALL, 5 );
 
+	LoadingProgress = new wxGauge( this, wxID_ANY, 100, wxDefaultPosition, wxSize( 600,-1 ), wxGA_HORIZONTAL );
+	LoadingProgress->SetValue( 0 );
+	LoadingProgress->Hide();
+
+	bSizer6->Add( LoadingProgress, 0, wxALL|wxALIGN_CENTER_HORIZONTAL, 5 );
+
 
 	bSizer2->Add( bSizer6, 0, wxEXPAND, 5 );
 

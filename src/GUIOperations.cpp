@@ -11,14 +11,20 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
     if (!file.is_open()) return false;
 
     sf::RenderTexture buffer;
-    int w, h, frameNum, time;
+    int w, h, frameNum, time, num;
     std::string figure;
+    char comma;
 
-    file >> w >> h >> frameNum;
+    file >> w >> comma >> h >> frameNum;
     sf::ContextSettings settings;
     settings.antialiasingLevel = 8;
     buffer.create(w, h, settings);
     Animation.reserve(frameNum);
+
+    LoadingProgress->SetRange(frameNum);
+    LoadingProgress->SetValue(0);
+    LoadingProgress->Show();
+    Layout();
 
     sf::VertexArray point(sf::Points, 1);
     sf::CircleShape elipse(0, 100);
@@ -29,7 +35,7 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
     bool flag;
     float thickness = 1;
 
-    while (file >> time)
+    while (file >> num >> comma >> time)
     {
         buffer.clear(sf::Color(255, 255, 255, 0));
         
@@ -37,14 +43,14 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
         {
             if (figure == "punkt" || figure == "PT")
             {
-                file >> a >> b;
+                file >> a >> comma >> b;
                 point[0].position = sf::Vector2f(a, b);
                 point[0].color = penColor;
                 buffer.draw(point);
             }
             else if (figure == "elipsa" || figure == "EL")
             {
-                file >> a >> b >> c >> d >> flag;
+                file >> a >> comma >> b >> comma >> c >> comma >> d >> comma >> flag;
                 elipse.setPosition(a - c, b - d);
                 elipse.setRadius(1);
                 elipse.setScale(sf::Vector2f(c, d));
@@ -55,7 +61,7 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
             }
             else if (figure == "prostokat" || figure == "PR")
             {
-                file >> a >> b >> c >> d >> flag;
+                file >> a >> comma >> b >> comma >> c >> comma >> d >> comma >> flag;
                 rectangle.setPosition(a, b);
                 rectangle.setSize(sf::Vector2f(c, d));
                 rectangle.setOutlineThickness(thickness);
@@ -65,7 +71,7 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
             }
             else if (figure == "linia" || figure == "LN")
             {
-                file >> a >> b >> c >> d;
+                file >> a >> comma >> b >> comma >> c >> comma >> d;
                 line[0].position = sf::Vector2f(a, b);
                 line[0].color = penColor;
                 line[1].position = sf::Vector2f(c, d);
@@ -78,12 +84,12 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
             }
             else if (figure == "kolor_piora" || figure == "KP")
             {
-                file >> a >> b >> c;
+                file >> a >> comma >> b >> comma >> c;
                 penColor = sf::Color(a, b, c);
             }
             else if (figure == "kolor_wypelnienia" || figure == "KW")
             {
-                file >> a >> b >> c;
+                file >> a >> comma >> b >> comma >> c;
                 fillColor = sf::Color(a, b, c);
             }
         }
@@ -91,9 +97,11 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
 
 
         Animation.push_back(Frame(buffer, time));
+        LoadingProgress->SetValue(LoadingProgress->GetValue() + 1);
     }
     file.close();
 
+    LoadingProgress->Hide();
     wxClientDC(AnimationPanel).DrawText("Animation is ready\n", w / 2, h / 2);
     return true;
 }
@@ -136,6 +144,11 @@ void GUIMyFrame::setButtonsActive()
 void GUIMyFrame::SaveAnimationToDir(const char *DirPath)
 {
     std::string numeration;
+    LoadingProgress->SetRange(Animation.size());
+    LoadingProgress->SetValue(0);
+    LoadingProgress->Show();
+    Layout();
+
     for (unsigned i = 0; i < Animation.size(); i++)
     {
         if (FileNumeration)
@@ -146,7 +159,9 @@ void GUIMyFrame::SaveAnimationToDir(const char *DirPath)
         }
         else numeration = std::to_string(i);
         Animation[i].Image.copyToImage().saveToFile(std::string(DirPath) + "\\" + FileName + numeration + ".bmp");
+        LoadingProgress->SetValue(LoadingProgress->GetValue() + 1);
     }
+    LoadingProgress->Hide();
 }
 
 
