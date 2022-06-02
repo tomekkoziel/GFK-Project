@@ -84,12 +84,12 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
             }
             else if (figure == "kolor_piora" || figure == "KP")
             {
-                file >> a >> comma >> b >> comma >> c;
+                file >> a >> b >> c;
                 penColor = sf::Color(a, b, c);
             }
             else if (figure == "kolor_wypelnienia" || figure == "KW")
             {
-                file >> a >> comma >> b >> comma >> c;
+                file >> a >> b >> c;
                 fillColor = sf::Color(a, b, c);
             }
         }
@@ -140,32 +140,64 @@ void GUIMyFrame::setButtonsActive()
     Layout();
 }
 
+void GUIMyFrame::SaveFrame(const char* DirPath, int start, int end)
+{
+    std::string numeration;
+    sf::Image tmp;
+
+    for (unsigned i = start; i < end; i++)
+    {
+        if (FileNumeration)
+        {
+            std::stringstream str;
+            str << std::setw(log10(Animation.size()) + 1) << std::setfill('0') << i;
+            numeration = str.str();
+        }
+        else numeration = std::to_string(i);
+        //tmp = Animation[i].Image.copyToImage();
+        //tmp.createMaskFromColor(sf::Color(255, 255, 255, 0), 255);
+        Animation[i].Image.copyToImage().saveToFile(std::string(DirPath) + "\\" + FileName + numeration + ".bmp");
+        LoadingProgress->SetValue(LoadingProgress->GetValue() + 1);
+    }
+
+    if (LoadingProgress->GetValue() == Animation.size() - 1)
+    {
+        LoadingProgress->Hide();
+        Layout();
+    }
+};
 
 void GUIMyFrame::SaveAnimationToDir(const char *DirPath)
 {
-    std::string numeration;
     LoadingProgress->SetRange(Animation.size());
     LoadingProgress->SetValue(0);
     LoadingProgress->Show();
     Layout();
+
+    std::string numeration;
     sf::Image tmp;
 
     for (unsigned i = 0; i < Animation.size(); i++)
     {
         if (FileNumeration)
         {
-            std::stringstream tmp;
-            tmp << std::setw(log10(Animation.size()) + 1) << std::setfill('0') << i;
-            numeration = tmp.str();
+            std::stringstream str;
+            str << std::setw(log10(Animation.size()) + 1) << std::setfill('0') << i;
+            numeration = str.str();
         }
         else numeration = std::to_string(i);
         tmp = Animation[i].Image.copyToImage();
         tmp.createMaskFromColor(sf::Color(255, 255, 255, 0), 255);
-        tmp.saveToFile(std::string(DirPath) + "\\" + FileName + numeration + ".bmp");
+        Animation[i].Image.copyToImage().saveToFile(std::string(DirPath) + "\\" + FileName + numeration + ".bmp");
         LoadingProgress->SetValue(LoadingProgress->GetValue() + 1);
     }
     LoadingProgress->Hide();
     Layout();
+    
+    //std::thread a1(&GUIMyFrame::SaveFrame, this, DirPath, 0, Animation.size() / 2);
+    //std::thread a2(&GUIMyFrame::SaveFrame, this, DirPath, Animation.size() / 2, Animation.size());
+    //a1.detach();
+    //a2.detach();
 }
 
 
