@@ -148,6 +148,7 @@ void GUIMyFrame::SaveAnimationToDir(const char *DirPath)
     LoadingProgress->SetValue(0);
     LoadingProgress->Show();
     Layout();
+    sf::Image tmp;
 
     for (unsigned i = 0; i < Animation.size(); i++)
     {
@@ -158,20 +159,31 @@ void GUIMyFrame::SaveAnimationToDir(const char *DirPath)
             numeration = tmp.str();
         }
         else numeration = std::to_string(i);
-        Animation[i].Image.copyToImage().saveToFile(std::string(DirPath) + "\\" + FileName + numeration + ".bmp");
+        tmp = Animation[i].Image.copyToImage();
+        tmp.createMaskFromColor(sf::Color(255, 255, 255, 0), 255);
+        tmp.saveToFile(std::string(DirPath) + "\\" + FileName + numeration + ".bmp");
         LoadingProgress->SetValue(LoadingProgress->GetValue() + 1);
     }
     LoadingProgress->Hide();
+    Layout();
 }
 
 
 bool GUIMyFrame::ReadImagesToVector(wxArrayString& paths)
 {
     sf::Texture ReadImage;
+    LoadingProgress->SetRange(Animation.size());
+    LoadingProgress->SetValue(0);
+    LoadingProgress->Show();
+    Layout();
     for (wxString &it : paths)
     {
         if (!ReadImage.loadFromFile(std::string(it))) return false;
         Animation.push_back(Frame(ReadImage, 5));
+        LoadingProgress->SetValue(LoadingProgress->GetValue() + 1);
     }
+    LoadingProgress->Hide();
+    Layout();
+
     return true;
 }
