@@ -189,7 +189,8 @@ void GUIMyFrame::SaveAnimationToDir(const char *DirPath)
         else numeration = std::to_string(i);
         tmp = Animation[i].Image.copyToImage();
         tmp.createMaskFromColor(sf::Color(255, 255, 255, 0), 255);
-        std::thread(&sf::Image::saveToFile, &tmp, std::string(DirPath) + "\\" + FileName + numeration + ".bmp").detach(); //tmp.saveToFile();
+        //std::thread(&sf::Image::saveToFile, &tmp, std::string(DirPath) + "\\" + FileName + numeration + ".bmp").detach();
+        tmp.saveToFile(std::string(DirPath) + "\\" + FileName + numeration + ".bmp");
         LoadingProgress->SetValue(LoadingProgress->GetValue() + 1);
     }
     LoadingProgress->Hide();
