@@ -44,13 +44,13 @@
             <property name="hidden">0</property>
             <property name="id">wxID_ANY</property>
             <property name="maximum_size"></property>
-            <property name="minimum_size"></property>
+            <property name="minimum_size">500,-1</property>
             <property name="name">MyFrame</property>
             <property name="pos"></property>
-            <property name="size">-1,-1</property>
-            <property name="style">wxDEFAULT_FRAME_STYLE</property>
+            <property name="size">800,600</property>
+            <property name="style">wxCAPTION|wxCLOSE_BOX|wxMINIMIZE_BOX|wxSYSTEM_MENU</property>
             <property name="subclass">; ; forward_declare</property>
-            <property name="title"></property>
+            <property name="title">GFK Project - Animations</property>
             <property name="tooltip"></property>
             <property name="two_step_creation">0</property>
             <property name="window_extra_style"></property>
@@ -82,7 +82,7 @@
                                 <property name="permission">none</property>
                                 <object class="sizeritem" expanded="1">
                                     <property name="border">5</property>
-                                    <property name="flag">wxALL|wxEXPAND</property>
+                                    <property name="flag">wxBOTTOM|wxEXPAND|wxFIXED_MINSIZE|wxLEFT|wxRIGHT|wxTOP</property>
                                     <property name="proportion">1</property>
                                     <object class="wxPanel" expanded="1">
                                         <property name="BottomDockable">1</property>
@@ -128,7 +128,7 @@
                                         <property name="pos"></property>
                                         <property name="resize">Resizable</property>
                                         <property name="show">1</property>
-                                        <property name="size">800,600</property>
+                                        <property name="size">-1,-1</property>
                                         <property name="subclass">; ; forward_declare</property>
                                         <property name="toolbar_pane">0</property>
                                         <property name="tooltip"></property>
@@ -289,7 +289,7 @@
                         <object class="sizeritem" expanded="1">
                             <property name="border">5</property>
                             <property name="flag">wxEXPAND</property>
-                            <property name="proportion">2</property>
+                            <property name="proportion">0</property>
                             <object class="wxBoxSizer" expanded="1">
                                 <property name="minimum_size"></property>
                                 <property name="name">bSizer10</property>
@@ -367,6 +367,16 @@
                             <property name="border">5</property>
                             <property name="flag">wxEXPAND</property>
                             <property name="proportion">1</property>
+                            <object class="spacer" expanded="1">
+                                <property name="height">0</property>
+                                <property name="permission">protected</property>
+                                <property name="width">0</property>
+                            </object>
+                        </object>
+                        <object class="sizeritem" expanded="1">
+                            <property name="border">5</property>
+                            <property name="flag">wxEXPAND</property>
+                            <property name="proportion">0</property>
                             <object class="wxBoxSizer" expanded="1">
                                 <property name="minimum_size"></property>
                                 <property name="name">bSizer4</property>
@@ -536,7 +546,7 @@
                         <object class="sizeritem" expanded="1">
                             <property name="border">5</property>
                             <property name="flag">wxEXPAND</property>
-                            <property name="proportion">3</property>
+                            <property name="proportion">0</property>
                             <object class="wxBoxSizer" expanded="1">
                                 <property name="minimum_size"></property>
                                 <property name="name">bSizer8</property>
@@ -616,6 +626,16 @@
                                         <event name="OnButtonClick">OnClick_GoForwardAnimation</event>
                                     </object>
                                 </object>
+                            </object>
+                        </object>
+                        <object class="sizeritem" expanded="1">
+                            <property name="border">5</property>
+                            <property name="flag">wxEXPAND</property>
+                            <property name="proportion">3</property>
+                            <object class="spacer" expanded="1">
+                                <property name="height">0</property>
+                                <property name="permission">protected</property>
+                                <property name="width">0</property>
                             </object>
                         </object>
                         <object class="sizeritem" expanded="1">

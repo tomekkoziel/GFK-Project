@@ -16,7 +16,9 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
     char comma;
 
     file >> w >> comma >> h >> frameNum;
-    AnimationPanel->SetSize(w, h);
+    if(w<600) SetSize(600, h + 130);
+    else SetSize(w + 26, h + 130);
+
     sf::ContextSettings settings;
     settings.antialiasingLevel = 8;
     buffer.create(w, h, settings);
@@ -103,7 +105,7 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
     file.close();
 
     LoadingProgress->Hide();
-    wxClientDC(AnimationPanel).DrawText("Animation is ready\n", w / 2, h / 2);
+    wxClientDC(AnimationPanel).DrawText(wxString::Format("%d, %d", AnimationPanel->GetSize().x, AnimationPanel->GetSize().y), w / 2, h / 2);
     return true;
 }
 
