@@ -16,6 +16,7 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
     char comma;
 
     file >> w >> comma >> h >> frameNum;
+    AnimationPanel->SetSize(w, h);
     sf::ContextSettings settings;
     settings.antialiasingLevel = 8;
     buffer.create(w, h, settings);
@@ -154,9 +155,9 @@ void GUIMyFrame::SaveFrame(const char* DirPath, int start, int end)
             numeration = str.str();
         }
         else numeration = std::to_string(i);
-        //tmp = Animation[i].Image.copyToImage();
-        //tmp.createMaskFromColor(sf::Color(255, 255, 255, 0), 255);
-        Animation[i].Image.copyToImage().saveToFile(std::string(DirPath) + "\\" + FileName + numeration + ".bmp");
+        tmp = Animation[i].Image.copyToImage();
+        tmp.createMaskFromColor(sf::Color(255, 255, 255, 0), 255);
+        tmp.saveToFile(std::string(DirPath) + "\\" + FileName + numeration + ".bmp");
         LoadingProgress->SetValue(LoadingProgress->GetValue() + 1);
     }
 
@@ -188,16 +189,14 @@ void GUIMyFrame::SaveAnimationToDir(const char *DirPath)
         else numeration = std::to_string(i);
         tmp = Animation[i].Image.copyToImage();
         tmp.createMaskFromColor(sf::Color(255, 255, 255, 0), 255);
-        Animation[i].Image.copyToImage().saveToFile(std::string(DirPath) + "\\" + FileName + numeration + ".bmp");
+        std::thread(&sf::Image::saveToFile, &tmp, std::string(DirPath) + "\\" + FileName + numeration + ".bmp").detach(); //tmp.saveToFile();
         LoadingProgress->SetValue(LoadingProgress->GetValue() + 1);
     }
     LoadingProgress->Hide();
     Layout();
     
-    //std::thread a1(&GUIMyFrame::SaveFrame, this, DirPath, 0, Animation.size() / 2);
-    //std::thread a2(&GUIMyFrame::SaveFrame, this, DirPath, Animation.size() / 2, Animation.size());
-    //a1.detach();
-    //a2.detach();
+    //std::thread(&GUIMyFrame::SaveFrame, this, DirPath, 0, Animation.size() / 2).detach();
+    //std::thread(&GUIMyFrame::SaveFrame, this, DirPath, Animation.size() / 2, Animation.size()).detach();
 }
 
 
