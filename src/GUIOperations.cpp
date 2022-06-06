@@ -57,7 +57,7 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
                 elipse.setPosition(a - c, h - b + d);
                 elipse.setRadius(1);
                 elipse.setScale(sf::Vector2f(c, d));
-                elipse.setOutlineThickness(thickness);
+                elipse.setOutlineThickness(thickness - 1);
                 elipse.setOutlineColor(penColor);
                 elipse.setFillColor((flag) ? fillColor : sf::Color::Transparent);
                 buffer.draw(elipse);
