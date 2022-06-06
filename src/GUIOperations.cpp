@@ -47,14 +47,14 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
             if (figure == "punkt" || figure == "PT")
             {
                 file >> a >> comma >> b;
-                point[0].position = sf::Vector2f(a, b);
+                point[0].position = sf::Vector2f(a, h - b);
                 point[0].color = penColor;
                 buffer.draw(point);
             }
             else if (figure == "elipsa" || figure == "EL")
             {
                 file >> a >> comma >> b >> comma >> c >> comma >> d >> comma >> flag;
-                elipse.setPosition(a - c, b - d);
+                elipse.setPosition(a - c, h - b + d);
                 elipse.setRadius(1);
                 elipse.setScale(sf::Vector2f(c, d));
                 elipse.setOutlineThickness(thickness);
@@ -65,8 +65,8 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
             else if (figure == "prostokat" || figure == "PR")
             {
                 file >> a >> comma >> b >> comma >> c >> comma >> d >> comma >> flag;
-                rectangle.setPosition(a, b);
-                rectangle.setSize(sf::Vector2f(c, d));
+                rectangle.setPosition(a, h - b);
+                rectangle.setSize(sf::Vector2f(c, -d));
                 rectangle.setOutlineThickness(thickness);
                 rectangle.setOutlineColor(penColor);
                 rectangle.setFillColor((flag) ? fillColor : sf::Color::Transparent);
@@ -75,9 +75,9 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
             else if (figure == "linia" || figure == "LN")
             {
                 file >> a >> comma >> b >> comma >> c >> comma >> d;
-                line[0].position = sf::Vector2f(a, b);
+                line[0].position = sf::Vector2f(a, h - b);
                 line[0].color = penColor;
-                line[1].position = sf::Vector2f(c, d);
+                line[1].position = sf::Vector2f(c, h - d);
                 line[1].color = penColor;
                 buffer.draw(line);
             }
