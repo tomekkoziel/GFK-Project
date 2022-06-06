@@ -11,7 +11,7 @@
 
 MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const wxPoint& pos, const wxSize& size, long style ) : wxFrame( parent, id, title, pos, size, style )
 {
-	this->SetSizeHints( wxDefaultSize, wxDefaultSize );
+	this->SetSizeHints( wxSize( 500,-1 ), wxDefaultSize );
 
 	wxBoxSizer* bSizer1;
 	bSizer1 = new wxBoxSizer( wxVERTICAL );
@@ -22,10 +22,10 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	wxBoxSizer* bSizer5;
 	bSizer5 = new wxBoxSizer( wxVERTICAL );
 
-	AnimationPanel = new wxPanel( this, wxID_ANY, wxDefaultPosition, wxSize( 800,600 ), wxTAB_TRAVERSAL );
+	AnimationPanel = new wxPanel( this, wxID_ANY, wxDefaultPosition, wxSize( -1,-1 ), wxTAB_TRAVERSAL );
 	AnimationPanel->SetBackgroundColour( wxColour( 255, 255, 255 ) );
 
-	bSizer5->Add( AnimationPanel, 1, wxALL|wxEXPAND, 5 );
+	bSizer5->Add( AnimationPanel, 1, wxBOTTOM|wxEXPAND|wxFIXED_MINSIZE|wxLEFT|wxRIGHT|wxTOP, 5 );
 
 
 	bSizer2->Add( bSizer5, 1, wxEXPAND, 5 );
@@ -61,7 +61,10 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	bSizer10->Add( ChoiceSpeed, 0, wxALL, 5 );
 
 
-	bSizer3->Add( bSizer10, 2, wxEXPAND, 5 );
+	bSizer3->Add( bSizer10, 0, wxEXPAND, 5 );
+
+
+	bSizer3->Add( 0, 0, 1, wxEXPAND, 5 );
 
 	wxBoxSizer* bSizer4;
 	bSizer4 = new wxBoxSizer( wxVERTICAL );
@@ -72,7 +75,7 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	bSizer4->Add( AnimationGoBack, 0, wxALIGN_RIGHT|wxALL, 5 );
 
 
-	bSizer3->Add( bSizer4, 1, wxEXPAND, 5 );
+	bSizer3->Add( bSizer4, 0, wxEXPAND, 5 );
 
 	wxBoxSizer* bSizer7;
 	bSizer7 = new wxBoxSizer( wxVERTICAL );
@@ -94,7 +97,10 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	bSizer8->Add( AnimationGoForward, 0, wxALL, 5 );
 
 
-	bSizer3->Add( bSizer8, 3, wxEXPAND, 5 );
+	bSizer3->Add( bSizer8, 0, wxEXPAND, 5 );
+
+
+	bSizer3->Add( 0, 0, 3, wxEXPAND, 5 );
 
 	wxBoxSizer* bSizer9;
 	bSizer9 = new wxBoxSizer( wxVERTICAL );
@@ -113,7 +119,6 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 
 	this->SetSizer( bSizer1 );
 	this->Layout();
-	bSizer1->Fit( this );
 	MenuBar = new wxMenuBar( 0 );
 	FileBar = new wxMenu();
 	wxMenuItem* OpenFile;
