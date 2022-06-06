@@ -1,7 +1,6 @@
 800, 600
 6915
 0, 10
-kolor_wypelnienia 255 0 0
 elipsa 0, 514, 20, 20, 1
 stop
 1, 10
@@ -16376,301 +16375,301 @@ stop
 elipsa 594, 37, 20, 20, 1
 stop
 5458, 10
-elipsa 595, 36, 20, 20, 1
+elipsa 595, 20, 20, 20, 1
 stop
 5459, 10
-elipsa 595, 36, 20, 20, 1
+elipsa 595, 20, 20, 20, 1
 stop
 5460, 10
-elipsa 595, 36, 20, 20, 1
+elipsa 595, 20, 20, 20, 1
 stop
 5461, 10
-elipsa 595, 36, 20, 20, 1
+elipsa 595, 20, 20, 20, 1
 stop
 5462, 10
-elipsa 595, 36, 20, 20, 1
+elipsa 595, 20, 20, 20, 1
 stop
 5463, 10
-elipsa 595, 36, 20, 20, 1
+elipsa 595, 20, 20, 20, 1
 stop
 5464, 10
-elipsa 595, 36, 20, 20, 1
+elipsa 595, 20, 20, 20, 1
 stop
 5465, 10
-elipsa 595, 36, 20, 20, 1
+elipsa 595, 20, 20, 20, 1
 stop
 5466, 10
-elipsa 595, 35, 20, 20, 1
+elipsa 595, 20, 20, 20, 1
 stop
 5467, 10
-elipsa 595, 35, 20, 20, 1
+elipsa 595, 20, 20, 20, 1
 stop
 5468, 10
-elipsa 596, 35, 20, 20, 1
+elipsa 596, 20, 20, 20, 1
 stop
 5469, 10
-elipsa 596, 35, 20, 20, 1
+elipsa 596, 20, 20, 20, 1
 stop
 5470, 10
-elipsa 596, 35, 20, 20, 1
+elipsa 596, 20, 20, 20, 1
 stop
 5471, 10
-elipsa 596, 35, 20, 20, 1
+elipsa 596, 20, 20, 20, 1
 stop
 5472, 10
-elipsa 596, 35, 20, 20, 1
+elipsa 596, 20, 20, 20, 1
 stop
 5473, 10
-elipsa 596, 35, 20, 20, 1
+elipsa 596, 20, 20, 20, 1
 stop
 5474, 10
-elipsa 596, 35, 20, 20, 1
+elipsa 596, 20, 20, 20, 1
 stop
 5475, 10
-elipsa 596, 34, 20, 20, 1
+elipsa 596, 20, 20, 20, 1
 stop
 5476, 10
-elipsa 596, 34, 20, 20, 1
+elipsa 596, 20, 20, 20, 1
 stop
 5477, 10
-elipsa 596, 34, 20, 20, 1
+elipsa 596, 20, 20, 20, 1
 stop
 5478, 10
-elipsa 597, 34, 20, 20, 1
+elipsa 597, 20, 20, 20, 1
 stop
 5479, 10
-elipsa 597, 34, 20, 20, 1
+elipsa 597, 20, 20, 20, 1
 stop
 5480, 10
-elipsa 597, 34, 20, 20, 1
+elipsa 597, 20, 20, 20, 1
 stop
 5481, 10
-elipsa 597, 34, 20, 20, 1
+elipsa 597, 20, 20, 20, 1
 stop
 5482, 10
-elipsa 597, 33, 20, 20, 1
+elipsa 597, 20, 20, 20, 1
 stop
 5483, 10
-elipsa 597, 33, 20, 20, 1
+elipsa 597, 20, 20, 20, 1
 stop
 5484, 10
-elipsa 597, 33, 20, 20, 1
+elipsa 597, 20, 20, 20, 1
 stop
 5485, 10
-elipsa 597, 33, 20, 20, 1
+elipsa 597, 20, 20, 20, 1
 stop
 5486, 10
-elipsa 597, 33, 20, 20, 1
+elipsa 597, 20, 20, 20, 1
 stop
 5487, 10
-elipsa 597, 33, 20, 20, 1
+elipsa 597, 20, 20, 20, 1
 stop
 5488, 10
-elipsa 598, 33, 20, 20, 1
+elipsa 598, 20, 20, 20, 1
 stop
 5489, 10
-elipsa 598, 32, 20, 20, 1
+elipsa 598, 20, 20, 20, 1
 stop
 5490, 10
-elipsa 598, 32, 20, 20, 1
+elipsa 598, 20, 20, 20, 1
 stop
 5491, 10
-elipsa 598, 32, 20, 20, 1
+elipsa 598, 20, 20, 20, 1
 stop
 5492, 10
-elipsa 598, 32, 20, 20, 1
+elipsa 598, 20, 20, 20, 1
 stop
 5493, 10
-elipsa 598, 32, 20, 20, 1
+elipsa 598, 20, 20, 20, 1
 stop
 5494, 10
-elipsa 598, 32, 20, 20, 1
+elipsa 598, 20, 20, 20, 1
 stop
 5495, 10
-elipsa 598, 32, 20, 20, 1
+elipsa 598, 20, 20, 20, 1
 stop
 5496, 10
-elipsa 598, 31, 20, 20, 1
+elipsa 598, 20, 20, 20, 1
 stop
 5497, 10
-elipsa 598, 31, 20, 20, 1
+elipsa 598, 20, 20, 20, 1
 stop
 5498, 10
-elipsa 599, 31, 20, 20, 1
+elipsa 599, 20, 20, 20, 1
 stop
 5499, 10
-elipsa 599, 31, 20, 20, 1
+elipsa 599, 20, 20, 20, 1
 stop
 5500, 10
-elipsa 599, 31, 20, 20, 1
+elipsa 599, 20, 20, 20, 1
 stop
 5501, 10
-elipsa 599, 31, 20, 20, 1
+elipsa 599, 20, 20, 20, 1
 stop
 5502, 10
-elipsa 599, 31, 20, 20, 1
+elipsa 599, 20, 20, 20, 1
 stop
 5503, 10
-elipsa 599, 30, 20, 20, 1
+elipsa 599, 20, 20, 20, 1
 stop
 5504, 10
-elipsa 599, 30, 20, 20, 1
+elipsa 599, 20, 20, 20, 1
 stop
 5505, 10
-elipsa 599, 30, 20, 20, 1
+elipsa 599, 20, 20, 20, 1
 stop
 5506, 10
-elipsa 599, 30, 20, 20, 1
+elipsa 599, 20, 20, 20, 1
 stop
 5507, 10
-elipsa 599, 30, 20, 20, 1
+elipsa 599, 20, 20, 20, 1
 stop
 5508, 10
-elipsa 600, 30, 20, 20, 1
+elipsa 600, 20, 20, 20, 1
 stop
 5509, 10
-elipsa 600, 29, 20, 20, 1
+elipsa 600, 20, 20, 20, 1
 stop
 5510, 10
-elipsa 600, 29, 20, 20, 1
+elipsa 600, 20, 20, 20, 1
 stop
 5511, 10
-elipsa 600, 29, 20, 20, 1
+elipsa 600, 20, 20, 20, 1
 stop
 5512, 10
-elipsa 600, 29, 20, 20, 1
+elipsa 600, 20, 20, 20, 1
 stop
 5513, 10
-elipsa 600, 29, 20, 20, 1
+elipsa 600, 20, 20, 20, 1
 stop
 5514, 10
-elipsa 600, 29, 20, 20, 1
+elipsa 600, 20, 20, 20, 1
 stop
 5515, 10
-elipsa 600, 28, 20, 20, 1
+elipsa 600, 20, 20, 20, 1
 stop
 5516, 10
-elipsa 600, 28, 20, 20, 1
+elipsa 600, 20, 20, 20, 1
 stop
 5517, 10
-elipsa 600, 28, 20, 20, 1
+elipsa 600, 20, 20, 20, 1
 stop
 5518, 10
-elipsa 601, 28, 20, 20, 1
+elipsa 601, 20, 20, 20, 1
 stop
 5519, 10
-elipsa 601, 28, 20, 20, 1
+elipsa 601, 20, 20, 20, 1
 stop
 5520, 10
-elipsa 601, 28, 20, 20, 1
+elipsa 601, 20, 20, 20, 1
 stop
 5521, 10
-elipsa 601, 27, 20, 20, 1
+elipsa 601, 20, 20, 20, 1
 stop
 5522, 10
-elipsa 601, 27, 20, 20, 1
+elipsa 601, 20, 20, 20, 1
 stop
 5523, 10
-elipsa 601, 27, 20, 20, 1
+elipsa 601, 20, 20, 20, 1
 stop
 5524, 10
-elipsa 601, 27, 20, 20, 1
+elipsa 601, 20, 20, 20, 1
 stop
 5525, 10
-elipsa 601, 27, 20, 20, 1
+elipsa 601, 20, 20, 20, 1
 stop
 5526, 10
-elipsa 601, 27, 20, 20, 1
+elipsa 601, 20, 20, 20, 1
 stop
 5527, 10
-elipsa 601, 26, 20, 20, 1
+elipsa 601, 20, 20, 20, 1
 stop
 5528, 10
-elipsa 602, 26, 20, 20, 1
+elipsa 602, 20, 20, 20, 1
 stop
 5529, 10
-elipsa 602, 26, 20, 20, 1
+elipsa 602, 20, 20, 20, 1
 stop
 5530, 10
-elipsa 602, 26, 20, 20, 1
+elipsa 602, 20, 20, 20, 1
 stop
 5531, 10
-elipsa 602, 26, 20, 20, 1
+elipsa 602, 20, 20, 20, 1
 stop
 5532, 10
-elipsa 602, 25, 20, 20, 1
+elipsa 602, 20, 20, 20, 1
 stop
 5533, 10
-elipsa 602, 25, 20, 20, 1
+elipsa 602, 20, 20, 20, 1
 stop
 5534, 10
-elipsa 602, 25, 20, 20, 1
+elipsa 602, 20, 20, 20, 1
 stop
 5535, 10
-elipsa 602, 25, 20, 20, 1
+elipsa 602, 20, 20, 20, 1
 stop
 5536, 10
-elipsa 602, 25, 20, 20, 1
+elipsa 602, 20, 20, 20, 1
 stop
 5537, 10
-elipsa 602, 24, 20, 20, 1
+elipsa 602, 20, 20, 20, 1
 stop
 5538, 10
-elipsa 603, 24, 20, 20, 1
+elipsa 603, 20, 20, 20, 1
 stop
 5539, 10
-elipsa 603, 24, 20, 20, 1
+elipsa 603, 20, 20, 20, 1
 stop
 5540, 10
-elipsa 603, 24, 20, 20, 1
+elipsa 603, 20, 20, 20, 1
 stop
 5541, 10
-elipsa 603, 24, 20, 20, 1
+elipsa 603, 20, 20, 20, 1
 stop
 5542, 10
-elipsa 603, 24, 20, 20, 1
+elipsa 603, 20, 20, 20, 1
 stop
 5543, 10
-elipsa 603, 23, 20, 20, 1
+elipsa 603, 20, 20, 20, 1
 stop
 5544, 10
-elipsa 603, 23, 20, 20, 1
+elipsa 603, 20, 20, 20, 1
 stop
 5545, 10
-elipsa 603, 23, 20, 20, 1
+elipsa 603, 20, 20, 20, 1
 stop
 5546, 10
-elipsa 603, 23, 20, 20, 1
+elipsa 603, 20, 20, 20, 1
 stop
 5547, 10
-elipsa 603, 23, 20, 20, 1
+elipsa 603, 20, 20, 20, 1
 stop
 5548, 10
-elipsa 604, 22, 20, 20, 1
+elipsa 604, 20, 20, 20, 1
 stop
 5549, 10
-elipsa 604, 22, 20, 20, 1
+elipsa 604, 20, 20, 20, 1
 stop
 5550, 10
-elipsa 604, 22, 20, 20, 1
+elipsa 604, 20, 20, 20, 1
 stop
 5551, 10
-elipsa 604, 22, 20, 20, 1
+elipsa 604, 20, 20, 20, 1
 stop
 5552, 10
-elipsa 604, 22, 20, 20, 1
+elipsa 604, 20, 20, 20, 1
 stop
 5553, 10
-elipsa 604, 21, 20, 20, 1
+elipsa 604, 20, 20, 20, 1
 stop
 5554, 10
-elipsa 604, 21, 20, 20, 1
+elipsa 604, 20, 20, 20, 1
 stop
 5555, 10
-elipsa 604, 21, 20, 20, 1
+elipsa 604, 20, 20, 20, 1
 stop
 5556, 10
-elipsa 604, 21, 20, 20, 1
+elipsa 604, 20, 20, 20, 1
 stop
 5557, 10
 elipsa 604, 20, 20, 20, 1
@@ -16688,166 +16687,166 @@ stop
 elipsa 605, 20, 20, 20, 1
 stop
 5562, 10
-elipsa 605, 19, 20, 20, 1
+elipsa 605, 20, 20, 20, 1
 stop
 5563, 10
-elipsa 605, 19, 20, 20, 1
+elipsa 605, 20, 20, 20, 1
 stop
 5564, 10
-elipsa 605, 19, 20, 20, 1
+elipsa 605, 20, 20, 20, 1
 stop
 5565, 10
-elipsa 605, 19, 20, 20, 1
+elipsa 605, 20, 20, 20, 1
 stop
 5566, 10
-elipsa 605, 19, 20, 20, 1
+elipsa 605, 20, 20, 20, 1
 stop
 5567, 10
-elipsa 605, 18, 20, 20, 1
+elipsa 605, 20, 20, 20, 1
 stop
 5568, 10
-elipsa 606, 18, 20, 20, 1
+elipsa 606, 20, 20, 20, 1
 stop
 5569, 10
-elipsa 606, 18, 20, 20, 1
+elipsa 606, 20, 20, 20, 1
 stop
 5570, 10
-elipsa 606, 18, 20, 20, 1
+elipsa 606, 20, 20, 20, 1
 stop
 5571, 10
-elipsa 606, 17, 20, 20, 1
+elipsa 606, 20, 20, 20, 1
 stop
 5572, 10
-elipsa 606, 17, 20, 20, 1
+elipsa 606, 20, 20, 20, 1
 stop
 5573, 10
-elipsa 606, 17, 20, 20, 1
+elipsa 606, 20, 20, 20, 1
 stop
 5574, 10
-elipsa 606, 17, 20, 20, 1
+elipsa 606, 20, 20, 20, 1
 stop
 5575, 10
-elipsa 606, 17, 20, 20, 1
+elipsa 606, 20, 20, 20, 1
 stop
 5576, 10
-elipsa 606, 16, 20, 20, 1
+elipsa 606, 20, 20, 20, 1
 stop
 5577, 10
-elipsa 606, 16, 20, 20, 1
+elipsa 606, 20, 20, 20, 1
 stop
 5578, 10
-elipsa 607, 16, 20, 20, 1
+elipsa 607, 20, 20, 20, 1
 stop
 5579, 10
-elipsa 607, 16, 20, 20, 1
+elipsa 607, 20, 20, 20, 1
 stop
 5580, 10
-elipsa 607, 15, 20, 20, 1
+elipsa 607, 20, 20, 20, 1
 stop
 5581, 10
-elipsa 607, 15, 20, 20, 1
+elipsa 607, 20, 20, 20, 1
 stop
 5582, 10
-elipsa 607, 15, 20, 20, 1
+elipsa 607, 20, 20, 20, 1
 stop
 5583, 10
-elipsa 607, 15, 20, 20, 1
+elipsa 607, 20, 20, 20, 1
 stop
 5584, 10
-elipsa 607, 15, 20, 20, 1
+elipsa 607, 20, 20, 20, 1
 stop
 5585, 10
-elipsa 617, 15, 20, 20, 1
+elipsa 617, 20, 20, 20, 1
 stop
 5586, 10
-elipsa 617, 15, 20, 20, 1
+elipsa 617, 20, 20, 20, 1
 stop
 5587, 10
-elipsa 617, 15, 20, 20, 1
+elipsa 617, 20, 20, 20, 1
 stop
 5588, 10
-elipsa 617, 15, 20, 20, 1
+elipsa 617, 20, 20, 20, 1
 stop
 5589, 10
-elipsa 618, 15, 20, 20, 1
+elipsa 618, 20, 20, 20, 1
 stop
 5590, 10
-elipsa 618, 15, 20, 20, 1
+elipsa 618, 20, 20, 20, 1
 stop
 5591, 10
-elipsa 618, 16, 20, 20, 1
+elipsa 618, 20, 20, 20, 1
 stop
 5592, 10
-elipsa 618, 16, 20, 20, 1
+elipsa 618, 20, 20, 20, 1
 stop
 5593, 10
-elipsa 618, 16, 20, 20, 1
+elipsa 618, 20, 20, 20, 1
 stop
 5594, 10
-elipsa 618, 16, 20, 20, 1
+elipsa 618, 20, 20, 20, 1
 stop
 5595, 10
-elipsa 618, 16, 20, 20, 1
+elipsa 618, 20, 20, 20, 1
 stop
 5596, 10
-elipsa 618, 16, 20, 20, 1
+elipsa 618, 20, 20, 20, 1
 stop
 5597, 10
-elipsa 618, 17, 20, 20, 1
+elipsa 618, 20, 20, 20, 1
 stop
 5598, 10
-elipsa 618, 17, 20, 20, 1
+elipsa 618, 20, 20, 20, 1
 stop
 5599, 10
-elipsa 619, 17, 20, 20, 1
+elipsa 619, 20, 20, 20, 1
 stop
 5600, 10
-elipsa 619, 17, 20, 20, 1
+elipsa 619, 20, 20, 20, 1
 stop
 5601, 10
-elipsa 619, 17, 20, 20, 1
+elipsa 619, 20, 20, 20, 1
 stop
 5602, 10
-elipsa 619, 17, 20, 20, 1
+elipsa 619, 20, 20, 20, 1
 stop
 5603, 10
-elipsa 619, 18, 20, 20, 1
+elipsa 619, 20, 20, 20, 1
 stop
 5604, 10
-elipsa 619, 18, 20, 20, 1
+elipsa 619, 20, 20, 20, 1
 stop
 5605, 10
-elipsa 619, 18, 20, 20, 1
+elipsa 619, 20, 20, 20, 1
 stop
 5606, 10
-elipsa 619, 18, 20, 20, 1
+elipsa 619, 20, 20, 20, 1
 stop
 5607, 10
-elipsa 619, 18, 20, 20, 1
+elipsa 619, 20, 20, 20, 1
 stop
 5608, 10
-elipsa 619, 18, 20, 20, 1
+elipsa 619, 20, 20, 20, 1
 stop
 5609, 10
-elipsa 620, 18, 20, 20, 1
+elipsa 620, 20, 20, 20, 1
 stop
 5610, 10
-elipsa 620, 19, 20, 20, 1
+elipsa 620, 20, 20, 20, 1
 stop
 5611, 10
-elipsa 620, 19, 20, 20, 1
+elipsa 620, 20, 20, 20, 1
 stop
 5612, 10
-elipsa 620, 19, 20, 20, 1
+elipsa 620, 20, 20, 20, 1
 stop
 5613, 10
-elipsa 620, 19, 20, 20, 1
+elipsa 620, 20, 20, 20, 1
 stop
 5614, 10
-elipsa 620, 19, 20, 20, 1
+elipsa 620, 20, 20, 20, 1
 stop
 5615, 10
-elipsa 620, 19, 20, 20, 1
+elipsa 620, 20, 20, 20, 1
 stop
 5616, 10
 elipsa 620, 20, 20, 20, 1
@@ -16871,847 +16870,847 @@ stop
 elipsa 621, 20, 20, 20, 1
 stop
 5623, 10
-elipsa 621, 21, 20, 20, 1
+elipsa 621, 20, 20, 20, 1
 stop
 5624, 10
-elipsa 621, 21, 20, 20, 1
+elipsa 621, 20, 20, 20, 1
 stop
 5625, 10
-elipsa 621, 21, 20, 20, 1
+elipsa 621, 20, 20, 20, 1
 stop
 5626, 10
-elipsa 621, 21, 20, 20, 1
+elipsa 621, 20, 20, 20, 1
 stop
 5627, 10
-elipsa 621, 21, 20, 20, 1
+elipsa 621, 20, 20, 20, 1
 stop
 5628, 10
-elipsa 621, 21, 20, 20, 1
+elipsa 621, 20, 20, 20, 1
 stop
 5629, 10
-elipsa 622, 21, 20, 20, 1
+elipsa 622, 20, 20, 20, 1
 stop
 5630, 10
-elipsa 622, 21, 20, 20, 1
+elipsa 622, 20, 20, 20, 1
 stop
 5631, 10
-elipsa 622, 22, 20, 20, 1
+elipsa 622, 20, 20, 20, 1
 stop
 5632, 10
-elipsa 622, 22, 20, 20, 1
+elipsa 622, 20, 20, 20, 1
 stop
 5633, 10
-elipsa 622, 22, 20, 20, 1
+elipsa 622, 20, 20, 20, 1
 stop
 5634, 10
-elipsa 622, 22, 20, 20, 1
+elipsa 622, 20, 20, 20, 1
 stop
 5635, 10
-elipsa 622, 22, 20, 20, 1
+elipsa 622, 20, 20, 20, 1
 stop
 5636, 10
-elipsa 622, 22, 20, 20, 1
+elipsa 622, 20, 20, 20, 1
 stop
 5637, 10
-elipsa 622, 22, 20, 20, 1
+elipsa 622, 20, 20, 20, 1
 stop
 5638, 10
-elipsa 622, 23, 20, 20, 1
+elipsa 622, 20, 20, 20, 1
 stop
 5639, 10
-elipsa 623, 23, 20, 20, 1
+elipsa 623, 20, 20, 20, 1
 stop
 5640, 10
-elipsa 623, 23, 20, 20, 1
+elipsa 623, 20, 20, 20, 1
 stop
 5641, 10
-elipsa 623, 23, 20, 20, 1
+elipsa 623, 20, 20, 20, 1
 stop
 5642, 10
-elipsa 623, 23, 20, 20, 1
+elipsa 623, 20, 20, 20, 1
 stop
 5643, 10
-elipsa 623, 23, 20, 20, 1
+elipsa 623, 20, 20, 20, 1
 stop
 5644, 10
-elipsa 623, 23, 20, 20, 1
+elipsa 623, 20, 20, 20, 1
 stop
 5645, 10
-elipsa 623, 23, 20, 20, 1
+elipsa 623, 20, 20, 20, 1
 stop
 5646, 10
-elipsa 623, 23, 20, 20, 1
+elipsa 623, 20, 20, 20, 1
 stop
 5647, 10
-elipsa 623, 24, 20, 20, 1
+elipsa 623, 20, 20, 20, 1
 stop
 5648, 10
-elipsa 623, 24, 20, 20, 1
+elipsa 623, 20, 20, 20, 1
 stop
 5649, 10
-elipsa 624, 24, 20, 20, 1
+elipsa 624, 20, 20, 20, 1
 stop
 5650, 10
-elipsa 624, 24, 20, 20, 1
+elipsa 624, 20, 20, 20, 1
 stop
 5651, 10
-elipsa 624, 24, 20, 20, 1
+elipsa 624, 20, 20, 20, 1
 stop
 5652, 10
-elipsa 624, 24, 20, 20, 1
+elipsa 624, 20, 20, 20, 1
 stop
 5653, 10
-elipsa 624, 24, 20, 20, 1
+elipsa 624, 20, 20, 20, 1
 stop
 5654, 10
-elipsa 624, 24, 20, 20, 1
+elipsa 624, 20, 20, 20, 1
 stop
 5655, 10
-elipsa 624, 25, 20, 20, 1
+elipsa 624, 20, 20, 20, 1
 stop
 5656, 10
-elipsa 624, 25, 20, 20, 1
+elipsa 624, 20, 20, 20, 1
 stop
 5657, 10
-elipsa 624, 25, 20, 20, 1
+elipsa 624, 20, 20, 20, 1
 stop
 5658, 10
-elipsa 624, 25, 20, 20, 1
+elipsa 624, 20, 20, 20, 1
 stop
 5659, 10
-elipsa 625, 25, 20, 20, 1
+elipsa 625, 20, 20, 20, 1
 stop
 5660, 10
-elipsa 625, 25, 20, 20, 1
+elipsa 625, 20, 20, 20, 1
 stop
 5661, 10
-elipsa 625, 25, 20, 20, 1
+elipsa 625, 20, 20, 20, 1
 stop
 5662, 10
-elipsa 625, 25, 20, 20, 1
+elipsa 625, 20, 20, 20, 1
 stop
 5663, 10
-elipsa 625, 25, 20, 20, 1
+elipsa 625, 20, 20, 20, 1
 stop
 5664, 10
-elipsa 625, 25, 20, 20, 1
+elipsa 625, 20, 20, 20, 1
 stop
 5665, 10
-elipsa 625, 26, 20, 20, 1
+elipsa 625, 20, 20, 20, 1
 stop
 5666, 10
-elipsa 625, 26, 20, 20, 1
+elipsa 625, 20, 20, 20, 1
 stop
 5667, 10
-elipsa 625, 26, 20, 20, 1
+elipsa 625, 20, 20, 20, 1
 stop
 5668, 10
-elipsa 625, 26, 20, 20, 1
+elipsa 625, 20, 20, 20, 1
 stop
 5669, 10
-elipsa 626, 26, 20, 20, 1
+elipsa 626, 20, 20, 20, 1
 stop
 5670, 10
-elipsa 626, 26, 20, 20, 1
+elipsa 626, 20, 20, 20, 1
 stop
 5671, 10
-elipsa 626, 26, 20, 20, 1
+elipsa 626, 20, 20, 20, 1
 stop
 5672, 10
-elipsa 626, 26, 20, 20, 1
+elipsa 626, 20, 20, 20, 1
 stop
 5673, 10
-elipsa 626, 26, 20, 20, 1
+elipsa 626, 20, 20, 20, 1
 stop
 5674, 10
-elipsa 626, 26, 20, 20, 1
+elipsa 626, 20, 20, 20, 1
 stop
 5675, 10
-elipsa 626, 26, 20, 20, 1
+elipsa 626, 20, 20, 20, 1
 stop
 5676, 10
-elipsa 626, 27, 20, 20, 1
+elipsa 626, 20, 20, 20, 1
 stop
 5677, 10
-elipsa 626, 27, 20, 20, 1
+elipsa 626, 20, 20, 20, 1
 stop
 5678, 10
-elipsa 626, 27, 20, 20, 1
+elipsa 626, 20, 20, 20, 1
 stop
 5679, 10
-elipsa 627, 27, 20, 20, 1
+elipsa 627, 20, 20, 20, 1
 stop
 5680, 10
-elipsa 627, 27, 20, 20, 1
+elipsa 627, 20, 20, 20, 1
 stop
 5681, 10
-elipsa 627, 27, 20, 20, 1
+elipsa 627, 20, 20, 20, 1
 stop
 5682, 10
-elipsa 627, 27, 20, 20, 1
+elipsa 627, 20, 20, 20, 1
 stop
 5683, 10
-elipsa 627, 27, 20, 20, 1
+elipsa 627, 20, 20, 20, 1
 stop
 5684, 10
-elipsa 627, 27, 20, 20, 1
+elipsa 627, 20, 20, 20, 1
 stop
 5685, 10
-elipsa 627, 27, 20, 20, 1
+elipsa 627, 20, 20, 20, 1
 stop
 5686, 10
-elipsa 627, 27, 20, 20, 1
+elipsa 627, 20, 20, 20, 1
 stop
 5687, 10
-elipsa 627, 27, 20, 20, 1
+elipsa 627, 20, 20, 20, 1
 stop
 5688, 10
-elipsa 627, 28, 20, 20, 1
+elipsa 627, 20, 20, 20, 1
 stop
 5689, 10
-elipsa 628, 28, 20, 20, 1
+elipsa 628, 20, 20, 20, 1
 stop
 5690, 10
-elipsa 628, 28, 20, 20, 1
+elipsa 628, 20, 20, 20, 1
 stop
 5691, 10
-elipsa 628, 28, 20, 20, 1
+elipsa 628, 20, 20, 20, 1
 stop
 5692, 10
-elipsa 628, 28, 20, 20, 1
+elipsa 628, 20, 20, 20, 1
 stop
 5693, 10
-elipsa 628, 28, 20, 20, 1
+elipsa 628, 20, 20, 20, 1
 stop
 5694, 10
-elipsa 628, 28, 20, 20, 1
+elipsa 628, 20, 20, 20, 1
 stop
 5695, 10
-elipsa 628, 28, 20, 20, 1
+elipsa 628, 20, 20, 20, 1
 stop
 5696, 10
-elipsa 628, 28, 20, 20, 1
+elipsa 628, 20, 20, 20, 1
 stop
 5697, 10
-elipsa 628, 28, 20, 20, 1
+elipsa 628, 20, 20, 20, 1
 stop
 5698, 10
-elipsa 628, 28, 20, 20, 1
+elipsa 628, 20, 20, 20, 1
 stop
 5699, 10
-elipsa 629, 28, 20, 20, 1
+elipsa 629, 20, 20, 20, 1
 stop
 5700, 10
-elipsa 629, 28, 20, 20, 1
+elipsa 629, 20, 20, 20, 1
 stop
 5701, 10
-elipsa 629, 28, 20, 20, 1
+elipsa 629, 20, 20, 20, 1
 stop
 5702, 10
-elipsa 629, 28, 20, 20, 1
+elipsa 629, 20, 20, 20, 1
 stop
 5703, 10
-elipsa 629, 29, 20, 20, 1
+elipsa 629, 20, 20, 20, 1
 stop
 5704, 10
-elipsa 629, 29, 20, 20, 1
+elipsa 629, 20, 20, 20, 1
 stop
 5705, 10
-elipsa 629, 29, 20, 20, 1
+elipsa 629, 20, 20, 20, 1
 stop
 5706, 10
-elipsa 629, 29, 20, 20, 1
+elipsa 629, 20, 20, 20, 1
 stop
 5707, 10
-elipsa 629, 29, 20, 20, 1
+elipsa 629, 20, 20, 20, 1
 stop
 5708, 10
-elipsa 629, 29, 20, 20, 1
+elipsa 629, 20, 20, 20, 1
 stop
 5709, 10
-elipsa 630, 29, 20, 20, 1
+elipsa 630, 20, 20, 20, 1
 stop
 5710, 10
-elipsa 630, 29, 20, 20, 1
+elipsa 630, 20, 20, 20, 1
 stop
 5711, 10
-elipsa 630, 29, 20, 20, 1
+elipsa 630, 20, 20, 20, 1
 stop
 5712, 10
-elipsa 630, 29, 20, 20, 1
+elipsa 630, 20, 20, 20, 1
 stop
 5713, 10
-elipsa 630, 29, 20, 20, 1
+elipsa 630, 20, 20, 20, 1
 stop
 5714, 10
-elipsa 630, 29, 20, 20, 1
+elipsa 630, 20, 20, 20, 1
 stop
 5715, 10
-elipsa 630, 29, 20, 20, 1
+elipsa 630, 20, 20, 20, 1
 stop
 5716, 10
-elipsa 630, 29, 20, 20, 1
+elipsa 630, 20, 20, 20, 1
 stop
 5717, 10
-elipsa 630, 29, 20, 20, 1
+elipsa 630, 20, 20, 20, 1
 stop
 5718, 10
-elipsa 630, 29, 20, 20, 1
+elipsa 630, 20, 20, 20, 1
 stop
 5719, 10
-elipsa 631, 29, 20, 20, 1
+elipsa 631, 20, 20, 20, 1
 stop
 5720, 10
-elipsa 631, 29, 20, 20, 1
+elipsa 631, 20, 20, 20, 1
 stop
 5721, 10
-elipsa 631, 29, 20, 20, 1
+elipsa 631, 20, 20, 20, 1
 stop
 5722, 10
-elipsa 631, 29, 20, 20, 1
+elipsa 631, 20, 20, 20, 1
 stop
 5723, 10
-elipsa 631, 30, 20, 20, 1
+elipsa 631, 20, 20, 20, 1
 stop
 5724, 10
-elipsa 631, 30, 20, 20, 1
+elipsa 631, 20, 20, 20, 1
 stop
 5725, 10
-elipsa 631, 30, 20, 20, 1
+elipsa 631, 20, 20, 20, 1
 stop
 5726, 10
-elipsa 631, 30, 20, 20, 1
+elipsa 631, 20, 20, 20, 1
 stop
 5727, 10
-elipsa 631, 30, 20, 20, 1
+elipsa 631, 20, 20, 20, 1
 stop
 5728, 10
-elipsa 631, 30, 20, 20, 1
+elipsa 631, 20, 20, 20, 1
 stop
 5729, 10
-elipsa 632, 30, 20, 20, 1
+elipsa 632, 20, 20, 20, 1
 stop
 5730, 10
-elipsa 632, 30, 20, 20, 1
+elipsa 632, 20, 20, 20, 1
 stop
 5731, 10
-elipsa 632, 30, 20, 20, 1
+elipsa 632, 20, 20, 20, 1
 stop
 5732, 10
-elipsa 632, 30, 20, 20, 1
+elipsa 632, 20, 20, 20, 1
 stop
 5733, 10
-elipsa 632, 30, 20, 20, 1
+elipsa 632, 20, 20, 20, 1
 stop
 5734, 10
-elipsa 632, 30, 20, 20, 1
+elipsa 632, 20, 20, 20, 1
 stop
 5735, 10
-elipsa 632, 30, 20, 20, 1
+elipsa 632, 20, 20, 20, 1
 stop
 5736, 10
-elipsa 632, 30, 20, 20, 1
+elipsa 632, 20, 20, 20, 1
 stop
 5737, 10
-elipsa 632, 30, 20, 20, 1
+elipsa 632, 20, 20, 20, 1
 stop
 5738, 10
-elipsa 632, 30, 20, 20, 1
+elipsa 632, 20, 20, 20, 1
 stop
 5739, 10
-elipsa 633, 30, 20, 20, 1
+elipsa 633, 20, 20, 20, 1
 stop
 5740, 10
-elipsa 633, 30, 20, 20, 1
+elipsa 633, 20, 20, 20, 1
 stop
 5741, 10
-elipsa 633, 30, 20, 20, 1
+elipsa 633, 20, 20, 20, 1
 stop
 5742, 10
-elipsa 633, 30, 20, 20, 1
+elipsa 633, 20, 20, 20, 1
 stop
 5743, 10
-elipsa 633, 30, 20, 20, 1
+elipsa 633, 20, 20, 20, 1
 stop
 5744, 10
-elipsa 633, 30, 20, 20, 1
+elipsa 633, 20, 20, 20, 1
 stop
 5745, 10
-elipsa 633, 30, 20, 20, 1
+elipsa 633, 20, 20, 20, 1
 stop
 5746, 10
-elipsa 633, 30, 20, 20, 1
+elipsa 633, 20, 20, 20, 1
 stop
 5747, 10
-elipsa 633, 30, 20, 20, 1
+elipsa 633, 20, 20, 20, 1
 stop
 5748, 10
-elipsa 633, 30, 20, 20, 1
+elipsa 633, 20, 20, 20, 1
 stop
 5749, 10
-elipsa 634, 30, 20, 20, 1
+elipsa 634, 20, 20, 20, 1
 stop
 5750, 10
-elipsa 634, 30, 20, 20, 1
+elipsa 634, 20, 20, 20, 1
 stop
 5751, 10
-elipsa 634, 30, 20, 20, 1
+elipsa 634, 20, 20, 20, 1
 stop
 5752, 10
-elipsa 634, 30, 20, 20, 1
+elipsa 634, 20, 20, 20, 1
 stop
 5753, 10
-elipsa 634, 30, 20, 20, 1
+elipsa 634, 20, 20, 20, 1
 stop
 5754, 10
-elipsa 634, 30, 20, 20, 1
+elipsa 634, 20, 20, 20, 1
 stop
 5755, 10
-elipsa 634, 30, 20, 20, 1
+elipsa 634, 20, 20, 20, 1
 stop
 5756, 10
-elipsa 634, 30, 20, 20, 1
+elipsa 634, 20, 20, 20, 1
 stop
 5757, 10
-elipsa 634, 30, 20, 20, 1
+elipsa 634, 20, 20, 20, 1
 stop
 5758, 10
-elipsa 634, 30, 20, 20, 1
+elipsa 634, 20, 20, 20, 1
 stop
 5759, 10
-elipsa 635, 30, 20, 20, 1
+elipsa 635, 20, 20, 20, 1
 stop
 5760, 10
-elipsa 635, 30, 20, 20, 1
+elipsa 635, 20, 20, 20, 1
 stop
 5761, 10
-elipsa 635, 30, 20, 20, 1
+elipsa 635, 20, 20, 20, 1
 stop
 5762, 10
-elipsa 635, 30, 20, 20, 1
+elipsa 635, 20, 20, 20, 1
 stop
 5763, 10
-elipsa 635, 30, 20, 20, 1
+elipsa 635, 20, 20, 20, 1
 stop
 5764, 10
-elipsa 635, 30, 20, 20, 1
+elipsa 635, 20, 20, 20, 1
 stop
 5765, 10
-elipsa 635, 30, 20, 20, 1
+elipsa 635, 20, 20, 20, 1
 stop
 5766, 10
-elipsa 635, 30, 20, 20, 1
+elipsa 635, 20, 20, 20, 1
 stop
 5767, 10
-elipsa 635, 30, 20, 20, 1
+elipsa 635, 20, 20, 20, 1
 stop
 5768, 10
-elipsa 635, 30, 20, 20, 1
+elipsa 635, 20, 20, 20, 1
 stop
 5769, 10
-elipsa 636, 30, 20, 20, 1
+elipsa 636, 20, 20, 20, 1
 stop
 5770, 10
-elipsa 636, 30, 20, 20, 1
+elipsa 636, 20, 20, 20, 1
 stop
 5771, 10
-elipsa 636, 30, 20, 20, 1
+elipsa 636, 20, 20, 20, 1
 stop
 5772, 10
-elipsa 636, 30, 20, 20, 1
+elipsa 636, 20, 20, 20, 1
 stop
 5773, 10
-elipsa 636, 30, 20, 20, 1
+elipsa 636, 20, 20, 20, 1
 stop
 5774, 10
-elipsa 636, 30, 20, 20, 1
+elipsa 636, 20, 20, 20, 1
 stop
 5775, 10
-elipsa 636, 30, 20, 20, 1
+elipsa 636, 20, 20, 20, 1
 stop
 5776, 10
-elipsa 636, 30, 20, 20, 1
+elipsa 636, 20, 20, 20, 1
 stop
 5777, 10
-elipsa 636, 30, 20, 20, 1
+elipsa 636, 20, 20, 20, 1
 stop
 5778, 10
-elipsa 636, 30, 20, 20, 1
+elipsa 636, 20, 20, 20, 1
 stop
 5779, 10
-elipsa 637, 30, 20, 20, 1
+elipsa 637, 20, 20, 20, 1
 stop
 5780, 10
-elipsa 637, 30, 20, 20, 1
+elipsa 637, 20, 20, 20, 1
 stop
 5781, 10
-elipsa 637, 30, 20, 20, 1
+elipsa 637, 20, 20, 20, 1
 stop
 5782, 10
-elipsa 637, 30, 20, 20, 1
+elipsa 637, 20, 20, 20, 1
 stop
 5783, 10
-elipsa 637, 30, 20, 20, 1
+elipsa 637, 20, 20, 20, 1
 stop
 5784, 10
-elipsa 637, 30, 20, 20, 1
+elipsa 637, 20, 20, 20, 1
 stop
 5785, 10
-elipsa 637, 30, 20, 20, 1
+elipsa 637, 20, 20, 20, 1
 stop
 5786, 10
-elipsa 637, 30, 20, 20, 1
+elipsa 637, 20, 20, 20, 1
 stop
 5787, 10
-elipsa 637, 30, 20, 20, 1
+elipsa 637, 20, 20, 20, 1
 stop
 5788, 10
-elipsa 637, 30, 20, 20, 1
+elipsa 637, 20, 20, 20, 1
 stop
 5789, 10
-elipsa 638, 30, 20, 20, 1
+elipsa 638, 20, 20, 20, 1
 stop
 5790, 10
-elipsa 638, 30, 20, 20, 1
+elipsa 638, 20, 20, 20, 1
 stop
 5791, 10
-elipsa 638, 30, 20, 20, 1
+elipsa 638, 20, 20, 20, 1
 stop
 5792, 10
-elipsa 638, 30, 20, 20, 1
+elipsa 638, 20, 20, 20, 1
 stop
 5793, 10
-elipsa 638, 30, 20, 20, 1
+elipsa 638, 20, 20, 20, 1
 stop
 5794, 10
-elipsa 638, 30, 20, 20, 1
+elipsa 638, 20, 20, 20, 1
 stop
 5795, 10
-elipsa 638, 30, 20, 20, 1
+elipsa 638, 20, 20, 20, 1
 stop
 5796, 10
-elipsa 638, 30, 20, 20, 1
+elipsa 638, 20, 20, 20, 1
 stop
 5797, 10
-elipsa 638, 30, 20, 20, 1
+elipsa 638, 20, 20, 20, 1
 stop
 5798, 10
-elipsa 638, 30, 20, 20, 1
+elipsa 638, 20, 20, 20, 1
 stop
 5799, 10
-elipsa 639, 30, 20, 20, 1
+elipsa 639, 20, 20, 20, 1
 stop
 5800, 10
-elipsa 639, 30, 20, 20, 1
+elipsa 639, 20, 20, 20, 1
 stop
 5801, 10
-elipsa 639, 30, 20, 20, 1
+elipsa 639, 20, 20, 20, 1
 stop
 5802, 10
-elipsa 639, 30, 20, 20, 1
+elipsa 639, 20, 20, 20, 1
 stop
 5803, 10
-elipsa 639, 30, 20, 20, 1
+elipsa 639, 20, 20, 20, 1
 stop
 5804, 10
-elipsa 639, 29, 20, 20, 1
+elipsa 639, 20, 20, 20, 1
 stop
 5805, 10
-elipsa 639, 29, 20, 20, 1
+elipsa 639, 20, 20, 20, 1
 stop
 5806, 10
-elipsa 639, 29, 20, 20, 1
+elipsa 639, 20, 20, 20, 1
 stop
 5807, 10
-elipsa 639, 29, 20, 20, 1
+elipsa 639, 20, 20, 20, 1
 stop
 5808, 10
-elipsa 639, 29, 20, 20, 1
+elipsa 639, 20, 20, 20, 1
 stop
 5809, 10
-elipsa 640, 29, 20, 20, 1
+elipsa 640, 20, 20, 20, 1
 stop
 5810, 10
-elipsa 640, 29, 20, 20, 1
+elipsa 640, 20, 20, 20, 1
 stop
 5811, 10
-elipsa 640, 29, 20, 20, 1
+elipsa 640, 20, 20, 20, 1
 stop
 5812, 10
-elipsa 640, 29, 20, 20, 1
+elipsa 640, 20, 20, 20, 1
 stop
 5813, 10
-elipsa 640, 29, 20, 20, 1
+elipsa 640, 20, 20, 20, 1
 stop
 5814, 10
-elipsa 640, 29, 20, 20, 1
+elipsa 640, 20, 20, 20, 1
 stop
 5815, 10
-elipsa 640, 29, 20, 20, 1
+elipsa 640, 20, 20, 20, 1
 stop
 5816, 10
-elipsa 640, 29, 20, 20, 1
+elipsa 640, 20, 20, 20, 1
 stop
 5817, 10
-elipsa 640, 29, 20, 20, 1
+elipsa 640, 20, 20, 20, 1
 stop
 5818, 10
-elipsa 640, 29, 20, 20, 1
+elipsa 640, 20, 20, 20, 1
 stop
 5819, 10
-elipsa 641, 29, 20, 20, 1
+elipsa 641, 20, 20, 20, 1
 stop
 5820, 10
-elipsa 641, 29, 20, 20, 1
+elipsa 641, 20, 20, 20, 1
 stop
 5821, 10
-elipsa 641, 29, 20, 20, 1
+elipsa 641, 20, 20, 20, 1
 stop
 5822, 10
-elipsa 641, 29, 20, 20, 1
+elipsa 641, 20, 20, 20, 1
 stop
 5823, 10
-elipsa 641, 29, 20, 20, 1
+elipsa 641, 20, 20, 20, 1
 stop
 5824, 10
-elipsa 641, 28, 20, 20, 1
+elipsa 641, 20, 20, 20, 1
 stop
 5825, 10
-elipsa 641, 28, 20, 20, 1
+elipsa 641, 20, 20, 20, 1
 stop
 5826, 10
-elipsa 641, 28, 20, 20, 1
+elipsa 641, 20, 20, 20, 1
 stop
 5827, 10
-elipsa 641, 28, 20, 20, 1
+elipsa 641, 20, 20, 20, 1
 stop
 5828, 10
-elipsa 641, 28, 20, 20, 1
+elipsa 641, 20, 20, 20, 1
 stop
 5829, 10
-elipsa 642, 28, 20, 20, 1
+elipsa 642, 20, 20, 20, 1
 stop
 5830, 10
-elipsa 642, 28, 20, 20, 1
+elipsa 642, 20, 20, 20, 1
 stop
 5831, 10
-elipsa 642, 28, 20, 20, 1
+elipsa 642, 20, 20, 20, 1
 stop
 5832, 10
-elipsa 642, 28, 20, 20, 1
+elipsa 642, 20, 20, 20, 1
 stop
 5833, 10
-elipsa 642, 28, 20, 20, 1
+elipsa 642, 20, 20, 20, 1
 stop
 5834, 10
-elipsa 642, 28, 20, 20, 1
+elipsa 642, 20, 20, 20, 1
 stop
 5835, 10
-elipsa 642, 28, 20, 20, 1
+elipsa 642, 20, 20, 20, 1
 stop
 5836, 10
-elipsa 642, 28, 20, 20, 1
+elipsa 642, 20, 20, 20, 1
 stop
 5837, 10
-elipsa 642, 28, 20, 20, 1
+elipsa 642, 20, 20, 20, 1
 stop
 5838, 10
-elipsa 642, 28, 20, 20, 1
+elipsa 642, 20, 20, 20, 1
 stop
 5839, 10
-elipsa 643, 27, 20, 20, 1
+elipsa 643, 20, 20, 20, 1
 stop
 5840, 10
-elipsa 643, 27, 20, 20, 1
+elipsa 643, 20, 20, 20, 1
 stop
 5841, 10
-elipsa 643, 27, 20, 20, 1
+elipsa 643, 20, 20, 20, 1
 stop
 5842, 10
-elipsa 643, 27, 20, 20, 1
+elipsa 643, 20, 20, 20, 1
 stop
 5843, 10
-elipsa 643, 27, 20, 20, 1
+elipsa 643, 20, 20, 20, 1
 stop
 5844, 10
-elipsa 643, 27, 20, 20, 1
+elipsa 643, 20, 20, 20, 1
 stop
 5845, 10
-elipsa 643, 27, 20, 20, 1
+elipsa 643, 20, 20, 20, 1
 stop
 5846, 10
-elipsa 643, 27, 20, 20, 1
+elipsa 643, 20, 20, 20, 1
 stop
 5847, 10
-elipsa 643, 27, 20, 20, 1
+elipsa 643, 20, 20, 20, 1
 stop
 5848, 10
-elipsa 643, 27, 20, 20, 1
+elipsa 643, 20, 20, 20, 1
 stop
 5849, 10
-elipsa 644, 27, 20, 20, 1
+elipsa 644, 20, 20, 20, 1
 stop
 5850, 10
-elipsa 644, 27, 20, 20, 1
+elipsa 644, 20, 20, 20, 1
 stop
 5851, 10
-elipsa 644, 26, 20, 20, 1
+elipsa 644, 20, 20, 20, 1
 stop
 5852, 10
-elipsa 644, 26, 20, 20, 1
+elipsa 644, 20, 20, 20, 1
 stop
 5853, 10
-elipsa 644, 26, 20, 20, 1
+elipsa 644, 20, 20, 20, 1
 stop
 5854, 10
-elipsa 644, 26, 20, 20, 1
+elipsa 644, 20, 20, 20, 1
 stop
 5855, 10
-elipsa 644, 26, 20, 20, 1
+elipsa 644, 20, 20, 20, 1
 stop
 5856, 10
-elipsa 644, 26, 20, 20, 1
+elipsa 644, 20, 20, 20, 1
 stop
 5857, 10
-elipsa 644, 26, 20, 20, 1
+elipsa 644, 20, 20, 20, 1
 stop
 5858, 10
-elipsa 644, 26, 20, 20, 1
+elipsa 644, 20, 20, 20, 1
 stop
 5859, 10
-elipsa 645, 26, 20, 20, 1
+elipsa 645, 20, 20, 20, 1
 stop
 5860, 10
-elipsa 645, 26, 20, 20, 1
+elipsa 645, 20, 20, 20, 1
 stop
 5861, 10
-elipsa 645, 26, 20, 20, 1
+elipsa 645, 20, 20, 20, 1
 stop
 5862, 10
-elipsa 645, 25, 20, 20, 1
+elipsa 645, 20, 20, 20, 1
 stop
 5863, 10
-elipsa 645, 25, 20, 20, 1
+elipsa 645, 20, 20, 20, 1
 stop
 5864, 10
-elipsa 645, 25, 20, 20, 1
+elipsa 645, 20, 20, 20, 1
 stop
 5865, 10
-elipsa 645, 25, 20, 20, 1
+elipsa 645, 20, 20, 20, 1
 stop
 5866, 10
-elipsa 645, 25, 20, 20, 1
+elipsa 645, 20, 20, 20, 1
 stop
 5867, 10
-elipsa 645, 25, 20, 20, 1
+elipsa 645, 20, 20, 20, 1
 stop
 5868, 10
-elipsa 645, 25, 20, 20, 1
+elipsa 645, 20, 20, 20, 1
 stop
 5869, 10
-elipsa 646, 25, 20, 20, 1
+elipsa 646, 20, 20, 20, 1
 stop
 5870, 10
-elipsa 646, 25, 20, 20, 1
+elipsa 646, 20, 20, 20, 1
 stop
 5871, 10
-elipsa 646, 25, 20, 20, 1
+elipsa 646, 20, 20, 20, 1
 stop
 5872, 10
-elipsa 646, 24, 20, 20, 1
+elipsa 646, 20, 20, 20, 1
 stop
 5873, 10
-elipsa 646, 24, 20, 20, 1
+elipsa 646, 20, 20, 20, 1
 stop
 5874, 10
-elipsa 646, 24, 20, 20, 1
+elipsa 646, 20, 20, 20, 1
 stop
 5875, 10
-elipsa 646, 24, 20, 20, 1
+elipsa 646, 20, 20, 20, 1
 stop
 5876, 10
-elipsa 646, 24, 20, 20, 1
+elipsa 646, 20, 20, 20, 1
 stop
 5877, 10
-elipsa 646, 24, 20, 20, 1
+elipsa 646, 20, 20, 20, 1
 stop
 5878, 10
-elipsa 646, 24, 20, 20, 1
+elipsa 646, 20, 20, 20, 1
 stop
 5879, 10
-elipsa 647, 24, 20, 20, 1
+elipsa 647, 20, 20, 20, 1
 stop
 5880, 10
-elipsa 647, 23, 20, 20, 1
+elipsa 647, 20, 20, 20, 1
 stop
 5881, 10
-elipsa 647, 23, 20, 20, 1
+elipsa 647, 20, 20, 20, 1
 stop
 5882, 10
-elipsa 647, 23, 20, 20, 1
+elipsa 647, 20, 20, 20, 1
 stop
 5883, 10
-elipsa 647, 23, 20, 20, 1
+elipsa 647, 20, 20, 20, 1
 stop
 5884, 10
-elipsa 647, 23, 20, 20, 1
+elipsa 647, 20, 20, 20, 1
 stop
 5885, 10
-elipsa 647, 23, 20, 20, 1
+elipsa 647, 20, 20, 20, 1
 stop
 5886, 10
-elipsa 647, 23, 20, 20, 1
+elipsa 647, 20, 20, 20, 1
 stop
 5887, 10
-elipsa 647, 23, 20, 20, 1
+elipsa 647, 20, 20, 20, 1
 stop
 5888, 10
-elipsa 647, 23, 20, 20, 1
+elipsa 647, 20, 20, 20, 1
 stop
 5889, 10
-elipsa 648, 22, 20, 20, 1
+elipsa 648, 20, 20, 20, 1
 stop
 5890, 10
-elipsa 648, 22, 20, 20, 1
+elipsa 648, 20, 20, 20, 1
 stop
 5891, 10
-elipsa 648, 22, 20, 20, 1
+elipsa 648, 20, 20, 20, 1
 stop
 5892, 10
-elipsa 648, 22, 20, 20, 1
+elipsa 648, 20, 20, 20, 1
 stop
 5893, 10
-elipsa 648, 22, 20, 20, 1
+elipsa 648, 20, 20, 20, 1
 stop
 5894, 10
-elipsa 648, 22, 20, 20, 1
+elipsa 648, 20, 20, 20, 1
 stop
 5895, 10
-elipsa 648, 22, 20, 20, 1
+elipsa 648, 20, 20, 20, 1
 stop
 5896, 10
-elipsa 648, 21, 20, 20, 1
+elipsa 648, 20, 20, 20, 1
 stop
 5897, 10
-elipsa 648, 21, 20, 20, 1
+elipsa 648, 20, 20, 20, 1
 stop
 5898, 10
-elipsa 648, 21, 20, 20, 1
+elipsa 648, 20, 20, 20, 1
 stop
 5899, 10
-elipsa 649, 21, 20, 20, 1
+elipsa 649, 20, 20, 20, 1
 stop
 5900, 10
-elipsa 649, 21, 20, 20, 1
+elipsa 649, 20, 20, 20, 1
 stop
 5901, 10
-elipsa 649, 21, 20, 20, 1
+elipsa 649, 20, 20, 20, 1
 stop
 5902, 10
-elipsa 649, 21, 20, 20, 1
+elipsa 649, 20, 20, 20, 1
 stop
 5903, 10
-elipsa 649, 21, 20, 20, 1
+elipsa 649, 20, 20, 20, 1
 stop
 5904, 10
 elipsa 649, 20, 20, 20, 1
@@ -17735,235 +17734,235 @@ stop
 elipsa 650, 20, 20, 20, 1
 stop
 5911, 10
-elipsa 650, 19, 20, 20, 1
+elipsa 650, 20, 20, 20, 1
 stop
 5912, 10
-elipsa 650, 19, 20, 20, 1
+elipsa 650, 20, 20, 20, 1
 stop
 5913, 10
-elipsa 650, 19, 20, 20, 1
+elipsa 650, 20, 20, 20, 1
 stop
 5914, 10
-elipsa 650, 19, 20, 20, 1
+elipsa 650, 20, 20, 20, 1
 stop
 5915, 10
-elipsa 650, 19, 20, 20, 1
+elipsa 650, 20, 20, 20, 1
 stop
 5916, 10
-elipsa 650, 19, 20, 20, 1
+elipsa 650, 20, 20, 20, 1
 stop
 5917, 10
-elipsa 650, 18, 20, 20, 1
+elipsa 650, 20, 20, 20, 1
 stop
 5918, 10
-elipsa 650, 18, 20, 20, 1
+elipsa 650, 20, 20, 20, 1
 stop
 5919, 10
-elipsa 651, 18, 20, 20, 1
+elipsa 651, 20, 20, 20, 1
 stop
 5920, 10
-elipsa 651, 18, 20, 20, 1
+elipsa 651, 20, 20, 20, 1
 stop
 5921, 10
-elipsa 651, 18, 20, 20, 1
+elipsa 651, 20, 20, 20, 1
 stop
 5922, 10
-elipsa 651, 18, 20, 20, 1
+elipsa 651, 20, 20, 20, 1
 stop
 5923, 10
-elipsa 651, 18, 20, 20, 1
+elipsa 651, 20, 20, 20, 1
 stop
 5924, 10
-elipsa 651, 17, 20, 20, 1
+elipsa 651, 20, 20, 20, 1
 stop
 5925, 10
-elipsa 651, 17, 20, 20, 1
+elipsa 651, 20, 20, 20, 1
 stop
 5926, 10
-elipsa 651, 17, 20, 20, 1
+elipsa 651, 20, 20, 20, 1
 stop
 5927, 10
-elipsa 651, 17, 20, 20, 1
+elipsa 651, 20, 20, 20, 1
 stop
 5928, 10
-elipsa 651, 17, 20, 20, 1
+elipsa 651, 20, 20, 20, 1
 stop
 5929, 10
-elipsa 652, 17, 20, 20, 1
+elipsa 652, 20, 20, 20, 1
 stop
 5930, 10
-elipsa 652, 16, 20, 20, 1
+elipsa 652, 20, 20, 20, 1
 stop
 5931, 10
-elipsa 652, 16, 20, 20, 1
+elipsa 652, 20, 20, 20, 1
 stop
 5932, 10
-elipsa 652, 16, 20, 20, 1
+elipsa 652, 20, 20, 20, 1
 stop
 5933, 10
-elipsa 652, 16, 20, 20, 1
+elipsa 652, 20, 20, 20, 1
 stop
 5934, 10
-elipsa 652, 16, 20, 20, 1
+elipsa 652, 20, 20, 20, 1
 stop
 5935, 10
-elipsa 652, 16, 20, 20, 1
+elipsa 652, 20, 20, 20, 1
 stop
 5936, 10
-elipsa 652, 15, 20, 20, 1
+elipsa 652, 20, 20, 20, 1
 stop
 5937, 10
-elipsa 652, 15, 20, 20, 1
+elipsa 652, 20, 20, 20, 1
 stop
 5938, 10
-elipsa 652, 15, 20, 20, 1
+elipsa 652, 20, 20, 20, 1
 stop
 5939, 10
-elipsa 653, 15, 20, 20, 1
+elipsa 653, 20, 20, 20, 1
 stop
 5940, 10
-elipsa 653, 15, 20, 20, 1
+elipsa 653, 20, 20, 20, 1
 stop
 5941, 10
-elipsa 653, 15, 20, 20, 1
+elipsa 653, 20, 20, 20, 1
 stop
 5942, 10
-elipsa 663, 15, 20, 20, 1
+elipsa 663, 20, 20, 20, 1
 stop
 5943, 10
-elipsa 663, 15, 20, 20, 1
+elipsa 663, 20, 20, 20, 1
 stop
 5944, 10
-elipsa 663, 15, 20, 20, 1
+elipsa 663, 20, 20, 20, 1
 stop
 5945, 10
-elipsa 663, 15, 20, 20, 1
+elipsa 663, 20, 20, 20, 1
 stop
 5946, 10
-elipsa 663, 15, 20, 20, 1
+elipsa 663, 20, 20, 20, 1
 stop
 5947, 10
-elipsa 663, 15, 20, 20, 1
+elipsa 663, 20, 20, 20, 1
 stop
 5948, 10
-elipsa 663, 15, 20, 20, 1
+elipsa 663, 20, 20, 20, 1
 stop
 5949, 10
-elipsa 663, 15, 20, 20, 1
+elipsa 663, 20, 20, 20, 1
 stop
 5950, 10
-elipsa 664, 16, 20, 20, 1
+elipsa 664, 20, 20, 20, 1
 stop
 5951, 10
-elipsa 664, 16, 20, 20, 1
+elipsa 664, 20, 20, 20, 1
 stop
 5952, 10
-elipsa 664, 16, 20, 20, 1
+elipsa 664, 20, 20, 20, 1
 stop
 5953, 10
-elipsa 664, 16, 20, 20, 1
+elipsa 664, 20, 20, 20, 1
 stop
 5954, 10
-elipsa 664, 16, 20, 20, 1
+elipsa 664, 20, 20, 20, 1
 stop
 5955, 10
-elipsa 664, 16, 20, 20, 1
+elipsa 664, 20, 20, 20, 1
 stop
 5956, 10
-elipsa 664, 16, 20, 20, 1
+elipsa 664, 20, 20, 20, 1
 stop
 5957, 10
-elipsa 664, 16, 20, 20, 1
+elipsa 664, 20, 20, 20, 1
 stop
 5958, 10
-elipsa 664, 17, 20, 20, 1
+elipsa 664, 20, 20, 20, 1
 stop
 5959, 10
-elipsa 664, 17, 20, 20, 1
+elipsa 664, 20, 20, 20, 1
 stop
 5960, 10
-elipsa 665, 17, 20, 20, 1
+elipsa 665, 20, 20, 20, 1
 stop
 5961, 10
-elipsa 665, 17, 20, 20, 1
+elipsa 665, 20, 20, 20, 1
 stop
 5962, 10
-elipsa 665, 17, 20, 20, 1
+elipsa 665, 20, 20, 20, 1
 stop
 5963, 10
-elipsa 665, 17, 20, 20, 1
+elipsa 665, 20, 20, 20, 1
 stop
 5964, 10
-elipsa 665, 17, 20, 20, 1
+elipsa 665, 20, 20, 20, 1
 stop
 5965, 10
-elipsa 665, 17, 20, 20, 1
+elipsa 665, 20, 20, 20, 1
 stop
 5966, 10
-elipsa 665, 17, 20, 20, 1
+elipsa 665, 20, 20, 20, 1
 stop
 5967, 10
-elipsa 665, 18, 20, 20, 1
+elipsa 665, 20, 20, 20, 1
 stop
 5968, 10
-elipsa 665, 18, 20, 20, 1
+elipsa 665, 20, 20, 20, 1
 stop
 5969, 10
-elipsa 665, 18, 20, 20, 1
+elipsa 665, 20, 20, 20, 1
 stop
 5970, 10
-elipsa 666, 18, 20, 20, 1
+elipsa 666, 20, 20, 20, 1
 stop
 5971, 10
-elipsa 666, 18, 20, 20, 1
+elipsa 666, 20, 20, 20, 1
 stop
 5972, 10
-elipsa 666, 18, 20, 20, 1
+elipsa 666, 20, 20, 20, 1
 stop
 5973, 10
-elipsa 666, 18, 20, 20, 1
+elipsa 666, 20, 20, 20, 1
 stop
 5974, 10
-elipsa 666, 18, 20, 20, 1
+elipsa 666, 20, 20, 20, 1
 stop
 5975, 10
-elipsa 666, 18, 20, 20, 1
+elipsa 666, 20, 20, 20, 1
 stop
 5976, 10
-elipsa 666, 18, 20, 20, 1
+elipsa 666, 20, 20, 20, 1
 stop
 5977, 10
-elipsa 666, 19, 20, 20, 1
+elipsa 666, 20, 20, 20, 1
 stop
 5978, 10
-elipsa 666, 19, 20, 20, 1
+elipsa 666, 20, 20, 20, 1
 stop
 5979, 10
-elipsa 666, 19, 20, 20, 1
+elipsa 666, 20, 20, 20, 1
 stop
 5980, 10
-elipsa 667, 19, 20, 20, 1
+elipsa 667, 20, 20, 20, 1
 stop
 5981, 10
-elipsa 667, 19, 20, 20, 1
+elipsa 667, 20, 20, 20, 1
 stop
 5982, 10
-elipsa 667, 19, 20, 20, 1
+elipsa 667, 20, 20, 20, 1
 stop
 5983, 10
-elipsa 667, 19, 20, 20, 1
+elipsa 667, 20, 20, 20, 1
 stop
 5984, 10
-elipsa 667, 19, 20, 20, 1
+elipsa 667, 20, 20, 20, 1
 stop
 5985, 10
-elipsa 667, 19, 20, 20, 1
+elipsa 667, 20, 20, 20, 1
 stop
 5986, 10
-elipsa 667, 19, 20, 20, 1
+elipsa 667, 20, 20, 20, 1
 stop
 5987, 10
-elipsa 667, 19, 20, 20, 1
+elipsa 667, 20, 20, 20, 1
 stop
 5988, 10
 elipsa 667, 20, 20, 20, 1
@@ -18002,460 +18001,460 @@ stop
 elipsa 668, 20, 20, 20, 1
 stop
 6000, 10
-elipsa 669, 21, 20, 20, 1
+elipsa 669, 20, 20, 20, 1
 stop
 6001, 10
-elipsa 669, 21, 20, 20, 1
+elipsa 669, 20, 20, 20, 1
 stop
 6002, 10
-elipsa 669, 21, 20, 20, 1
+elipsa 669, 20, 20, 20, 1
 stop
 6003, 10
-elipsa 669, 21, 20, 20, 1
+elipsa 669, 20, 20, 20, 1
 stop
 6004, 10
-elipsa 669, 21, 20, 20, 1
+elipsa 669, 20, 20, 20, 1
 stop
 6005, 10
-elipsa 669, 21, 20, 20, 1
+elipsa 669, 20, 20, 20, 1
 stop
 6006, 10
-elipsa 669, 21, 20, 20, 1
+elipsa 669, 20, 20, 20, 1
 stop
 6007, 10
-elipsa 669, 21, 20, 20, 1
+elipsa 669, 20, 20, 20, 1
 stop
 6008, 10
-elipsa 669, 21, 20, 20, 1
+elipsa 669, 20, 20, 20, 1
 stop
 6009, 10
-elipsa 669, 21, 20, 20, 1
+elipsa 669, 20, 20, 20, 1
 stop
 6010, 10
-elipsa 670, 21, 20, 20, 1
+elipsa 670, 20, 20, 20, 1
 stop
 6011, 10
-elipsa 670, 21, 20, 20, 1
+elipsa 670, 20, 20, 20, 1
 stop
 6012, 10
-elipsa 670, 21, 20, 20, 1
+elipsa 670, 20, 20, 20, 1
 stop
 6013, 10
-elipsa 670, 21, 20, 20, 1
+elipsa 670, 20, 20, 20, 1
 stop
 6014, 10
-elipsa 670, 22, 20, 20, 1
+elipsa 670, 20, 20, 20, 1
 stop
 6015, 10
-elipsa 670, 22, 20, 20, 1
+elipsa 670, 20, 20, 20, 1
 stop
 6016, 10
-elipsa 670, 22, 20, 20, 1
+elipsa 670, 20, 20, 20, 1
 stop
 6017, 10
-elipsa 670, 22, 20, 20, 1
+elipsa 670, 20, 20, 20, 1
 stop
 6018, 10
-elipsa 670, 22, 20, 20, 1
+elipsa 670, 20, 20, 20, 1
 stop
 6019, 10
-elipsa 670, 22, 20, 20, 1
+elipsa 670, 20, 20, 20, 1
 stop
 6020, 10
-elipsa 671, 22, 20, 20, 1
+elipsa 671, 20, 20, 20, 1
 stop
 6021, 10
-elipsa 671, 22, 20, 20, 1
+elipsa 671, 20, 20, 20, 1
 stop
 6022, 10
-elipsa 671, 22, 20, 20, 1
+elipsa 671, 20, 20, 20, 1
 stop
 6023, 10
-elipsa 671, 22, 20, 20, 1
+elipsa 671, 20, 20, 20, 1
 stop
 6024, 10
-elipsa 671, 22, 20, 20, 1
+elipsa 671, 20, 20, 20, 1
 stop
 6025, 10
-elipsa 671, 22, 20, 20, 1
+elipsa 671, 20, 20, 20, 1
 stop
 6026, 10
-elipsa 671, 22, 20, 20, 1
+elipsa 671, 20, 20, 20, 1
 stop
 6027, 10
-elipsa 671, 22, 20, 20, 1
+elipsa 671, 20, 20, 20, 1
 stop
 6028, 10
-elipsa 671, 22, 20, 20, 1
+elipsa 671, 20, 20, 20, 1
 stop
 6029, 10
-elipsa 671, 22, 20, 20, 1
+elipsa 671, 20, 20, 20, 1
 stop
 6030, 10
-elipsa 672, 22, 20, 20, 1
+elipsa 672, 20, 20, 20, 1
 stop
 6031, 10
-elipsa 672, 22, 20, 20, 1
+elipsa 672, 20, 20, 20, 1
 stop
 6032, 10
-elipsa 672, 22, 20, 20, 1
+elipsa 672, 20, 20, 20, 1
 stop
 6033, 10
-elipsa 672, 23, 20, 20, 1
+elipsa 672, 20, 20, 20, 1
 stop
 6034, 10
-elipsa 672, 23, 20, 20, 1
+elipsa 672, 20, 20, 20, 1
 stop
 6035, 10
-elipsa 672, 23, 20, 20, 1
+elipsa 672, 20, 20, 20, 1
 stop
 6036, 10
-elipsa 672, 23, 20, 20, 1
+elipsa 672, 20, 20, 20, 1
 stop
 6037, 10
-elipsa 672, 23, 20, 20, 1
+elipsa 672, 20, 20, 20, 1
 stop
 6038, 10
-elipsa 672, 23, 20, 20, 1
+elipsa 672, 20, 20, 20, 1
 stop
 6039, 10
-elipsa 672, 23, 20, 20, 1
+elipsa 672, 20, 20, 20, 1
 stop
 6040, 10
-elipsa 673, 23, 20, 20, 1
+elipsa 673, 20, 20, 20, 1
 stop
 6041, 10
-elipsa 673, 23, 20, 20, 1
+elipsa 673, 20, 20, 20, 1
 stop
 6042, 10
-elipsa 673, 23, 20, 20, 1
+elipsa 673, 20, 20, 20, 1
 stop
 6043, 10
-elipsa 673, 23, 20, 20, 1
+elipsa 673, 20, 20, 20, 1
 stop
 6044, 10
-elipsa 673, 23, 20, 20, 1
+elipsa 673, 20, 20, 20, 1
 stop
 6045, 10
-elipsa 673, 23, 20, 20, 1
+elipsa 673, 20, 20, 20, 1
 stop
 6046, 10
-elipsa 673, 23, 20, 20, 1
+elipsa 673, 20, 20, 20, 1
 stop
 6047, 10
-elipsa 673, 23, 20, 20, 1
+elipsa 673, 20, 20, 20, 1
 stop
 6048, 10
-elipsa 673, 23, 20, 20, 1
+elipsa 673, 20, 20, 20, 1
 stop
 6049, 10
-elipsa 673, 23, 20, 20, 1
+elipsa 673, 20, 20, 20, 1
 stop
 6050, 10
-elipsa 674, 23, 20, 20, 1
+elipsa 674, 20, 20, 20, 1
 stop
 6051, 10
-elipsa 674, 23, 20, 20, 1
+elipsa 674, 20, 20, 20, 1
 stop
 6052, 10
-elipsa 674, 23, 20, 20, 1
+elipsa 674, 20, 20, 20, 1
 stop
 6053, 10
-elipsa 674, 23, 20, 20, 1
+elipsa 674, 20, 20, 20, 1
 stop
 6054, 10
-elipsa 674, 23, 20, 20, 1
+elipsa 674, 20, 20, 20, 1
 stop
 6055, 10
-elipsa 674, 23, 20, 20, 1
+elipsa 674, 20, 20, 20, 1
 stop
 6056, 10
-elipsa 674, 23, 20, 20, 1
+elipsa 674, 20, 20, 20, 1
 stop
 6057, 10
-elipsa 674, 23, 20, 20, 1
+elipsa 674, 20, 20, 20, 1
 stop
 6058, 10
-elipsa 674, 23, 20, 20, 1
+elipsa 674, 20, 20, 20, 1
 stop
 6059, 10
-elipsa 674, 23, 20, 20, 1
+elipsa 674, 20, 20, 20, 1
 stop
 6060, 10
-elipsa 675, 23, 20, 20, 1
+elipsa 675, 20, 20, 20, 1
 stop
 6061, 10
-elipsa 675, 23, 20, 20, 1
+elipsa 675, 20, 20, 20, 1
 stop
 6062, 10
-elipsa 675, 23, 20, 20, 1
+elipsa 675, 20, 20, 20, 1
 stop
 6063, 10
-elipsa 675, 23, 20, 20, 1
+elipsa 675, 20, 20, 20, 1
 stop
 6064, 10
-elipsa 675, 23, 20, 20, 1
+elipsa 675, 20, 20, 20, 1
 stop
 6065, 10
-elipsa 675, 23, 20, 20, 1
+elipsa 675, 20, 20, 20, 1
 stop
 6066, 10
-elipsa 675, 23, 20, 20, 1
+elipsa 675, 20, 20, 20, 1
 stop
 6067, 10
-elipsa 675, 23, 20, 20, 1
+elipsa 675, 20, 20, 20, 1
 stop
 6068, 10
-elipsa 675, 23, 20, 20, 1
+elipsa 675, 20, 20, 20, 1
 stop
 6069, 10
-elipsa 675, 23, 20, 20, 1
+elipsa 675, 20, 20, 20, 1
 stop
 6070, 10
-elipsa 676, 23, 20, 20, 1
+elipsa 676, 20, 20, 20, 1
 stop
 6071, 10
-elipsa 676, 23, 20, 20, 1
+elipsa 676, 20, 20, 20, 1
 stop
 6072, 10
-elipsa 676, 23, 20, 20, 1
+elipsa 676, 20, 20, 20, 1
 stop
 6073, 10
-elipsa 676, 23, 20, 20, 1
+elipsa 676, 20, 20, 20, 1
 stop
 6074, 10
-elipsa 676, 23, 20, 20, 1
+elipsa 676, 20, 20, 20, 1
 stop
 6075, 10
-elipsa 676, 23, 20, 20, 1
+elipsa 676, 20, 20, 20, 1
 stop
 6076, 10
-elipsa 676, 23, 20, 20, 1
+elipsa 676, 20, 20, 20, 1
 stop
 6077, 10
-elipsa 676, 23, 20, 20, 1
+elipsa 676, 20, 20, 20, 1
 stop
 6078, 10
-elipsa 676, 23, 20, 20, 1
+elipsa 676, 20, 20, 20, 1
 stop
 6079, 10
-elipsa 676, 23, 20, 20, 1
+elipsa 676, 20, 20, 20, 1
 stop
 6080, 10
-elipsa 677, 23, 20, 20, 1
+elipsa 677, 20, 20, 20, 1
 stop
 6081, 10
-elipsa 677, 23, 20, 20, 1
+elipsa 677, 20, 20, 20, 1
 stop
 6082, 10
-elipsa 677, 23, 20, 20, 1
+elipsa 677, 20, 20, 20, 1
 stop
 6083, 10
-elipsa 677, 23, 20, 20, 1
+elipsa 677, 20, 20, 20, 1
 stop
 6084, 10
-elipsa 677, 23, 20, 20, 1
+elipsa 677, 20, 20, 20, 1
 stop
 6085, 10
-elipsa 677, 23, 20, 20, 1
+elipsa 677, 20, 20, 20, 1
 stop
 6086, 10
-elipsa 677, 23, 20, 20, 1
+elipsa 677, 20, 20, 20, 1
 stop
 6087, 10
-elipsa 677, 23, 20, 20, 1
+elipsa 677, 20, 20, 20, 1
 stop
 6088, 10
-elipsa 677, 23, 20, 20, 1
+elipsa 677, 20, 20, 20, 1
 stop
 6089, 10
-elipsa 677, 23, 20, 20, 1
+elipsa 677, 20, 20, 20, 1
 stop
 6090, 10
-elipsa 678, 23, 20, 20, 1
+elipsa 678, 20, 20, 20, 1
 stop
 6091, 10
-elipsa 678, 23, 20, 20, 1
+elipsa 678, 20, 20, 20, 1
 stop
 6092, 10
-elipsa 678, 23, 20, 20, 1
+elipsa 678, 20, 20, 20, 1
 stop
 6093, 10
-elipsa 678, 23, 20, 20, 1
+elipsa 678, 20, 20, 20, 1
 stop
 6094, 10
-elipsa 678, 23, 20, 20, 1
+elipsa 678, 20, 20, 20, 1
 stop
 6095, 10
-elipsa 678, 23, 20, 20, 1
+elipsa 678, 20, 20, 20, 1
 stop
 6096, 10
-elipsa 678, 23, 20, 20, 1
+elipsa 678, 20, 20, 20, 1
 stop
 6097, 10
-elipsa 678, 23, 20, 20, 1
+elipsa 678, 20, 20, 20, 1
 stop
 6098, 10
-elipsa 678, 23, 20, 20, 1
+elipsa 678, 20, 20, 20, 1
 stop
 6099, 10
-elipsa 678, 23, 20, 20, 1
+elipsa 678, 20, 20, 20, 1
 stop
 6100, 10
-elipsa 679, 23, 20, 20, 1
+elipsa 679, 20, 20, 20, 1
 stop
 6101, 10
-elipsa 679, 23, 20, 20, 1
+elipsa 679, 20, 20, 20, 1
 stop
 6102, 10
-elipsa 679, 23, 20, 20, 1
+elipsa 679, 20, 20, 20, 1
 stop
 6103, 10
-elipsa 679, 23, 20, 20, 1
+elipsa 679, 20, 20, 20, 1
 stop
 6104, 10
-elipsa 679, 23, 20, 20, 1
+elipsa 679, 20, 20, 20, 1
 stop
 6105, 10
-elipsa 679, 23, 20, 20, 1
+elipsa 679, 20, 20, 20, 1
 stop
 6106, 10
-elipsa 679, 23, 20, 20, 1
+elipsa 679, 20, 20, 20, 1
 stop
 6107, 10
-elipsa 679, 23, 20, 20, 1
+elipsa 679, 20, 20, 20, 1
 stop
 6108, 10
-elipsa 679, 23, 20, 20, 1
+elipsa 679, 20, 20, 20, 1
 stop
 6109, 10
-elipsa 679, 23, 20, 20, 1
+elipsa 679, 20, 20, 20, 1
 stop
 6110, 10
-elipsa 680, 23, 20, 20, 1
+elipsa 680, 20, 20, 20, 1
 stop
 6111, 10
-elipsa 680, 23, 20, 20, 1
+elipsa 680, 20, 20, 20, 1
 stop
 6112, 10
-elipsa 680, 23, 20, 20, 1
+elipsa 680, 20, 20, 20, 1
 stop
 6113, 10
-elipsa 680, 23, 20, 20, 1
+elipsa 680, 20, 20, 20, 1
 stop
 6114, 10
-elipsa 680, 23, 20, 20, 1
+elipsa 680, 20, 20, 20, 1
 stop
 6115, 10
-elipsa 680, 23, 20, 20, 1
+elipsa 680, 20, 20, 20, 1
 stop
 6116, 10
-elipsa 680, 23, 20, 20, 1
+elipsa 680, 20, 20, 20, 1
 stop
 6117, 10
-elipsa 680, 23, 20, 20, 1
+elipsa 680, 20, 20, 20, 1
 stop
 6118, 10
-elipsa 680, 23, 20, 20, 1
+elipsa 680, 20, 20, 20, 1
 stop
 6119, 10
-elipsa 680, 22, 20, 20, 1
+elipsa 680, 20, 20, 20, 1
 stop
 6120, 10
-elipsa 681, 22, 20, 20, 1
+elipsa 681, 20, 20, 20, 1
 stop
 6121, 10
-elipsa 681, 22, 20, 20, 1
+elipsa 681, 20, 20, 20, 1
 stop
 6122, 10
-elipsa 681, 22, 20, 20, 1
+elipsa 681, 20, 20, 20, 1
 stop
 6123, 10
-elipsa 681, 22, 20, 20, 1
+elipsa 681, 20, 20, 20, 1
 stop
 6124, 10
-elipsa 681, 22, 20, 20, 1
+elipsa 681, 20, 20, 20, 1
 stop
 6125, 10
-elipsa 681, 22, 20, 20, 1
+elipsa 681, 20, 20, 20, 1
 stop
 6126, 10
-elipsa 681, 22, 20, 20, 1
+elipsa 681, 20, 20, 20, 1
 stop
 6127, 10
-elipsa 681, 22, 20, 20, 1
+elipsa 681, 20, 20, 20, 1
 stop
 6128, 10
-elipsa 681, 22, 20, 20, 1
+elipsa 681, 20, 20, 20, 1
 stop
 6129, 10
-elipsa 681, 22, 20, 20, 1
+elipsa 681, 20, 20, 20, 1
 stop
 6130, 10
-elipsa 682, 22, 20, 20, 1
+elipsa 682, 20, 20, 20, 1
 stop
 6131, 10
-elipsa 682, 22, 20, 20, 1
+elipsa 682, 20, 20, 20, 1
 stop
 6132, 10
-elipsa 682, 22, 20, 20, 1
+elipsa 682, 20, 20, 20, 1
 stop
 6133, 10
-elipsa 682, 22, 20, 20, 1
+elipsa 682, 20, 20, 20, 1
 stop
 6134, 10
-elipsa 682, 22, 20, 20, 1
+elipsa 682, 20, 20, 20, 1
 stop
 6135, 10
-elipsa 682, 22, 20, 20, 1
+elipsa 682, 20, 20, 20, 1
 stop
 6136, 10
-elipsa 682, 22, 20, 20, 1
+elipsa 682, 20, 20, 20, 1
 stop
 6137, 10
-elipsa 682, 22, 20, 20, 1
+elipsa 682, 20, 20, 20, 1
 stop
 6138, 10
-elipsa 682, 21, 20, 20, 1
+elipsa 682, 20, 20, 20, 1
 stop
 6139, 10
-elipsa 682, 21, 20, 20, 1
+elipsa 682, 20, 20, 20, 1
 stop
 6140, 10
-elipsa 683, 21, 20, 20, 1
+elipsa 683, 20, 20, 20, 1
 stop
 6141, 10
-elipsa 683, 21, 20, 20, 1
+elipsa 683, 20, 20, 20, 1
 stop
 6142, 10
-elipsa 683, 21, 20, 20, 1
+elipsa 683, 20, 20, 20, 1
 stop
 6143, 10
-elipsa 683, 21, 20, 20, 1
+elipsa 683, 20, 20, 20, 1
 stop
 6144, 10
-elipsa 683, 21, 20, 20, 1
+elipsa 683, 20, 20, 20, 1
 stop
 6145, 10
-elipsa 683, 21, 20, 20, 1
+elipsa 683, 20, 20, 20, 1
 stop
 6146, 10
-elipsa 683, 21, 20, 20, 1
+elipsa 683, 20, 20, 20, 1
 stop
 6147, 10
-elipsa 683, 21, 20, 20, 1
+elipsa 683, 20, 20, 20, 1
 stop
 6148, 10
-elipsa 683, 21, 20, 20, 1
+elipsa 683, 20, 20, 20, 1
 stop
 6149, 10
-elipsa 683, 21, 20, 20, 1
+elipsa 683, 20, 20, 20, 1
 stop
 6150, 10
-elipsa 684, 21, 20, 20, 1
+elipsa 684, 20, 20, 20, 1
 stop
 6151, 10
-elipsa 684, 21, 20, 20, 1
+elipsa 684, 20, 20, 20, 1
 stop
 6152, 10
 elipsa 684, 20, 20, 20, 1
@@ -18494,430 +18493,430 @@ stop
 elipsa 685, 20, 20, 20, 1
 stop
 6164, 10
-elipsa 685, 19, 20, 20, 1
+elipsa 685, 20, 20, 20, 1
 stop
 6165, 10
-elipsa 685, 19, 20, 20, 1
+elipsa 685, 20, 20, 20, 1
 stop
 6166, 10
-elipsa 685, 19, 20, 20, 1
+elipsa 685, 20, 20, 20, 1
 stop
 6167, 10
-elipsa 685, 19, 20, 20, 1
+elipsa 685, 20, 20, 20, 1
 stop
 6168, 10
-elipsa 685, 19, 20, 20, 1
+elipsa 685, 20, 20, 20, 1
 stop
 6169, 10
-elipsa 685, 19, 20, 20, 1
+elipsa 685, 20, 20, 20, 1
 stop
 6170, 10
-elipsa 686, 19, 20, 20, 1
+elipsa 686, 20, 20, 20, 1
 stop
 6171, 10
-elipsa 686, 19, 20, 20, 1
+elipsa 686, 20, 20, 20, 1
 stop
 6172, 10
-elipsa 686, 19, 20, 20, 1
+elipsa 686, 20, 20, 20, 1
 stop
 6173, 10
-elipsa 686, 19, 20, 20, 1
+elipsa 686, 20, 20, 20, 1
 stop
 6174, 10
-elipsa 686, 19, 20, 20, 1
+elipsa 686, 20, 20, 20, 1
 stop
 6175, 10
-elipsa 686, 18, 20, 20, 1
+elipsa 686, 20, 20, 20, 1
 stop
 6176, 10
-elipsa 686, 18, 20, 20, 1
+elipsa 686, 20, 20, 20, 1
 stop
 6177, 10
-elipsa 686, 18, 20, 20, 1
+elipsa 686, 20, 20, 20, 1
 stop
 6178, 10
-elipsa 686, 18, 20, 20, 1
+elipsa 686, 20, 20, 20, 1
 stop
 6179, 10
-elipsa 686, 18, 20, 20, 1
+elipsa 686, 20, 20, 20, 1
 stop
 6180, 10
-elipsa 687, 18, 20, 20, 1
+elipsa 687, 20, 20, 20, 1
 stop
 6181, 10
-elipsa 687, 18, 20, 20, 1
+elipsa 687, 20, 20, 20, 1
 stop
 6182, 10
-elipsa 687, 18, 20, 20, 1
+elipsa 687, 20, 20, 20, 1
 stop
 6183, 10
-elipsa 687, 18, 20, 20, 1
+elipsa 687, 20, 20, 20, 1
 stop
 6184, 10
-elipsa 687, 18, 20, 20, 1
+elipsa 687, 20, 20, 20, 1
 stop
 6185, 10
-elipsa 687, 17, 20, 20, 1
+elipsa 687, 20, 20, 20, 1
 stop
 6186, 10
-elipsa 687, 17, 20, 20, 1
+elipsa 687, 20, 20, 20, 1
 stop
 6187, 10
-elipsa 687, 17, 20, 20, 1
+elipsa 687, 20, 20, 20, 1
 stop
 6188, 10
-elipsa 687, 17, 20, 20, 1
+elipsa 687, 20, 20, 20, 1
 stop
 6189, 10
-elipsa 687, 17, 20, 20, 1
+elipsa 687, 20, 20, 20, 1
 stop
 6190, 10
-elipsa 688, 17, 20, 20, 1
+elipsa 688, 20, 20, 20, 1
 stop
 6191, 10
-elipsa 688, 17, 20, 20, 1
+elipsa 688, 20, 20, 20, 1
 stop
 6192, 10
-elipsa 688, 17, 20, 20, 1
+elipsa 688, 20, 20, 20, 1
 stop
 6193, 10
-elipsa 688, 17, 20, 20, 1
+elipsa 688, 20, 20, 20, 1
 stop
 6194, 10
-elipsa 688, 16, 20, 20, 1
+elipsa 688, 20, 20, 20, 1
 stop
 6195, 10
-elipsa 688, 16, 20, 20, 1
+elipsa 688, 20, 20, 20, 1
 stop
 6196, 10
-elipsa 688, 16, 20, 20, 1
+elipsa 688, 20, 20, 20, 1
 stop
 6197, 10
-elipsa 688, 16, 20, 20, 1
+elipsa 688, 20, 20, 20, 1
 stop
 6198, 10
-elipsa 688, 16, 20, 20, 1
+elipsa 688, 20, 20, 20, 1
 stop
 6199, 10
-elipsa 688, 16, 20, 20, 1
+elipsa 688, 20, 20, 20, 1
 stop
 6200, 10
-elipsa 689, 16, 20, 20, 1
+elipsa 689, 20, 20, 20, 1
 stop
 6201, 10
-elipsa 689, 16, 20, 20, 1
+elipsa 689, 20, 20, 20, 1
 stop
 6202, 10
-elipsa 689, 15, 20, 20, 1
+elipsa 689, 20, 20, 20, 1
 stop
 6203, 10
-elipsa 689, 15, 20, 20, 1
+elipsa 689, 20, 20, 20, 1
 stop
 6204, 10
-elipsa 689, 15, 20, 20, 1
+elipsa 689, 20, 20, 20, 1
 stop
 6205, 10
-elipsa 689, 15, 20, 20, 1
+elipsa 689, 20, 20, 20, 1
 stop
 6206, 10
-elipsa 689, 15, 20, 20, 1
+elipsa 689, 20, 20, 20, 1
 stop
 6207, 10
-elipsa 689, 15, 20, 20, 1
+elipsa 689, 20, 20, 20, 1
 stop
 6208, 10
-elipsa 689, 15, 20, 20, 1
+elipsa 689, 20, 20, 20, 1
 stop
 6209, 10
-elipsa 689, 15, 20, 20, 1
+elipsa 689, 20, 20, 20, 1
 stop
 6210, 10
-elipsa 699, 15, 20, 20, 1
+elipsa 699, 20, 20, 20, 1
 stop
 6211, 10
-elipsa 700, 15, 20, 20, 1
+elipsa 700, 20, 20, 20, 1
 stop
 6212, 10
-elipsa 700, 15, 20, 20, 1
+elipsa 700, 20, 20, 20, 1
 stop
 6213, 10
-elipsa 700, 15, 20, 20, 1
+elipsa 700, 20, 20, 20, 1
 stop
 6214, 10
-elipsa 700, 15, 20, 20, 1
+elipsa 700, 20, 20, 20, 1
 stop
 6215, 10
-elipsa 700, 15, 20, 20, 1
+elipsa 700, 20, 20, 20, 1
 stop
 6216, 10
-elipsa 700, 15, 20, 20, 1
+elipsa 700, 20, 20, 20, 1
 stop
 6217, 10
-elipsa 700, 15, 20, 20, 1
+elipsa 700, 20, 20, 20, 1
 stop
 6218, 10
-elipsa 700, 15, 20, 20, 1
+elipsa 700, 20, 20, 20, 1
 stop
 6219, 10
-elipsa 700, 15, 20, 20, 1
+elipsa 700, 20, 20, 20, 1
 stop
 6220, 10
-elipsa 700, 15, 20, 20, 1
+elipsa 700, 20, 20, 20, 1
 stop
 6221, 10
-elipsa 701, 16, 20, 20, 1
+elipsa 701, 20, 20, 20, 1
 stop
 6222, 10
-elipsa 701, 16, 20, 20, 1
+elipsa 701, 20, 20, 20, 1
 stop
 6223, 10
-elipsa 701, 16, 20, 20, 1
+elipsa 701, 20, 20, 20, 1
 stop
 6224, 10
-elipsa 701, 16, 20, 20, 1
+elipsa 701, 20, 20, 20, 1
 stop
 6225, 10
-elipsa 701, 16, 20, 20, 1
+elipsa 701, 20, 20, 20, 1
 stop
 6226, 10
-elipsa 701, 16, 20, 20, 1
+elipsa 701, 20, 20, 20, 1
 stop
 6227, 10
-elipsa 701, 16, 20, 20, 1
+elipsa 701, 20, 20, 20, 1
 stop
 6228, 10
-elipsa 701, 16, 20, 20, 1
+elipsa 701, 20, 20, 20, 1
 stop
 6229, 10
-elipsa 701, 16, 20, 20, 1
+elipsa 701, 20, 20, 20, 1
 stop
 6230, 10
-elipsa 701, 16, 20, 20, 1
+elipsa 701, 20, 20, 20, 1
 stop
 6231, 10
-elipsa 702, 16, 20, 20, 1
+elipsa 702, 20, 20, 20, 1
 stop
 6232, 10
-elipsa 702, 16, 20, 20, 1
+elipsa 702, 20, 20, 20, 1
 stop
 6233, 10
-elipsa 702, 17, 20, 20, 1
+elipsa 702, 20, 20, 20, 1
 stop
 6234, 10
-elipsa 702, 17, 20, 20, 1
+elipsa 702, 20, 20, 20, 1
 stop
 6235, 10
-elipsa 702, 17, 20, 20, 1
+elipsa 702, 20, 20, 20, 1
 stop
 6236, 10
-elipsa 702, 17, 20, 20, 1
+elipsa 702, 20, 20, 20, 1
 stop
 6237, 10
-elipsa 702, 17, 20, 20, 1
+elipsa 702, 20, 20, 20, 1
 stop
 6238, 10
-elipsa 702, 17, 20, 20, 1
+elipsa 702, 20, 20, 20, 1
 stop
 6239, 10
-elipsa 702, 17, 20, 20, 1
+elipsa 702, 20, 20, 20, 1
 stop
 6240, 10
-elipsa 702, 17, 20, 20, 1
+elipsa 702, 20, 20, 20, 1
 stop
 6241, 10
-elipsa 703, 17, 20, 20, 1
+elipsa 703, 20, 20, 20, 1
 stop
 6242, 10
-elipsa 703, 17, 20, 20, 1
+elipsa 703, 20, 20, 20, 1
 stop
 6243, 10
-elipsa 703, 17, 20, 20, 1
+elipsa 703, 20, 20, 20, 1
 stop
 6244, 10
-elipsa 703, 17, 20, 20, 1
+elipsa 703, 20, 20, 20, 1
 stop
 6245, 10
-elipsa 703, 17, 20, 20, 1
+elipsa 703, 20, 20, 20, 1
 stop
 6246, 10
-elipsa 703, 17, 20, 20, 1
+elipsa 703, 20, 20, 20, 1
 stop
 6247, 10
-elipsa 703, 18, 20, 20, 1
+elipsa 703, 20, 20, 20, 1
 stop
 6248, 10
-elipsa 703, 18, 20, 20, 1
+elipsa 703, 20, 20, 20, 1
 stop
 6249, 10
-elipsa 703, 18, 20, 20, 1
+elipsa 703, 20, 20, 20, 1
 stop
 6250, 10
-elipsa 703, 18, 20, 20, 1
+elipsa 703, 20, 20, 20, 1
 stop
 6251, 10
-elipsa 704, 18, 20, 20, 1
+elipsa 704, 20, 20, 20, 1
 stop
 6252, 10
-elipsa 704, 18, 20, 20, 1
+elipsa 704, 20, 20, 20, 1
 stop
 6253, 10
-elipsa 704, 18, 20, 20, 1
+elipsa 704, 20, 20, 20, 1
 stop
 6254, 10
-elipsa 704, 18, 20, 20, 1
+elipsa 704, 20, 20, 20, 1
 stop
 6255, 10
-elipsa 704, 18, 20, 20, 1
+elipsa 704, 20, 20, 20, 1
 stop
 6256, 10
-elipsa 704, 18, 20, 20, 1
+elipsa 704, 20, 20, 20, 1
 stop
 6257, 10
-elipsa 704, 18, 20, 20, 1
+elipsa 704, 20, 20, 20, 1
 stop
 6258, 10
-elipsa 704, 18, 20, 20, 1
+elipsa 704, 20, 20, 20, 1
 stop
 6259, 10
-elipsa 704, 18, 20, 20, 1
+elipsa 704, 20, 20, 20, 1
 stop
 6260, 10
-elipsa 704, 18, 20, 20, 1
+elipsa 704, 20, 20, 20, 1
 stop
 6261, 10
-elipsa 705, 18, 20, 20, 1
+elipsa 705, 20, 20, 20, 1
 stop
 6262, 10
-elipsa 705, 18, 20, 20, 1
+elipsa 705, 20, 20, 20, 1
 stop
 6263, 10
-elipsa 705, 18, 20, 20, 1
+elipsa 705, 20, 20, 20, 1
 stop
 6264, 10
-elipsa 705, 18, 20, 20, 1
+elipsa 705, 20, 20, 20, 1
 stop
 6265, 10
-elipsa 705, 18, 20, 20, 1
+elipsa 705, 20, 20, 20, 1
 stop
 6266, 10
-elipsa 705, 19, 20, 20, 1
+elipsa 705, 20, 20, 20, 1
 stop
 6267, 10
-elipsa 705, 19, 20, 20, 1
+elipsa 705, 20, 20, 20, 1
 stop
 6268, 10
-elipsa 705, 19, 20, 20, 1
+elipsa 705, 20, 20, 20, 1
 stop
 6269, 10
-elipsa 705, 19, 20, 20, 1
+elipsa 705, 20, 20, 20, 1
 stop
 6270, 10
-elipsa 705, 19, 20, 20, 1
+elipsa 705, 20, 20, 20, 1
 stop
 6271, 10
-elipsa 706, 19, 20, 20, 1
+elipsa 706, 20, 20, 20, 1
 stop
 6272, 10
-elipsa 706, 19, 20, 20, 1
+elipsa 706, 20, 20, 20, 1
 stop
 6273, 10
-elipsa 706, 19, 20, 20, 1
+elipsa 706, 20, 20, 20, 1
 stop
 6274, 10
-elipsa 706, 19, 20, 20, 1
+elipsa 706, 20, 20, 20, 1
 stop
 6275, 10
-elipsa 706, 19, 20, 20, 1
+elipsa 706, 20, 20, 20, 1
 stop
 6276, 10
-elipsa 706, 19, 20, 20, 1
+elipsa 706, 20, 20, 20, 1
 stop
 6277, 10
-elipsa 706, 19, 20, 20, 1
+elipsa 706, 20, 20, 20, 1
 stop
 6278, 10
-elipsa 706, 19, 20, 20, 1
+elipsa 706, 20, 20, 20, 1
 stop
 6279, 10
-elipsa 706, 19, 20, 20, 1
+elipsa 706, 20, 20, 20, 1
 stop
 6280, 10
-elipsa 706, 19, 20, 20, 1
+elipsa 706, 20, 20, 20, 1
 stop
 6281, 10
-elipsa 707, 19, 20, 20, 1
+elipsa 707, 20, 20, 20, 1
 stop
 6282, 10
-elipsa 707, 19, 20, 20, 1
+elipsa 707, 20, 20, 20, 1
 stop
 6283, 10
-elipsa 707, 19, 20, 20, 1
+elipsa 707, 20, 20, 20, 1
 stop
 6284, 10
-elipsa 707, 19, 20, 20, 1
+elipsa 707, 20, 20, 20, 1
 stop
 6285, 10
-elipsa 707, 19, 20, 20, 1
+elipsa 707, 20, 20, 20, 1
 stop
 6286, 10
-elipsa 707, 19, 20, 20, 1
+elipsa 707, 20, 20, 20, 1
 stop
 6287, 10
-elipsa 707, 19, 20, 20, 1
+elipsa 707, 20, 20, 20, 1
 stop
 6288, 10
-elipsa 707, 19, 20, 20, 1
+elipsa 707, 20, 20, 20, 1
 stop
 6289, 10
-elipsa 707, 19, 20, 20, 1
+elipsa 707, 20, 20, 20, 1
 stop
 6290, 10
-elipsa 707, 19, 20, 20, 1
+elipsa 707, 20, 20, 20, 1
 stop
 6291, 10
-elipsa 708, 19, 20, 20, 1
+elipsa 708, 20, 20, 20, 1
 stop
 6292, 10
-elipsa 708, 19, 20, 20, 1
+elipsa 708, 20, 20, 20, 1
 stop
 6293, 10
-elipsa 708, 19, 20, 20, 1
+elipsa 708, 20, 20, 20, 1
 stop
 6294, 10
-elipsa 708, 19, 20, 20, 1
+elipsa 708, 20, 20, 20, 1
 stop
 6295, 10
-elipsa 708, 19, 20, 20, 1
+elipsa 708, 20, 20, 20, 1
 stop
 6296, 10
-elipsa 708, 19, 20, 20, 1
+elipsa 708, 20, 20, 20, 1
 stop
 6297, 10
-elipsa 708, 19, 20, 20, 1
+elipsa 708, 20, 20, 20, 1
 stop
 6298, 10
-elipsa 708, 19, 20, 20, 1
+elipsa 708, 20, 20, 20, 1
 stop
 6299, 10
-elipsa 708, 19, 20, 20, 1
+elipsa 708, 20, 20, 20, 1
 stop
 6300, 10
-elipsa 708, 19, 20, 20, 1
+elipsa 708, 20, 20, 20, 1
 stop
 6301, 10
-elipsa 709, 19, 20, 20, 1
+elipsa 709, 20, 20, 20, 1
 stop
 6302, 10
-elipsa 709, 19, 20, 20, 1
+elipsa 709, 20, 20, 20, 1
 stop
 6303, 10
-elipsa 709, 19, 20, 20, 1
+elipsa 709, 20, 20, 20, 1
 stop
 6304, 10
-elipsa 709, 19, 20, 20, 1
+elipsa 709, 20, 20, 20, 1
 stop
 6305, 10
-elipsa 709, 19, 20, 20, 1
+elipsa 709, 20, 20, 20, 1
 stop
 6306, 10
 elipsa 709, 20, 20, 20, 1
@@ -18947,1805 +18946,1805 @@ stop
 elipsa 710, 20, 20, 20, 1
 stop
 6315, 10
-elipsa 710, 19, 20, 20, 1
+elipsa 710, 20, 20, 20, 1
 stop
 6316, 10
-elipsa 710, 19, 20, 20, 1
+elipsa 710, 20, 20, 20, 1
 stop
 6317, 10
-elipsa 710, 19, 20, 20, 1
+elipsa 710, 20, 20, 20, 1
 stop
 6318, 10
-elipsa 710, 19, 20, 20, 1
+elipsa 710, 20, 20, 20, 1
 stop
 6319, 10
-elipsa 710, 19, 20, 20, 1
+elipsa 710, 20, 20, 20, 1
 stop
 6320, 10
-elipsa 710, 19, 20, 20, 1
+elipsa 710, 20, 20, 20, 1
 stop
 6321, 10
-elipsa 711, 19, 20, 20, 1
+elipsa 711, 20, 20, 20, 1
 stop
 6322, 10
-elipsa 711, 19, 20, 20, 1
+elipsa 711, 20, 20, 20, 1
 stop
 6323, 10
-elipsa 711, 19, 20, 20, 1
+elipsa 711, 20, 20, 20, 1
 stop
 6324, 10
-elipsa 711, 19, 20, 20, 1
+elipsa 711, 20, 20, 20, 1
 stop
 6325, 10
-elipsa 711, 19, 20, 20, 1
+elipsa 711, 20, 20, 20, 1
 stop
 6326, 10
-elipsa 711, 19, 20, 20, 1
+elipsa 711, 20, 20, 20, 1
 stop
 6327, 10
-elipsa 711, 19, 20, 20, 1
+elipsa 711, 20, 20, 20, 1
 stop
 6328, 10
-elipsa 711, 19, 20, 20, 1
+elipsa 711, 20, 20, 20, 1
 stop
 6329, 10
-elipsa 711, 19, 20, 20, 1
+elipsa 711, 20, 20, 20, 1
 stop
 6330, 10
-elipsa 711, 19, 20, 20, 1
+elipsa 711, 20, 20, 20, 1
 stop
 6331, 10
-elipsa 712, 19, 20, 20, 1
+elipsa 712, 20, 20, 20, 1
 stop
 6332, 10
-elipsa 712, 19, 20, 20, 1
+elipsa 712, 20, 20, 20, 1
 stop
 6333, 10
-elipsa 712, 19, 20, 20, 1
+elipsa 712, 20, 20, 20, 1
 stop
 6334, 10
-elipsa 712, 19, 20, 20, 1
+elipsa 712, 20, 20, 20, 1
 stop
 6335, 10
-elipsa 712, 19, 20, 20, 1
+elipsa 712, 20, 20, 20, 1
 stop
 6336, 10
-elipsa 712, 19, 20, 20, 1
+elipsa 712, 20, 20, 20, 1
 stop
 6337, 10
-elipsa 712, 19, 20, 20, 1
+elipsa 712, 20, 20, 20, 1
 stop
 6338, 10
-elipsa 712, 19, 20, 20, 1
+elipsa 712, 20, 20, 20, 1
 stop
 6339, 10
-elipsa 712, 19, 20, 20, 1
+elipsa 712, 20, 20, 20, 1
 stop
 6340, 10
-elipsa 712, 19, 20, 20, 1
+elipsa 712, 20, 20, 20, 1
 stop
 6341, 10
-elipsa 713, 19, 20, 20, 1
+elipsa 713, 20, 20, 20, 1
 stop
 6342, 10
-elipsa 713, 19, 20, 20, 1
+elipsa 713, 20, 20, 20, 1
 stop
 6343, 10
-elipsa 713, 19, 20, 20, 1
+elipsa 713, 20, 20, 20, 1
 stop
 6344, 10
-elipsa 713, 19, 20, 20, 1
+elipsa 713, 20, 20, 20, 1
 stop
 6345, 10
-elipsa 713, 19, 20, 20, 1
+elipsa 713, 20, 20, 20, 1
 stop
 6346, 10
-elipsa 713, 19, 20, 20, 1
+elipsa 713, 20, 20, 20, 1
 stop
 6347, 10
-elipsa 713, 19, 20, 20, 1
+elipsa 713, 20, 20, 20, 1
 stop
 6348, 10
-elipsa 713, 19, 20, 20, 1
+elipsa 713, 20, 20, 20, 1
 stop
 6349, 10
-elipsa 713, 19, 20, 20, 1
+elipsa 713, 20, 20, 20, 1
 stop
 6350, 10
-elipsa 713, 19, 20, 20, 1
+elipsa 713, 20, 20, 20, 1
 stop
 6351, 10
-elipsa 714, 19, 20, 20, 1
+elipsa 714, 20, 20, 20, 1
 stop
 6352, 10
-elipsa 714, 19, 20, 20, 1
+elipsa 714, 20, 20, 20, 1
 stop
 6353, 10
-elipsa 714, 19, 20, 20, 1
+elipsa 714, 20, 20, 20, 1
 stop
 6354, 10
-elipsa 714, 19, 20, 20, 1
+elipsa 714, 20, 20, 20, 1
 stop
 6355, 10
-elipsa 714, 19, 20, 20, 1
+elipsa 714, 20, 20, 20, 1
 stop
 6356, 10
-elipsa 714, 18, 20, 20, 1
+elipsa 714, 20, 20, 20, 1
 stop
 6357, 10
-elipsa 714, 18, 20, 20, 1
+elipsa 714, 20, 20, 20, 1
 stop
 6358, 10
-elipsa 714, 18, 20, 20, 1
+elipsa 714, 20, 20, 20, 1
 stop
 6359, 10
-elipsa 714, 18, 20, 20, 1
+elipsa 714, 20, 20, 20, 1
 stop
 6360, 10
-elipsa 714, 18, 20, 20, 1
+elipsa 714, 20, 20, 20, 1
 stop
 6361, 10
-elipsa 715, 18, 20, 20, 1
+elipsa 715, 20, 20, 20, 1
 stop
 6362, 10
-elipsa 715, 18, 20, 20, 1
+elipsa 715, 20, 20, 20, 1
 stop
 6363, 10
-elipsa 715, 18, 20, 20, 1
+elipsa 715, 20, 20, 20, 1
 stop
 6364, 10
-elipsa 715, 18, 20, 20, 1
+elipsa 715, 20, 20, 20, 1
 stop
 6365, 10
-elipsa 715, 18, 20, 20, 1
+elipsa 715, 20, 20, 20, 1
 stop
 6366, 10
-elipsa 715, 18, 20, 20, 1
+elipsa 715, 20, 20, 20, 1
 stop
 6367, 10
-elipsa 715, 18, 20, 20, 1
+elipsa 715, 20, 20, 20, 1
 stop
 6368, 10
-elipsa 715, 18, 20, 20, 1
+elipsa 715, 20, 20, 20, 1
 stop
 6369, 10
-elipsa 715, 18, 20, 20, 1
+elipsa 715, 20, 20, 20, 1
 stop
 6370, 10
-elipsa 715, 18, 20, 20, 1
+elipsa 715, 20, 20, 20, 1
 stop
 6371, 10
-elipsa 716, 18, 20, 20, 1
+elipsa 716, 20, 20, 20, 1
 stop
 6372, 10
-elipsa 716, 18, 20, 20, 1
+elipsa 716, 20, 20, 20, 1
 stop
 6373, 10
-elipsa 716, 18, 20, 20, 1
+elipsa 716, 20, 20, 20, 1
 stop
 6374, 10
-elipsa 716, 17, 20, 20, 1
+elipsa 716, 20, 20, 20, 1
 stop
 6375, 10
-elipsa 716, 17, 20, 20, 1
+elipsa 716, 20, 20, 20, 1
 stop
 6376, 10
-elipsa 716, 17, 20, 20, 1
+elipsa 716, 20, 20, 20, 1
 stop
 6377, 10
-elipsa 716, 17, 20, 20, 1
+elipsa 716, 20, 20, 20, 1
 stop
 6378, 10
-elipsa 716, 17, 20, 20, 1
+elipsa 716, 20, 20, 20, 1
 stop
 6379, 10
-elipsa 716, 17, 20, 20, 1
+elipsa 716, 20, 20, 20, 1
 stop
 6380, 10
-elipsa 716, 17, 20, 20, 1
+elipsa 716, 20, 20, 20, 1
 stop
 6381, 10
-elipsa 717, 17, 20, 20, 1
+elipsa 717, 20, 20, 20, 1
 stop
 6382, 10
-elipsa 717, 17, 20, 20, 1
+elipsa 717, 20, 20, 20, 1
 stop
 6383, 10
-elipsa 717, 17, 20, 20, 1
+elipsa 717, 20, 20, 20, 1
 stop
 6384, 10
-elipsa 717, 17, 20, 20, 1
+elipsa 717, 20, 20, 20, 1
 stop
 6385, 10
-elipsa 717, 17, 20, 20, 1
+elipsa 717, 20, 20, 20, 1
 stop
 6386, 10
-elipsa 717, 17, 20, 20, 1
+elipsa 717, 20, 20, 20, 1
 stop
 6387, 10
-elipsa 717, 17, 20, 20, 1
+elipsa 717, 20, 20, 20, 1
 stop
 6388, 10
-elipsa 717, 16, 20, 20, 1
+elipsa 717, 20, 20, 20, 1
 stop
 6389, 10
-elipsa 717, 16, 20, 20, 1
+elipsa 717, 20, 20, 20, 1
 stop
 6390, 10
-elipsa 717, 16, 20, 20, 1
+elipsa 717, 20, 20, 20, 1
 stop
 6391, 10
-elipsa 718, 16, 20, 20, 1
+elipsa 718, 20, 20, 20, 1
 stop
 6392, 10
-elipsa 718, 16, 20, 20, 1
+elipsa 718, 20, 20, 20, 1
 stop
 6393, 10
-elipsa 718, 16, 20, 20, 1
+elipsa 718, 20, 20, 20, 1
 stop
 6394, 10
-elipsa 718, 16, 20, 20, 1
+elipsa 718, 20, 20, 20, 1
 stop
 6395, 10
-elipsa 718, 16, 20, 20, 1
+elipsa 718, 20, 20, 20, 1
 stop
 6396, 10
-elipsa 718, 16, 20, 20, 1
+elipsa 718, 20, 20, 20, 1
 stop
 6397, 10
-elipsa 718, 16, 20, 20, 1
+elipsa 718, 20, 20, 20, 1
 stop
 6398, 10
-elipsa 718, 16, 20, 20, 1
+elipsa 718, 20, 20, 20, 1
 stop
 6399, 10
-elipsa 718, 16, 20, 20, 1
+elipsa 718, 20, 20, 20, 1
 stop
 6400, 10
-elipsa 718, 15, 20, 20, 1
+elipsa 718, 20, 20, 20, 1
 stop
 6401, 10
-elipsa 719, 15, 20, 20, 1
+elipsa 719, 20, 20, 20, 1
 stop
 6402, 10
-elipsa 719, 15, 20, 20, 1
+elipsa 719, 20, 20, 20, 1
 stop
 6403, 10
-elipsa 719, 15, 20, 20, 1
+elipsa 719, 20, 20, 20, 1
 stop
 6404, 10
-elipsa 719, 15, 20, 20, 1
+elipsa 719, 20, 20, 20, 1
 stop
 6405, 10
-elipsa 719, 15, 20, 20, 1
+elipsa 719, 20, 20, 20, 1
 stop
 6406, 10
-elipsa 719, 15, 20, 20, 1
+elipsa 719, 20, 20, 20, 1
 stop
 6407, 10
-elipsa 719, 15, 20, 20, 1
+elipsa 719, 20, 20, 20, 1
 stop
 6408, 10
-elipsa 719, 15, 20, 20, 1
+elipsa 719, 20, 20, 20, 1
 stop
 6409, 10
-elipsa 719, 15, 20, 20, 1
+elipsa 719, 20, 20, 20, 1
 stop
 6410, 10
-elipsa 719, 15, 20, 20, 1
+elipsa 719, 20, 20, 20, 1
 stop
 6411, 10
-elipsa 719, 15, 20, 20, 1
+elipsa 719, 20, 20, 20, 1
 stop
 6412, 10
-elipsa 729, 15, 20, 20, 1
+elipsa 729, 20, 20, 20, 1
 stop
 6413, 10
-elipsa 730, 15, 20, 20, 1
+elipsa 730, 20, 20, 20, 1
 stop
 6414, 10
-elipsa 730, 15, 20, 20, 1
+elipsa 730, 20, 20, 20, 1
 stop
 6415, 10
-elipsa 730, 15, 20, 20, 1
+elipsa 730, 20, 20, 20, 1
 stop
 6416, 10
-elipsa 730, 15, 20, 20, 1
+elipsa 730, 20, 20, 20, 1
 stop
 6417, 10
-elipsa 730, 15, 20, 20, 1
+elipsa 730, 20, 20, 20, 1
 stop
 6418, 10
-elipsa 730, 15, 20, 20, 1
+elipsa 730, 20, 20, 20, 1
 stop
 6419, 10
-elipsa 730, 15, 20, 20, 1
+elipsa 730, 20, 20, 20, 1
 stop
 6420, 10
-elipsa 730, 15, 20, 20, 1
+elipsa 730, 20, 20, 20, 1
 stop
 6421, 10
-elipsa 730, 15, 20, 20, 1
+elipsa 730, 20, 20, 20, 1
 stop
 6422, 10
-elipsa 730, 15, 20, 20, 1
+elipsa 730, 20, 20, 20, 1
 stop
 6423, 10
-elipsa 731, 15, 20, 20, 1
+elipsa 731, 20, 20, 20, 1
 stop
 6424, 10
-elipsa 731, 15, 20, 20, 1
+elipsa 731, 20, 20, 20, 1
 stop
 6425, 10
-elipsa 731, 15, 20, 20, 1
+elipsa 731, 20, 20, 20, 1
 stop
 6426, 10
-elipsa 731, 15, 20, 20, 1
+elipsa 731, 20, 20, 20, 1
 stop
 6427, 10
-elipsa 731, 16, 20, 20, 1
+elipsa 731, 20, 20, 20, 1
 stop
 6428, 10
-elipsa 731, 16, 20, 20, 1
+elipsa 731, 20, 20, 20, 1
 stop
 6429, 10
-elipsa 731, 16, 20, 20, 1
+elipsa 731, 20, 20, 20, 1
 stop
 6430, 10
-elipsa 731, 16, 20, 20, 1
+elipsa 731, 20, 20, 20, 1
 stop
 6431, 10
-elipsa 731, 16, 20, 20, 1
+elipsa 731, 20, 20, 20, 1
 stop
 6432, 10
-elipsa 731, 16, 20, 20, 1
+elipsa 731, 20, 20, 20, 1
 stop
 6433, 10
-elipsa 732, 16, 20, 20, 1
+elipsa 732, 20, 20, 20, 1
 stop
 6434, 10
-elipsa 732, 16, 20, 20, 1
+elipsa 732, 20, 20, 20, 1
 stop
 6435, 10
-elipsa 732, 16, 20, 20, 1
+elipsa 732, 20, 20, 20, 1
 stop
 6436, 10
-elipsa 732, 16, 20, 20, 1
+elipsa 732, 20, 20, 20, 1
 stop
 6437, 10
-elipsa 732, 16, 20, 20, 1
+elipsa 732, 20, 20, 20, 1
 stop
 6438, 10
-elipsa 732, 16, 20, 20, 1
+elipsa 732, 20, 20, 20, 1
 stop
 6439, 10
-elipsa 732, 16, 20, 20, 1
+elipsa 732, 20, 20, 20, 1
 stop
 6440, 10
-elipsa 732, 16, 20, 20, 1
+elipsa 732, 20, 20, 20, 1
 stop
 6441, 10
-elipsa 732, 16, 20, 20, 1
+elipsa 732, 20, 20, 20, 1
 stop
 6442, 10
-elipsa 732, 16, 20, 20, 1
+elipsa 732, 20, 20, 20, 1
 stop
 6443, 10
-elipsa 733, 16, 20, 20, 1
+elipsa 733, 20, 20, 20, 1
 stop
 6444, 10
-elipsa 733, 16, 20, 20, 1
+elipsa 733, 20, 20, 20, 1
 stop
 6445, 10
-elipsa 733, 16, 20, 20, 1
+elipsa 733, 20, 20, 20, 1
 stop
 6446, 10
-elipsa 733, 16, 20, 20, 1
+elipsa 733, 20, 20, 20, 1
 stop
 6447, 10
-elipsa 733, 17, 20, 20, 1
+elipsa 733, 20, 20, 20, 1
 stop
 6448, 10
-elipsa 733, 17, 20, 20, 1
+elipsa 733, 20, 20, 20, 1
 stop
 6449, 10
-elipsa 733, 17, 20, 20, 1
+elipsa 733, 20, 20, 20, 1
 stop
 6450, 10
-elipsa 733, 17, 20, 20, 1
+elipsa 733, 20, 20, 20, 1
 stop
 6451, 10
-elipsa 733, 17, 20, 20, 1
+elipsa 733, 20, 20, 20, 1
 stop
 6452, 10
-elipsa 733, 17, 20, 20, 1
+elipsa 733, 20, 20, 20, 1
 stop
 6453, 10
-elipsa 734, 17, 20, 20, 1
+elipsa 734, 20, 20, 20, 1
 stop
 6454, 10
-elipsa 734, 17, 20, 20, 1
+elipsa 734, 20, 20, 20, 1
 stop
 6455, 10
-elipsa 734, 17, 20, 20, 1
+elipsa 734, 20, 20, 20, 1
 stop
 6456, 10
-elipsa 734, 17, 20, 20, 1
+elipsa 734, 20, 20, 20, 1
 stop
 6457, 10
-elipsa 734, 17, 20, 20, 1
+elipsa 734, 20, 20, 20, 1
 stop
 6458, 10
-elipsa 734, 17, 20, 20, 1
+elipsa 734, 20, 20, 20, 1
 stop
 6459, 10
-elipsa 734, 17, 20, 20, 1
+elipsa 734, 20, 20, 20, 1
 stop
 6460, 10
-elipsa 734, 17, 20, 20, 1
+elipsa 734, 20, 20, 20, 1
 stop
 6461, 10
-elipsa 734, 17, 20, 20, 1
+elipsa 734, 20, 20, 20, 1
 stop
 6462, 10
-elipsa 734, 17, 20, 20, 1
+elipsa 734, 20, 20, 20, 1
 stop
 6463, 10
-elipsa 735, 17, 20, 20, 1
+elipsa 735, 20, 20, 20, 1
 stop
 6464, 10
-elipsa 735, 17, 20, 20, 1
+elipsa 735, 20, 20, 20, 1
 stop
 6465, 10
-elipsa 735, 17, 20, 20, 1
+elipsa 735, 20, 20, 20, 1
 stop
 6466, 10
-elipsa 735, 17, 20, 20, 1
+elipsa 735, 20, 20, 20, 1
 stop
 6467, 10
-elipsa 735, 17, 20, 20, 1
+elipsa 735, 20, 20, 20, 1
 stop
 6468, 10
-elipsa 735, 17, 20, 20, 1
+elipsa 735, 20, 20, 20, 1
 stop
 6469, 10
-elipsa 735, 17, 20, 20, 1
+elipsa 735, 20, 20, 20, 1
 stop
 6470, 10
-elipsa 735, 17, 20, 20, 1
+elipsa 735, 20, 20, 20, 1
 stop
 6471, 10
-elipsa 735, 17, 20, 20, 1
+elipsa 735, 20, 20, 20, 1
 stop
 6472, 10
-elipsa 735, 17, 20, 20, 1
+elipsa 735, 20, 20, 20, 1
 stop
 6473, 10
-elipsa 736, 17, 20, 20, 1
+elipsa 736, 20, 20, 20, 1
 stop
 6474, 10
-elipsa 736, 17, 20, 20, 1
+elipsa 736, 20, 20, 20, 1
 stop
 6475, 10
-elipsa 736, 17, 20, 20, 1
+elipsa 736, 20, 20, 20, 1
 stop
 6476, 10
-elipsa 736, 17, 20, 20, 1
+elipsa 736, 20, 20, 20, 1
 stop
 6477, 10
-elipsa 736, 17, 20, 20, 1
+elipsa 736, 20, 20, 20, 1
 stop
 6478, 10
-elipsa 736, 17, 20, 20, 1
+elipsa 736, 20, 20, 20, 1
 stop
 6479, 10
-elipsa 736, 17, 20, 20, 1
+elipsa 736, 20, 20, 20, 1
 stop
 6480, 10
-elipsa 736, 17, 20, 20, 1
+elipsa 736, 20, 20, 20, 1
 stop
 6481, 10
-elipsa 736, 17, 20, 20, 1
+elipsa 736, 20, 20, 20, 1
 stop
 6482, 10
-elipsa 736, 17, 20, 20, 1
+elipsa 736, 20, 20, 20, 1
 stop
 6483, 10
-elipsa 737, 17, 20, 20, 1
+elipsa 737, 20, 20, 20, 1
 stop
 6484, 10
-elipsa 737, 17, 20, 20, 1
+elipsa 737, 20, 20, 20, 1
 stop
 6485, 10
-elipsa 737, 17, 20, 20, 1
+elipsa 737, 20, 20, 20, 1
 stop
 6486, 10
-elipsa 737, 17, 20, 20, 1
+elipsa 737, 20, 20, 20, 1
 stop
 6487, 10
-elipsa 737, 17, 20, 20, 1
+elipsa 737, 20, 20, 20, 1
 stop
 6488, 10
-elipsa 737, 17, 20, 20, 1
+elipsa 737, 20, 20, 20, 1
 stop
 6489, 10
-elipsa 737, 17, 20, 20, 1
+elipsa 737, 20, 20, 20, 1
 stop
 6490, 10
-elipsa 737, 17, 20, 20, 1
+elipsa 737, 20, 20, 20, 1
 stop
 6491, 10
-elipsa 737, 17, 20, 20, 1
+elipsa 737, 20, 20, 20, 1
 stop
 6492, 10
-elipsa 737, 17, 20, 20, 1
+elipsa 737, 20, 20, 20, 1
 stop
 6493, 10
-elipsa 738, 17, 20, 20, 1
+elipsa 738, 20, 20, 20, 1
 stop
 6494, 10
-elipsa 738, 17, 20, 20, 1
+elipsa 738, 20, 20, 20, 1
 stop
 6495, 10
-elipsa 738, 17, 20, 20, 1
+elipsa 738, 20, 20, 20, 1
 stop
 6496, 10
-elipsa 738, 17, 20, 20, 1
+elipsa 738, 20, 20, 20, 1
 stop
 6497, 10
-elipsa 738, 17, 20, 20, 1
+elipsa 738, 20, 20, 20, 1
 stop
 6498, 10
-elipsa 738, 17, 20, 20, 1
+elipsa 738, 20, 20, 20, 1
 stop
 6499, 10
-elipsa 738, 17, 20, 20, 1
+elipsa 738, 20, 20, 20, 1
 stop
 6500, 10
-elipsa 738, 17, 20, 20, 1
+elipsa 738, 20, 20, 20, 1
 stop
 6501, 10
-elipsa 738, 17, 20, 20, 1
+elipsa 738, 20, 20, 20, 1
 stop
 6502, 10
-elipsa 738, 17, 20, 20, 1
+elipsa 738, 20, 20, 20, 1
 stop
 6503, 10
-elipsa 739, 17, 20, 20, 1
+elipsa 739, 20, 20, 20, 1
 stop
 6504, 10
-elipsa 739, 17, 20, 20, 1
+elipsa 739, 20, 20, 20, 1
 stop
 6505, 10
-elipsa 739, 17, 20, 20, 1
+elipsa 739, 20, 20, 20, 1
 stop
 6506, 10
-elipsa 739, 17, 20, 20, 1
+elipsa 739, 20, 20, 20, 1
 stop
 6507, 10
-elipsa 739, 17, 20, 20, 1
+elipsa 739, 20, 20, 20, 1
 stop
 6508, 10
-elipsa 739, 17, 20, 20, 1
+elipsa 739, 20, 20, 20, 1
 stop
 6509, 10
-elipsa 739, 17, 20, 20, 1
+elipsa 739, 20, 20, 20, 1
 stop
 6510, 10
-elipsa 739, 17, 20, 20, 1
+elipsa 739, 20, 20, 20, 1
 stop
 6511, 10
-elipsa 739, 17, 20, 20, 1
+elipsa 739, 20, 20, 20, 1
 stop
 6512, 10
-elipsa 739, 17, 20, 20, 1
+elipsa 739, 20, 20, 20, 1
 stop
 6513, 10
-elipsa 740, 17, 20, 20, 1
+elipsa 740, 20, 20, 20, 1
 stop
 6514, 10
-elipsa 740, 17, 20, 20, 1
+elipsa 740, 20, 20, 20, 1
 stop
 6515, 10
-elipsa 740, 17, 20, 20, 1
+elipsa 740, 20, 20, 20, 1
 stop
 6516, 10
-elipsa 740, 17, 20, 20, 1
+elipsa 740, 20, 20, 20, 1
 stop
 6517, 10
-elipsa 740, 17, 20, 20, 1
+elipsa 740, 20, 20, 20, 1
 stop
 6518, 10
-elipsa 740, 17, 20, 20, 1
+elipsa 740, 20, 20, 20, 1
 stop
 6519, 10
-elipsa 740, 17, 20, 20, 1
+elipsa 740, 20, 20, 20, 1
 stop
 6520, 10
-elipsa 740, 17, 20, 20, 1
+elipsa 740, 20, 20, 20, 1
 stop
 6521, 10
-elipsa 740, 17, 20, 20, 1
+elipsa 740, 20, 20, 20, 1
 stop
 6522, 10
-elipsa 740, 17, 20, 20, 1
+elipsa 740, 20, 20, 20, 1
 stop
 6523, 10
-elipsa 741, 17, 20, 20, 1
+elipsa 741, 20, 20, 20, 1
 stop
 6524, 10
-elipsa 741, 17, 20, 20, 1
+elipsa 741, 20, 20, 20, 1
 stop
 6525, 10
-elipsa 741, 17, 20, 20, 1
+elipsa 741, 20, 20, 20, 1
 stop
 6526, 10
-elipsa 741, 17, 20, 20, 1
+elipsa 741, 20, 20, 20, 1
 stop
 6527, 10
-elipsa 741, 17, 20, 20, 1
+elipsa 741, 20, 20, 20, 1
 stop
 6528, 10
-elipsa 741, 16, 20, 20, 1
+elipsa 741, 20, 20, 20, 1
 stop
 6529, 10
-elipsa 741, 16, 20, 20, 1
+elipsa 741, 20, 20, 20, 1
 stop
 6530, 10
-elipsa 741, 16, 20, 20, 1
+elipsa 741, 20, 20, 20, 1
 stop
 6531, 10
-elipsa 741, 16, 20, 20, 1
+elipsa 741, 20, 20, 20, 1
 stop
 6532, 10
-elipsa 741, 16, 20, 20, 1
+elipsa 741, 20, 20, 20, 1
 stop
 6533, 10
-elipsa 742, 16, 20, 20, 1
+elipsa 742, 20, 20, 20, 1
 stop
 6534, 10
-elipsa 742, 16, 20, 20, 1
+elipsa 742, 20, 20, 20, 1
 stop
 6535, 10
-elipsa 742, 16, 20, 20, 1
+elipsa 742, 20, 20, 20, 1
 stop
 6536, 10
-elipsa 742, 16, 20, 20, 1
+elipsa 742, 20, 20, 20, 1
 stop
 6537, 10
-elipsa 742, 16, 20, 20, 1
+elipsa 742, 20, 20, 20, 1
 stop
 6538, 10
-elipsa 742, 16, 20, 20, 1
+elipsa 742, 20, 20, 20, 1
 stop
 6539, 10
-elipsa 742, 16, 20, 20, 1
+elipsa 742, 20, 20, 20, 1
 stop
 6540, 10
-elipsa 742, 16, 20, 20, 1
+elipsa 742, 20, 20, 20, 1
 stop
 6541, 10
-elipsa 742, 16, 20, 20, 1
+elipsa 742, 20, 20, 20, 1
 stop
 6542, 10
-elipsa 742, 16, 20, 20, 1
+elipsa 742, 20, 20, 20, 1
 stop
 6543, 10
-elipsa 743, 16, 20, 20, 1
+elipsa 743, 20, 20, 20, 1
 stop
 6544, 10
-elipsa 743, 16, 20, 20, 1
+elipsa 743, 20, 20, 20, 1
 stop
 6545, 10
-elipsa 743, 16, 20, 20, 1
+elipsa 743, 20, 20, 20, 1
 stop
 6546, 10
-elipsa 743, 16, 20, 20, 1
+elipsa 743, 20, 20, 20, 1
 stop
 6547, 10
-elipsa 743, 16, 20, 20, 1
+elipsa 743, 20, 20, 20, 1
 stop
 6548, 10
-elipsa 743, 15, 20, 20, 1
+elipsa 743, 20, 20, 20, 1
 stop
 6549, 10
-elipsa 743, 15, 20, 20, 1
+elipsa 743, 20, 20, 20, 1
 stop
 6550, 10
-elipsa 743, 15, 20, 20, 1
+elipsa 743, 20, 20, 20, 1
 stop
 6551, 10
-elipsa 743, 15, 20, 20, 1
+elipsa 743, 20, 20, 20, 1
 stop
 6552, 10
-elipsa 743, 15, 20, 20, 1
+elipsa 743, 20, 20, 20, 1
 stop
 6553, 10
-elipsa 744, 15, 20, 20, 1
+elipsa 744, 20, 20, 20, 1
 stop
 6554, 10
-elipsa 744, 15, 20, 20, 1
+elipsa 744, 20, 20, 20, 1
 stop
 6555, 10
-elipsa 744, 15, 20, 20, 1
+elipsa 744, 20, 20, 20, 1
 stop
 6556, 10
-elipsa 744, 15, 20, 20, 1
+elipsa 744, 20, 20, 20, 1
 stop
 6557, 10
-elipsa 744, 15, 20, 20, 1
+elipsa 744, 20, 20, 20, 1
 stop
 6558, 10
-elipsa 744, 15, 20, 20, 1
+elipsa 744, 20, 20, 20, 1
 stop
 6559, 10
-elipsa 744, 15, 20, 20, 1
+elipsa 744, 20, 20, 20, 1
 stop
 6560, 10
-elipsa 744, 15, 20, 20, 1
+elipsa 744, 20, 20, 20, 1
 stop
 6561, 10
-elipsa 744, 15, 20, 20, 1
+elipsa 744, 20, 20, 20, 1
 stop
 6562, 10
-elipsa 744, 15, 20, 20, 1
+elipsa 744, 20, 20, 20, 1
 stop
 6563, 10
-elipsa 744, 15, 20, 20, 1
+elipsa 744, 20, 20, 20, 1
 stop
 6564, 10
-elipsa 754, 15, 20, 20, 1
+elipsa 754, 20, 20, 20, 1
 stop
 6565, 10
-elipsa 755, 15, 20, 20, 1
+elipsa 755, 20, 20, 20, 1
 stop
 6566, 10
-elipsa 755, 15, 20, 20, 1
+elipsa 755, 20, 20, 20, 1
 stop
 6567, 10
-elipsa 755, 15, 20, 20, 1
+elipsa 755, 20, 20, 20, 1
 stop
 6568, 10
-elipsa 755, 15, 20, 20, 1
+elipsa 755, 20, 20, 20, 1
 stop
 6569, 10
-elipsa 755, 15, 20, 20, 1
+elipsa 755, 20, 20, 20, 1
 stop
 6570, 10
-elipsa 755, 15, 20, 20, 1
+elipsa 755, 20, 20, 20, 1
 stop
 6571, 10
-elipsa 755, 15, 20, 20, 1
+elipsa 755, 20, 20, 20, 1
 stop
 6572, 10
-elipsa 755, 15, 20, 20, 1
+elipsa 755, 20, 20, 20, 1
 stop
 6573, 10
-elipsa 755, 15, 20, 20, 1
+elipsa 755, 20, 20, 20, 1
 stop
 6574, 10
-elipsa 755, 15, 20, 20, 1
+elipsa 755, 20, 20, 20, 1
 stop
 6575, 10
-elipsa 756, 15, 20, 20, 1
+elipsa 756, 20, 20, 20, 1
 stop
 6576, 10
-elipsa 756, 15, 20, 20, 1
+elipsa 756, 20, 20, 20, 1
 stop
 6577, 10
-elipsa 756, 15, 20, 20, 1
+elipsa 756, 20, 20, 20, 1
 stop
 6578, 10
-elipsa 756, 15, 20, 20, 1
+elipsa 756, 20, 20, 20, 1
 stop
 6579, 10
-elipsa 756, 15, 20, 20, 1
+elipsa 756, 20, 20, 20, 1
 stop
 6580, 10
-elipsa 756, 15, 20, 20, 1
+elipsa 756, 20, 20, 20, 1
 stop
 6581, 10
-elipsa 756, 15, 20, 20, 1
+elipsa 756, 20, 20, 20, 1
 stop
 6582, 10
-elipsa 756, 15, 20, 20, 1
+elipsa 756, 20, 20, 20, 1
 stop
 6583, 10
-elipsa 756, 15, 20, 20, 1
+elipsa 756, 20, 20, 20, 1
 stop
 6584, 10
-elipsa 756, 15, 20, 20, 1
+elipsa 756, 20, 20, 20, 1
 stop
 6585, 10
-elipsa 757, 15, 20, 20, 1
+elipsa 757, 20, 20, 20, 1
 stop
 6586, 10
-elipsa 757, 15, 20, 20, 1
+elipsa 757, 20, 20, 20, 1
 stop
 6587, 10
-elipsa 757, 16, 20, 20, 1
+elipsa 757, 20, 20, 20, 1
 stop
 6588, 10
-elipsa 757, 16, 20, 20, 1
+elipsa 757, 20, 20, 20, 1
 stop
 6589, 10
-elipsa 757, 16, 20, 20, 1
+elipsa 757, 20, 20, 20, 1
 stop
 6590, 10
-elipsa 757, 16, 20, 20, 1
+elipsa 757, 20, 20, 20, 1
 stop
 6591, 10
-elipsa 757, 16, 20, 20, 1
+elipsa 757, 20, 20, 20, 1
 stop
 6592, 10
-elipsa 757, 16, 20, 20, 1
+elipsa 757, 20, 20, 20, 1
 stop
 6593, 10
-elipsa 757, 16, 20, 20, 1
+elipsa 757, 20, 20, 20, 1
 stop
 6594, 10
-elipsa 757, 16, 20, 20, 1
+elipsa 757, 20, 20, 20, 1
 stop
 6595, 10
-elipsa 758, 16, 20, 20, 1
+elipsa 758, 20, 20, 20, 1
 stop
 6596, 10
-elipsa 758, 16, 20, 20, 1
+elipsa 758, 20, 20, 20, 1
 stop
 6597, 10
-elipsa 758, 16, 20, 20, 1
+elipsa 758, 20, 20, 20, 1
 stop
 6598, 10
-elipsa 758, 16, 20, 20, 1
+elipsa 758, 20, 20, 20, 1
 stop
 6599, 10
-elipsa 758, 16, 20, 20, 1
+elipsa 758, 20, 20, 20, 1
 stop
 6600, 10
-elipsa 758, 16, 20, 20, 1
+elipsa 758, 20, 20, 20, 1
 stop
 6601, 10
-elipsa 758, 16, 20, 20, 1
+elipsa 758, 20, 20, 20, 1
 stop
 6602, 10
-elipsa 758, 16, 20, 20, 1
+elipsa 758, 20, 20, 20, 1
 stop
 6603, 10
-elipsa 758, 16, 20, 20, 1
+elipsa 758, 20, 20, 20, 1
 stop
 6604, 10
-elipsa 758, 16, 20, 20, 1
+elipsa 758, 20, 20, 20, 1
 stop
 6605, 10
-elipsa 759, 16, 20, 20, 1
+elipsa 759, 20, 20, 20, 1
 stop
 6606, 10
-elipsa 759, 16, 20, 20, 1
+elipsa 759, 20, 20, 20, 1
 stop
 6607, 10
-elipsa 759, 16, 20, 20, 1
+elipsa 759, 20, 20, 20, 1
 stop
 6608, 10
-elipsa 759, 16, 20, 20, 1
+elipsa 759, 20, 20, 20, 1
 stop
 6609, 10
-elipsa 759, 16, 20, 20, 1
+elipsa 759, 20, 20, 20, 1
 stop
 6610, 10
-elipsa 759, 16, 20, 20, 1
+elipsa 759, 20, 20, 20, 1
 stop
 6611, 10
-elipsa 759, 16, 20, 20, 1
+elipsa 759, 20, 20, 20, 1
 stop
 6612, 10
-elipsa 759, 16, 20, 20, 1
+elipsa 759, 20, 20, 20, 1
 stop
 6613, 10
-elipsa 759, 16, 20, 20, 1
+elipsa 759, 20, 20, 20, 1
 stop
 6614, 10
-elipsa 759, 16, 20, 20, 1
+elipsa 759, 20, 20, 20, 1
 stop
 6615, 10
-elipsa 760, 16, 20, 20, 1
+elipsa 760, 20, 20, 20, 1
 stop
 6616, 10
-elipsa 760, 16, 20, 20, 1
+elipsa 760, 20, 20, 20, 1
 stop
 6617, 10
-elipsa 760, 16, 20, 20, 1
+elipsa 760, 20, 20, 20, 1
 stop
 6618, 10
-elipsa 760, 16, 20, 20, 1
+elipsa 760, 20, 20, 20, 1
 stop
 6619, 10
-elipsa 760, 16, 20, 20, 1
+elipsa 760, 20, 20, 20, 1
 stop
 6620, 10
-elipsa 760, 16, 20, 20, 1
+elipsa 760, 20, 20, 20, 1
 stop
 6621, 10
-elipsa 760, 16, 20, 20, 1
+elipsa 760, 20, 20, 20, 1
 stop
 6622, 10
-elipsa 760, 16, 20, 20, 1
+elipsa 760, 20, 20, 20, 1
 stop
 6623, 10
-elipsa 760, 16, 20, 20, 1
+elipsa 760, 20, 20, 20, 1
 stop
 6624, 10
-elipsa 760, 16, 20, 20, 1
+elipsa 760, 20, 20, 20, 1
 stop
 6625, 10
-elipsa 761, 16, 20, 20, 1
+elipsa 761, 20, 20, 20, 1
 stop
 6626, 10
-elipsa 761, 16, 20, 20, 1
+elipsa 761, 20, 20, 20, 1
 stop
 6627, 10
-elipsa 761, 16, 20, 20, 1
+elipsa 761, 20, 20, 20, 1
 stop
 6628, 10
-elipsa 761, 16, 20, 20, 1
+elipsa 761, 20, 20, 20, 1
 stop
 6629, 10
-elipsa 761, 16, 20, 20, 1
+elipsa 761, 20, 20, 20, 1
 stop
 6630, 10
-elipsa 761, 16, 20, 20, 1
+elipsa 761, 20, 20, 20, 1
 stop
 6631, 10
-elipsa 761, 16, 20, 20, 1
+elipsa 761, 20, 20, 20, 1
 stop
 6632, 10
-elipsa 761, 16, 20, 20, 1
+elipsa 761, 20, 20, 20, 1
 stop
 6633, 10
-elipsa 761, 16, 20, 20, 1
+elipsa 761, 20, 20, 20, 1
 stop
 6634, 10
-elipsa 761, 16, 20, 20, 1
+elipsa 761, 20, 20, 20, 1
 stop
 6635, 10
-elipsa 762, 16, 20, 20, 1
+elipsa 762, 20, 20, 20, 1
 stop
 6636, 10
-elipsa 762, 16, 20, 20, 1
+elipsa 762, 20, 20, 20, 1
 stop
 6637, 10
-elipsa 762, 16, 20, 20, 1
+elipsa 762, 20, 20, 20, 1
 stop
 6638, 10
-elipsa 762, 16, 20, 20, 1
+elipsa 762, 20, 20, 20, 1
 stop
 6639, 10
-elipsa 762, 16, 20, 20, 1
+elipsa 762, 20, 20, 20, 1
 stop
 6640, 10
-elipsa 762, 16, 20, 20, 1
+elipsa 762, 20, 20, 20, 1
 stop
 6641, 10
-elipsa 762, 16, 20, 20, 1
+elipsa 762, 20, 20, 20, 1
 stop
 6642, 10
-elipsa 762, 16, 20, 20, 1
+elipsa 762, 20, 20, 20, 1
 stop
 6643, 10
-elipsa 762, 16, 20, 20, 1
+elipsa 762, 20, 20, 20, 1
 stop
 6644, 10
-elipsa 762, 16, 20, 20, 1
+elipsa 762, 20, 20, 20, 1
 stop
 6645, 10
-elipsa 763, 16, 20, 20, 1
+elipsa 763, 20, 20, 20, 1
 stop
 6646, 10
-elipsa 763, 16, 20, 20, 1
+elipsa 763, 20, 20, 20, 1
 stop
 6647, 10
-elipsa 763, 16, 20, 20, 1
+elipsa 763, 20, 20, 20, 1
 stop
 6648, 10
-elipsa 763, 16, 20, 20, 1
+elipsa 763, 20, 20, 20, 1
 stop
 6649, 10
-elipsa 763, 16, 20, 20, 1
+elipsa 763, 20, 20, 20, 1
 stop
 6650, 10
-elipsa 763, 16, 20, 20, 1
+elipsa 763, 20, 20, 20, 1
 stop
 6651, 10
-elipsa 763, 16, 20, 20, 1
+elipsa 763, 20, 20, 20, 1
 stop
 6652, 10
-elipsa 763, 16, 20, 20, 1
+elipsa 763, 20, 20, 20, 1
 stop
 6653, 10
-elipsa 763, 16, 20, 20, 1
+elipsa 763, 20, 20, 20, 1
 stop
 6654, 10
-elipsa 763, 16, 20, 20, 1
+elipsa 763, 20, 20, 20, 1
 stop
 6655, 10
-elipsa 764, 15, 20, 20, 1
+elipsa 764, 20, 20, 20, 1
 stop
 6656, 10
-elipsa 764, 15, 20, 20, 1
+elipsa 764, 20, 20, 20, 1
 stop
 6657, 10
-elipsa 764, 15, 20, 20, 1
+elipsa 764, 20, 20, 20, 1
 stop
 6658, 10
-elipsa 764, 15, 20, 20, 1
+elipsa 764, 20, 20, 20, 1
 stop
 6659, 10
-elipsa 764, 15, 20, 20, 1
+elipsa 764, 20, 20, 20, 1
 stop
 6660, 10
-elipsa 764, 15, 20, 20, 1
+elipsa 764, 20, 20, 20, 1
 stop
 6661, 10
-elipsa 764, 15, 20, 20, 1
+elipsa 764, 20, 20, 20, 1
 stop
 6662, 10
-elipsa 764, 15, 20, 20, 1
+elipsa 764, 20, 20, 20, 1
 stop
 6663, 10
-elipsa 764, 15, 20, 20, 1
+elipsa 764, 20, 20, 20, 1
 stop
 6664, 10
-elipsa 764, 15, 20, 20, 1
+elipsa 764, 20, 20, 20, 1
 stop
 6665, 10
-elipsa 765, 15, 20, 20, 1
+elipsa 765, 20, 20, 20, 1
 stop
 6666, 10
-elipsa 765, 15, 20, 20, 1
+elipsa 765, 20, 20, 20, 1
 stop
 6667, 10
-elipsa 765, 15, 20, 20, 1
+elipsa 765, 20, 20, 20, 1
 stop
 6668, 10
-elipsa 765, 15, 20, 20, 1
+elipsa 765, 20, 20, 20, 1
 stop
 6669, 10
-elipsa 765, 15, 20, 20, 1
+elipsa 765, 20, 20, 20, 1
 stop
 6670, 10
-elipsa 765, 15, 20, 20, 1
+elipsa 765, 20, 20, 20, 1
 stop
 6671, 10
-elipsa 765, 15, 20, 20, 1
+elipsa 765, 20, 20, 20, 1
 stop
 6672, 10
-elipsa 765, 15, 20, 20, 1
+elipsa 765, 20, 20, 20, 1
 stop
 6673, 10
-elipsa 765, 15, 20, 20, 1
+elipsa 765, 20, 20, 20, 1
 stop
 6674, 10
-elipsa 765, 15, 20, 20, 1
+elipsa 765, 20, 20, 20, 1
 stop
 6675, 10
-elipsa 766, 15, 20, 20, 1
+elipsa 766, 20, 20, 20, 1
 stop
 6676, 10
-elipsa 766, 15, 20, 20, 1
+elipsa 766, 20, 20, 20, 1
 stop
 6677, 10
-elipsa 766, 15, 20, 20, 1
+elipsa 766, 20, 20, 20, 1
 stop
 6678, 10
-elipsa 776, 15, 20, 20, 1
+elipsa 776, 20, 20, 20, 1
 stop
 6679, 10
-elipsa 776, 15, 20, 20, 1
+elipsa 776, 20, 20, 20, 1
 stop
 6680, 10
-elipsa 776, 15, 20, 20, 1
+elipsa 776, 20, 20, 20, 1
 stop
 6681, 10
-elipsa 776, 15, 20, 20, 1
+elipsa 776, 20, 20, 20, 1
 stop
 6682, 10
-elipsa 776, 15, 20, 20, 1
+elipsa 776, 20, 20, 20, 1
 stop
 6683, 10
-elipsa 776, 15, 20, 20, 1
+elipsa 776, 20, 20, 20, 1
 stop
 6684, 10
-elipsa 776, 15, 20, 20, 1
+elipsa 776, 20, 20, 20, 1
 stop
 6685, 10
-elipsa 776, 15, 20, 20, 1
+elipsa 776, 20, 20, 20, 1
 stop
 6686, 10
-elipsa 777, 15, 20, 20, 1
+elipsa 777, 20, 20, 20, 1
 stop
 6687, 10
-elipsa 777, 15, 20, 20, 1
+elipsa 777, 20, 20, 20, 1
 stop
 6688, 10
-elipsa 777, 15, 20, 20, 1
+elipsa 777, 20, 20, 20, 1
 stop
 6689, 10
-elipsa 777, 15, 20, 20, 1
+elipsa 777, 20, 20, 20, 1
 stop
 6690, 10
-elipsa 777, 15, 20, 20, 1
+elipsa 777, 20, 20, 20, 1
 stop
 6691, 10
-elipsa 777, 15, 20, 20, 1
+elipsa 777, 20, 20, 20, 1
 stop
 6692, 10
-elipsa 777, 15, 20, 20, 1
+elipsa 777, 20, 20, 20, 1
 stop
 6693, 10
-elipsa 777, 15, 20, 20, 1
+elipsa 777, 20, 20, 20, 1
 stop
 6694, 10
-elipsa 777, 15, 20, 20, 1
+elipsa 777, 20, 20, 20, 1
 stop
 6695, 10
-elipsa 777, 15, 20, 20, 1
+elipsa 777, 20, 20, 20, 1
 stop
 6696, 10
-elipsa 778, 15, 20, 20, 1
+elipsa 778, 20, 20, 20, 1
 stop
 6697, 10
-elipsa 778, 15, 20, 20, 1
+elipsa 778, 20, 20, 20, 1
 stop
 6698, 10
-elipsa 778, 15, 20, 20, 1
+elipsa 778, 20, 20, 20, 1
 stop
 6699, 10
-elipsa 778, 15, 20, 20, 1
+elipsa 778, 20, 20, 20, 1
 stop
 6700, 10
-elipsa 778, 15, 20, 20, 1
+elipsa 778, 20, 20, 20, 1
 stop
 6701, 10
-elipsa 778, 15, 20, 20, 1
+elipsa 778, 20, 20, 20, 1
 stop
 6702, 10
-elipsa 778, 15, 20, 20, 1
+elipsa 778, 20, 20, 20, 1
 stop
 6703, 10
-elipsa 778, 15, 20, 20, 1
+elipsa 778, 20, 20, 20, 1
 stop
 6704, 10
-elipsa 778, 15, 20, 20, 1
+elipsa 778, 20, 20, 20, 1
 stop
 6705, 10
-elipsa 778, 15, 20, 20, 1
+elipsa 778, 20, 20, 20, 1
 stop
 6706, 10
-elipsa 779, 15, 20, 20, 1
+elipsa 779, 20, 20, 20, 1
 stop
 6707, 10
-elipsa 779, 15, 20, 20, 1
+elipsa 779, 20, 20, 20, 1
 stop
 6708, 10
-elipsa 779, 15, 20, 20, 1
+elipsa 779, 20, 20, 20, 1
 stop
 6709, 10
-elipsa 779, 15, 20, 20, 1
+elipsa 779, 20, 20, 20, 1
 stop
 6710, 10
-elipsa 779, 15, 20, 20, 1
+elipsa 779, 20, 20, 20, 1
 stop
 6711, 10
-elipsa 779, 15, 20, 20, 1
+elipsa 779, 20, 20, 20, 1
 stop
 6712, 10
-elipsa 779, 15, 20, 20, 1
+elipsa 779, 20, 20, 20, 1
 stop
 6713, 10
-elipsa 779, 15, 20, 20, 1
+elipsa 779, 20, 20, 20, 1
 stop
 6714, 10
-elipsa 779, 15, 20, 20, 1
+elipsa 779, 20, 20, 20, 1
 stop
 6715, 10
-elipsa 779, 15, 20, 20, 1
+elipsa 779, 20, 20, 20, 1
 stop
 6716, 10
-elipsa 780, 15, 20, 20, 1
+elipsa 780, 20, 20, 20, 1
 stop
 6717, 10
-elipsa 780, 15, 20, 20, 1
+elipsa 780, 20, 20, 20, 1
 stop
 6718, 10
-elipsa 780, 15, 20, 20, 1
+elipsa 780, 20, 20, 20, 1
 stop
 6719, 10
-elipsa 780, 15, 20, 20, 1
+elipsa 780, 20, 20, 20, 1
 stop
 6720, 10
-elipsa 780, 15, 20, 20, 1
+elipsa 780, 20, 20, 20, 1
 stop
 6721, 10
-elipsa 780, 15, 20, 20, 1
+elipsa 780, 20, 20, 20, 1
 stop
 6722, 10
-elipsa 780, 15, 20, 20, 1
+elipsa 780, 20, 20, 20, 1
 stop
 6723, 10
-elipsa 780, 15, 20, 20, 1
+elipsa 780, 20, 20, 20, 1
 stop
 6724, 10
-elipsa 780, 15, 20, 20, 1
+elipsa 780, 20, 20, 20, 1
 stop
 6725, 10
-elipsa 780, 15, 20, 20, 1
+elipsa 780, 20, 20, 20, 1
 stop
 6726, 10
-elipsa 781, 15, 20, 20, 1
+elipsa 781, 20, 20, 20, 1
 stop
 6727, 10
-elipsa 781, 15, 20, 20, 1
+elipsa 781, 20, 20, 20, 1
 stop
 6728, 10
-elipsa 781, 15, 20, 20, 1
+elipsa 781, 20, 20, 20, 1
 stop
 6729, 10
-elipsa 781, 15, 20, 20, 1
+elipsa 781, 20, 20, 20, 1
 stop
 6730, 10
-elipsa 781, 15, 20, 20, 1
+elipsa 781, 20, 20, 20, 1
 stop
 6731, 10
-elipsa 781, 15, 20, 20, 1
+elipsa 781, 20, 20, 20, 1
 stop
 6732, 10
-elipsa 781, 15, 20, 20, 1
+elipsa 781, 20, 20, 20, 1
 stop
 6733, 10
-elipsa 781, 15, 20, 20, 1
+elipsa 781, 20, 20, 20, 1
 stop
 6734, 10
-elipsa 781, 15, 20, 20, 1
+elipsa 781, 20, 20, 20, 1
 stop
 6735, 10
-elipsa 781, 15, 20, 20, 1
+elipsa 781, 20, 20, 20, 1
 stop
 6736, 10
-elipsa 782, 15, 20, 20, 1
+elipsa 782, 20, 20, 20, 1
 stop
 6737, 10
-elipsa 782, 15, 20, 20, 1
+elipsa 782, 20, 20, 20, 1
 stop
 6738, 10
-elipsa 782, 15, 20, 20, 1
+elipsa 782, 20, 20, 20, 1
 stop
 6739, 10
-elipsa 782, 15, 20, 20, 1
+elipsa 782, 20, 20, 20, 1
 stop
 6740, 10
-elipsa 782, 15, 20, 20, 1
+elipsa 782, 20, 20, 20, 1
 stop
 6741, 10
-elipsa 782, 15, 20, 20, 1
+elipsa 782, 20, 20, 20, 1
 stop
 6742, 10
-elipsa 782, 15, 20, 20, 1
+elipsa 782, 20, 20, 20, 1
 stop
 6743, 10
-elipsa 782, 15, 20, 20, 1
+elipsa 782, 20, 20, 20, 1
 stop
 6744, 10
-elipsa 782, 15, 20, 20, 1
+elipsa 782, 20, 20, 20, 1
 stop
 6745, 10
-elipsa 782, 15, 20, 20, 1
+elipsa 782, 20, 20, 20, 1
 stop
 6746, 10
-elipsa 783, 15, 20, 20, 1
+elipsa 783, 20, 20, 20, 1
 stop
 6747, 10
-elipsa 783, 15, 20, 20, 1
+elipsa 783, 20, 20, 20, 1
 stop
 6748, 10
-elipsa 783, 15, 20, 20, 1
+elipsa 783, 20, 20, 20, 1
 stop
 6749, 10
-elipsa 783, 15, 20, 20, 1
+elipsa 783, 20, 20, 20, 1
 stop
 6750, 10
-elipsa 783, 15, 20, 20, 1
+elipsa 783, 20, 20, 20, 1
 stop
 6751, 10
-elipsa 783, 15, 20, 20, 1
+elipsa 783, 20, 20, 20, 1
 stop
 6752, 10
-elipsa 783, 15, 20, 20, 1
+elipsa 783, 20, 20, 20, 1
 stop
 6753, 10
-elipsa 783, 15, 20, 20, 1
+elipsa 783, 20, 20, 20, 1
 stop
 6754, 10
-elipsa 783, 15, 20, 20, 1
+elipsa 783, 20, 20, 20, 1
 stop
 6755, 10
-elipsa 783, 15, 20, 20, 1
+elipsa 783, 20, 20, 20, 1
 stop
 6756, 10
-elipsa 784, 15, 20, 20, 1
+elipsa 784, 20, 20, 20, 1
 stop
 6757, 10
-elipsa 784, 15, 20, 20, 1
+elipsa 784, 20, 20, 20, 1
 stop
 6758, 10
-elipsa 784, 15, 20, 20, 1
+elipsa 784, 20, 20, 20, 1
 stop
 6759, 10
-elipsa 784, 15, 20, 20, 1
+elipsa 784, 20, 20, 20, 1
 stop
 6760, 10
-elipsa 784, 15, 20, 20, 1
+elipsa 784, 20, 20, 20, 1
 stop
 6761, 10
-elipsa 784, 15, 20, 20, 1
+elipsa 784, 20, 20, 20, 1
 stop
 6762, 10
-elipsa 784, 15, 20, 20, 1
+elipsa 784, 20, 20, 20, 1
 stop
 6763, 10
-elipsa 784, 15, 20, 20, 1
+elipsa 784, 20, 20, 20, 1
 stop
 6764, 10
-elipsa 794, 15, 20, 20, 1
+elipsa 794, 20, 20, 20, 1
 stop
 6765, 10
-elipsa 794, 15, 20, 20, 1
+elipsa 794, 20, 20, 20, 1
 stop
 6766, 10
-elipsa 794, 15, 20, 20, 1
+elipsa 794, 20, 20, 20, 1
 stop
 6767, 10
-elipsa 794, 15, 20, 20, 1
+elipsa 794, 20, 20, 20, 1
 stop
 6768, 10
-elipsa 795, 15, 20, 20, 1
+elipsa 795, 20, 20, 20, 1
 stop
 6769, 10
-elipsa 795, 15, 20, 20, 1
+elipsa 795, 20, 20, 20, 1
 stop
 6770, 10
-elipsa 795, 15, 20, 20, 1
+elipsa 795, 20, 20, 20, 1
 stop
 6771, 10
-elipsa 795, 15, 20, 20, 1
+elipsa 795, 20, 20, 20, 1
 stop
 6772, 10
-elipsa 795, 15, 20, 20, 1
+elipsa 795, 20, 20, 20, 1
 stop
 6773, 10
-elipsa 795, 15, 20, 20, 1
+elipsa 795, 20, 20, 20, 1
 stop
 6774, 10
-elipsa 795, 15, 20, 20, 1
+elipsa 795, 20, 20, 20, 1
 stop
 6775, 10
-elipsa 795, 15, 20, 20, 1
+elipsa 795, 20, 20, 20, 1
 stop
 6776, 10
-elipsa 795, 15, 20, 20, 1
+elipsa 795, 20, 20, 20, 1
 stop
 6777, 10
-elipsa 795, 15, 20, 20, 1
+elipsa 795, 20, 20, 20, 1
 stop
 6778, 10
-elipsa 796, 15, 20, 20, 1
+elipsa 796, 20, 20, 20, 1
 stop
 6779, 10
-elipsa 796, 15, 20, 20, 1
+elipsa 796, 20, 20, 20, 1
 stop
 6780, 10
-elipsa 796, 15, 20, 20, 1
+elipsa 796, 20, 20, 20, 1
 stop
 6781, 10
-elipsa 796, 15, 20, 20, 1
+elipsa 796, 20, 20, 20, 1
 stop
 6782, 10
-elipsa 796, 15, 20, 20, 1
+elipsa 796, 20, 20, 20, 1
 stop
 6783, 10
-elipsa 796, 15, 20, 20, 1
+elipsa 796, 20, 20, 20, 1
 stop
 6784, 10
-elipsa 796, 15, 20, 20, 1
+elipsa 796, 20, 20, 20, 1
 stop
 6785, 10
-elipsa 796, 15, 20, 20, 1
+elipsa 796, 20, 20, 20, 1
 stop
 6786, 10
-elipsa 796, 15, 20, 20, 1
+elipsa 796, 20, 20, 20, 1
 stop
 6787, 10
-elipsa 796, 15, 20, 20, 1
+elipsa 796, 20, 20, 20, 1
 stop
 6788, 10
-elipsa 797, 15, 20, 20, 1
+elipsa 797, 20, 20, 20, 1
 stop
 6789, 10
-elipsa 797, 15, 20, 20, 1
+elipsa 797, 20, 20, 20, 1
 stop
 6790, 10
-elipsa 797, 15, 20, 20, 1
+elipsa 797, 20, 20, 20, 1
 stop
 6791, 10
-elipsa 797, 15, 20, 20, 1
+elipsa 797, 20, 20, 20, 1
 stop
 6792, 10
-elipsa 797, 15, 20, 20, 1
+elipsa 797, 20, 20, 20, 1
 stop
 6793, 10
-elipsa 797, 15, 20, 20, 1
+elipsa 797, 20, 20, 20, 1
 stop
 6794, 10
-elipsa 797, 15, 20, 20, 1
+elipsa 797, 20, 20, 20, 1
 stop
 6795, 10
-elipsa 797, 15, 20, 20, 1
+elipsa 797, 20, 20, 20, 1
 stop
 6796, 10
-elipsa 797, 15, 20, 20, 1
+elipsa 797, 20, 20, 20, 1
 stop
 6797, 10
-elipsa 797, 15, 20, 20, 1
+elipsa 797, 20, 20, 20, 1
 stop
 6798, 10
-elipsa 798, 15, 20, 20, 1
+elipsa 798, 20, 20, 20, 1
 stop
 6799, 10
-elipsa 798, 15, 20, 20, 1
+elipsa 798, 20, 20, 20, 1
 stop
 6800, 10
-elipsa 798, 15, 20, 20, 1
+elipsa 798, 20, 20, 20, 1
 stop
 6801, 10
-elipsa 798, 15, 20, 20, 1
+elipsa 798, 20, 20, 20, 1
 stop
 6802, 10
-elipsa 798, 15, 20, 20, 1
+elipsa 798, 20, 20, 20, 1
 stop
 6803, 10
-elipsa 798, 15, 20, 20, 1
+elipsa 798, 20, 20, 20, 1
 stop
 6804, 10
-elipsa 798, 15, 20, 20, 1
+elipsa 798, 20, 20, 20, 1
 stop
 6805, 10
-elipsa 798, 15, 20, 20, 1
+elipsa 798, 20, 20, 20, 1
 stop
 6806, 10
-elipsa 798, 15, 20, 20, 1
+elipsa 798, 20, 20, 20, 1
 stop
 6807, 10
-elipsa 798, 15, 20, 20, 1
+elipsa 798, 20, 20, 20, 1
 stop
 6808, 10
-elipsa 799, 15, 20, 20, 1
+elipsa 799, 20, 20, 20, 1
 stop
 6809, 10
-elipsa 799, 15, 20, 20, 1
+elipsa 799, 20, 20, 20, 1
 stop
 6810, 10
-elipsa 799, 15, 20, 20, 1
+elipsa 799, 20, 20, 20, 1
 stop
 6811, 10
-elipsa 799, 15, 20, 20, 1
+elipsa 799, 20, 20, 20, 1
 stop
 6812, 10
-elipsa 799, 15, 20, 20, 1
+elipsa 799, 20, 20, 20, 1
 stop
 6813, 10
-elipsa 799, 15, 20, 20, 1
+elipsa 799, 20, 20, 20, 1
 stop
 6814, 10
-elipsa 799, 15, 20, 20, 1
+elipsa 799, 20, 20, 20, 1
 stop
 6815, 10
-elipsa 799, 15, 20, 20, 1
+elipsa 799, 20, 20, 20, 1
 stop
 6816, 10
-elipsa 799, 15, 20, 20, 1
+elipsa 799, 20, 20, 20, 1
 stop
 6817, 10
-elipsa 799, 15, 20, 20, 1
+elipsa 799, 20, 20, 20, 1
 stop
 6818, 10
-elipsa 800, 15, 20, 20, 1
+elipsa 800, 20, 20, 20, 1
 stop
 6819, 10
-elipsa 800, 15, 20, 20, 1
+elipsa 800, 20, 20, 20, 1
 stop
 6820, 10
-elipsa 800, 15, 20, 20, 1
+elipsa 800, 20, 20, 20, 1
 stop
 6821, 10
-elipsa 800, 15, 20, 20, 1
+elipsa 800, 20, 20, 20, 1
 stop
 6822, 10
-elipsa 800, 15, 20, 20, 1
+elipsa 800, 20, 20, 20, 1
 stop
 6823, 10
-elipsa 800, 15, 20, 20, 1
+elipsa 800, 20, 20, 20, 1
 stop
 6824, 10
-elipsa 800, 15, 20, 20, 1
+elipsa 800, 20, 20, 20, 1
 stop
 6825, 10
-elipsa 800, 15, 20, 20, 1
+elipsa 800, 20, 20, 20, 1
 stop
 6826, 10
-elipsa 800, 15, 20, 20, 1
+elipsa 800, 20, 20, 20, 1
 stop
 6827, 10
-elipsa 800, 15, 20, 20, 1
+elipsa 800, 20, 20, 20, 1
 stop
 6828, 10
-elipsa 800, 15, 20, 20, 1
+elipsa 800, 20, 20, 20, 1
 stop
 6829, 10
-elipsa 810, 15, 20, 20, 1
+elipsa 810, 20, 20, 20, 1
 stop
 6830, 10
-elipsa 811, 15, 20, 20, 1
+elipsa 811, 20, 20, 20, 1
 stop
 6831, 10
-elipsa 811, 15, 20, 20, 1
+elipsa 811, 20, 20, 20, 1
 stop
 6832, 10
-elipsa 811, 15, 20, 20, 1
+elipsa 811, 20, 20, 20, 1
 stop
 6833, 10
-elipsa 811, 15, 20, 20, 1
+elipsa 811, 20, 20, 20, 1
 stop
 6834, 10
-elipsa 811, 15, 20, 20, 1
+elipsa 811, 20, 20, 20, 1
 stop
 6835, 10
-elipsa 811, 15, 20, 20, 1
+elipsa 811, 20, 20, 20, 1
 stop
 6836, 10
-elipsa 811, 15, 20, 20, 1
+elipsa 811, 20, 20, 20, 1
 stop
 6837, 10
-elipsa 811, 15, 20, 20, 1
+elipsa 811, 20, 20, 20, 1
 stop
 6838, 10
-elipsa 811, 15, 20, 20, 1
+elipsa 811, 20, 20, 20, 1
 stop
 6839, 10
-elipsa 811, 15, 20, 20, 1
+elipsa 811, 20, 20, 20, 1
 stop
 6840, 10
-elipsa 812, 15, 20, 20, 1
+elipsa 812, 20, 20, 20, 1
 stop
 6841, 10
-elipsa 812, 15, 20, 20, 1
+elipsa 812, 20, 20, 20, 1
 stop
 6842, 10
-elipsa 812, 15, 20, 20, 1
+elipsa 812, 20, 20, 20, 1
 stop
 6843, 10
-elipsa 812, 15, 20, 20, 1
+elipsa 812, 20, 20, 20, 1
 stop
 6844, 10
-elipsa 812, 15, 20, 20, 1
+elipsa 812, 20, 20, 20, 1
 stop
 6845, 10
-elipsa 812, 15, 20, 20, 1
+elipsa 812, 20, 20, 20, 1
 stop
 6846, 10
-elipsa 812, 15, 20, 20, 1
+elipsa 812, 20, 20, 20, 1
 stop
 6847, 10
-elipsa 812, 15, 20, 20, 1
+elipsa 812, 20, 20, 20, 1
 stop
 6848, 10
-elipsa 812, 15, 20, 20, 1
+elipsa 812, 20, 20, 20, 1
 stop
 6849, 10
-elipsa 812, 15, 20, 20, 1
+elipsa 812, 20, 20, 20, 1
 stop
 6850, 10
-elipsa 813, 15, 20, 20, 1
+elipsa 813, 20, 20, 20, 1
 stop
 6851, 10
-elipsa 813, 15, 20, 20, 1
+elipsa 813, 20, 20, 20, 1
 stop
 6852, 10
-elipsa 813, 15, 20, 20, 1
+elipsa 813, 20, 20, 20, 1
 stop
 6853, 10
-elipsa 813, 15, 20, 20, 1
+elipsa 813, 20, 20, 20, 1
 stop
 6854, 10
-elipsa 813, 15, 20, 20, 1
+elipsa 813, 20, 20, 20, 1
 stop
 6855, 10
-elipsa 813, 15, 20, 20, 1
+elipsa 813, 20, 20, 20, 1
 stop
 6856, 10
-elipsa 813, 15, 20, 20, 1
+elipsa 813, 20, 20, 20, 1
 stop
 6857, 10
-elipsa 813, 15, 20, 20, 1
+elipsa 813, 20, 20, 20, 1
 stop
 6858, 10
-elipsa 813, 15, 20, 20, 1
+elipsa 813, 20, 20, 20, 1
 stop
 6859, 10
-elipsa 813, 15, 20, 20, 1
+elipsa 813, 20, 20, 20, 1
 stop
 6860, 10
-elipsa 814, 15, 20, 20, 1
+elipsa 814, 20, 20, 20, 1
 stop
 6861, 10
-elipsa 814, 15, 20, 20, 1
+elipsa 814, 20, 20, 20, 1
 stop
 6862, 10
-elipsa 814, 15, 20, 20, 1
+elipsa 814, 20, 20, 20, 1
 stop
 6863, 10
-elipsa 814, 15, 20, 20, 1
+elipsa 814, 20, 20, 20, 1
 stop
 6864, 10
-elipsa 814, 15, 20, 20, 1
+elipsa 814, 20, 20, 20, 1
 stop
 6865, 10
-elipsa 814, 15, 20, 20, 1
+elipsa 814, 20, 20, 20, 1
 stop
 6866, 10
-elipsa 814, 15, 20, 20, 1
+elipsa 814, 20, 20, 20, 1
 stop
 6867, 10
-elipsa 814, 15, 20, 20, 1
+elipsa 814, 20, 20, 20, 1
 stop
 6868, 10
-elipsa 814, 15, 20, 20, 1
+elipsa 814, 20, 20, 20, 1
 stop
 6869, 10
-elipsa 814, 15, 20, 20, 1
+elipsa 814, 20, 20, 20, 1
 stop
 6870, 10
-elipsa 815, 15, 20, 20, 1
+elipsa 815, 20, 20, 20, 1
 stop
 6871, 10
-elipsa 815, 15, 20, 20, 1
+elipsa 815, 20, 20, 20, 1
 stop
 6872, 10
-elipsa 815, 15, 20, 20, 1
+elipsa 815, 20, 20, 20, 1
 stop
 6873, 10
-elipsa 815, 15, 20, 20, 1
+elipsa 815, 20, 20, 20, 1
 stop
 6874, 10
-elipsa 815, 15, 20, 20, 1
+elipsa 815, 20, 20, 20, 1
 stop
 6875, 10
-elipsa 815, 15, 20, 20, 1
+elipsa 815, 20, 20, 20, 1
 stop
 6876, 10
-elipsa 815, 15, 20, 20, 1
+elipsa 815, 20, 20, 20, 1
 stop
 6877, 10
-elipsa 815, 15, 20, 20, 1
+elipsa 815, 20, 20, 20, 1
 stop
 6878, 10
-elipsa 825, 15, 20, 20, 1
+elipsa 825, 20, 20, 20, 1
 stop
 6879, 10
-elipsa 825, 15, 20, 20, 1
+elipsa 825, 20, 20, 20, 1
 stop
 6880, 10
-elipsa 825, 15, 20, 20, 1
+elipsa 825, 20, 20, 20, 1
 stop
 6881, 10
-elipsa 826, 15, 20, 20, 1
+elipsa 826, 20, 20, 20, 1
 stop
 6882, 10
-elipsa 826, 15, 20, 20, 1
+elipsa 826, 20, 20, 20, 1
 stop
 6883, 10
-elipsa 826, 15, 20, 20, 1
+elipsa 826, 20, 20, 20, 1
 stop
 6884, 10
-elipsa 826, 15, 20, 20, 1
+elipsa 826, 20, 20, 20, 1
 stop
 6885, 10
-elipsa 826, 15, 20, 20, 1
+elipsa 826, 20, 20, 20, 1
 stop
 6886, 10
-elipsa 826, 15, 20, 20, 1
+elipsa 826, 20, 20, 20, 1
 stop
 6887, 10
-elipsa 826, 15, 20, 20, 1
+elipsa 826, 20, 20, 20, 1
 stop
 6888, 10
-elipsa 826, 15, 20, 20, 1
+elipsa 826, 20, 20, 20, 1
 stop
 6889, 10
-elipsa 826, 15, 20, 20, 1
+elipsa 826, 20, 20, 20, 1
 stop
 6890, 10
-elipsa 826, 15, 20, 20, 1
+elipsa 826, 20, 20, 20, 1
 stop
 6891, 10
-elipsa 827, 15, 20, 20, 1
+elipsa 827, 20, 20, 20, 1
 stop
 6892, 10
-elipsa 827, 15, 20, 20, 1
+elipsa 827, 20, 20, 20, 1
 stop
 6893, 10
-elipsa 827, 15, 20, 20, 1
+elipsa 827, 20, 20, 20, 1
 stop
 6894, 10
-elipsa 827, 15, 20, 20, 1
+elipsa 827, 20, 20, 20, 1
 stop
 6895, 10
-elipsa 827, 15, 20, 20, 1
+elipsa 827, 20, 20, 20, 1
 stop
 6896, 10
-elipsa 827, 15, 20, 20, 1
+elipsa 827, 20, 20, 20, 1
 stop
 6897, 10
-elipsa 827, 15, 20, 20, 1
+elipsa 827, 20, 20, 20, 1
 stop
 6898, 10
-elipsa 827, 15, 20, 20, 1
+elipsa 827, 20, 20, 20, 1
 stop
 6899, 10
-elipsa 827, 15, 20, 20, 1
+elipsa 827, 20, 20, 20, 1
 stop
 6900, 10
-elipsa 827, 15, 20, 20, 1
+elipsa 827, 20, 20, 20, 1
 stop
 6901, 10
-elipsa 828, 15, 20, 20, 1
+elipsa 828, 20, 20, 20, 1
 stop
 6902, 10
-elipsa 828, 15, 20, 20, 1
+elipsa 828, 20, 20, 20, 1
 stop
 6903, 10
-elipsa 828, 15, 20, 20, 1
+elipsa 828, 20, 20, 20, 1
 stop
 6904, 10
-elipsa 828, 15, 20, 20, 1
+elipsa 828, 20, 20, 20, 1
 stop
 6905, 10
-elipsa 828, 15, 20, 20, 1
+elipsa 828, 20, 20, 20, 1
 stop
 6906, 10
-elipsa 828, 15, 20, 20, 1
+elipsa 828, 20, 20, 20, 1
 stop
 6907, 10
-elipsa 828, 15, 20, 20, 1
+elipsa 828, 20, 20, 20, 1
 stop
 6908, 10
-elipsa 828, 15, 20, 20, 1
+elipsa 828, 20, 20, 20, 1
 stop
 6909, 10
-elipsa 828, 15, 20, 20, 1
+elipsa 828, 20, 20, 20, 1
 stop
 6910, 10
-elipsa 828, 15, 20, 20, 1
+elipsa 828, 20, 20, 20, 1
 stop
 6911, 10
-elipsa 829, 15, 20, 20, 1
+elipsa 829, 20, 20, 20, 1
 stop
 6912, 10
-elipsa 829, 15, 20, 20, 1
+elipsa 829, 20, 20, 20, 1
 stop
 6913, 10
-elipsa 829, 15, 20, 20, 1
+elipsa 829, 20, 20, 20, 1
 stop
 6914, 10
-elipsa 829, 15, 20, 20, 1
+elipsa 829, 20, 20, 20, 1
 stop
 6915, 10
-elipsa 839, 15, 20, 20, 1
+elipsa 839, 20, 20, 20, 1
 stop
