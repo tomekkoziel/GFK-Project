@@ -249,9 +249,7 @@ bool GUIMyFrame::Read3DToVector(const char* FileName)
     
     sf::VertexArray line(sf::Lines, 2);
     sf::Color FirstColor = sf::Color(0, 0, 0), SecColor= sf::Color(0, 0, 0);
-    int a, b, c, d;
-    bool flag;
-    float thickness = 1;
+    double a, b, c, d, e, f;
 
     while (file >> num >> comma >> time)
     {
@@ -261,10 +259,10 @@ bool GUIMyFrame::Read3DToVector(const char* FileName)
         {
             if (figure == "linia" || figure == "LN")
             {
-                file >> a >> comma >> b >> comma >> c >> comma >> d;
-                line[0].position = sf::Vector2f(a, h - b);
+                file >> a >> comma >> b >> comma >> c >> comma >> d >> comma >> e >> comma >> f;
+                line[0].position = sf::Vector2f(w / 2 * (1 + (a * 2.0) / (c + 2.0)), h - h / 2 * (1 - (b * 2.0) / (c + 2.0)));
                 line[0].color = FirstColor;
-                line[1].position = sf::Vector2f(c, h - d);
+                line[1].position = sf::Vector2f(w / 2 * (1 + (d * 2.0) / (f + 2.0)), h - h / 2 * (1 - (e * 2.0) / (f + 2.0)));
                 line[1].color = SecColor;
                 buffer.draw(line);
             }
