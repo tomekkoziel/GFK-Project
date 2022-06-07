@@ -72,6 +72,7 @@ class GUIMyFrame : public MyFrame
 		void setButtonsActive();
 		bool ReadImagesToVector(wxArrayString &paths);
 		bool ReadDataToVector(const char *FileName);
+		bool Read3DToVector(const char* FileName);
 		void SaveFrame(const char* DirPath, int start, int end);
 };
 
