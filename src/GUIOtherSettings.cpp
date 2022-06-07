@@ -24,7 +24,7 @@ void GUIOtherSettings::OnButton_ChoseAnimationBackground( wxCommandEvent& event 
 // TODO: Implement OnButton_ChoseAnimationBackground
 	wxFileDialog OpenFileDialog(this, wxT("Choose a file"), wxT(""), wxT(""), wxT("Chose image (*.bmp)|*.bmp"), wxFD_OPEN | wxFD_FILE_MUST_EXIST);
 
-	if (OpenFileDialog.ShowModal() == wxID_OK) Parent->Background.LoadFile(OpenFileDialog.GetPath());
+	if (OpenFileDialog.ShowModal() == wxID_OK) Parent->Background.loadFromFile(OpenFileDialog.GetPath().ToStdString());
 }
 
 void GUIOtherSettings::setSavedFileNumeration0001( wxCommandEvent& event )

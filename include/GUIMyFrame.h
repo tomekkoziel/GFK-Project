@@ -60,8 +60,8 @@ class GUIMyFrame : public MyFrame
 		bool ReadingOption;
 		enum class States{ NoInBuffer, LoadingToBuffer, ReadyToDisplay, DuringDisplay, AfterDisplay };
 		States AnimationState;
-		bool ShowBg;
-		wxImage Background;
+		bool ShowBg = false;
+		sf::Image Background;
 		bool FileNumeration;
 		std::string FileName;
 
