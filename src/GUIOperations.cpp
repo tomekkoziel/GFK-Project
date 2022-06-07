@@ -19,9 +19,7 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
     if(w<600) SetSize(600, h + 130);
     else SetSize(w + 26, h + 130);
 
-    sf::ContextSettings settings;
-    settings.antialiasingLevel = 8;
-    buffer.create(w, h, settings);
+    buffer.create(w, h);
     Animation.reserve(frameNum);
 
     LoadingProgress->SetRange(frameNum);
@@ -143,6 +141,17 @@ void GUIMyFrame::setButtonsActive()
     Layout();
 }
 
+
+sf::Image &MakeImageWithBackground(sf::Image& Animation, const sf::Image& Background)
+{
+    for (int i = 0; i < Animation.getSize().x; i++)
+        for (int j = 0; j < Animation.getSize().y; j++)
+            if (Animation.getPixel(i, j).a == 0) Animation.setPixel(i, j, Background.getPixel(i, j));
+    const unsigned char* data = Animation.getPixelsPtr();
+    return Animation;
+}
+
+
 void GUIMyFrame::SaveFrame(const char* DirPath, int start, int end)
 {
     std::string numeration;
@@ -189,8 +198,13 @@ void GUIMyFrame::SaveAnimationToDir(const char *DirPath)
             numeration = str.str();
         }
         else numeration = std::to_string(i);
-        tmp = Animation[i].Image.copyToImage();
-        tmp.createMaskFromColor(sf::Color(255, 255, 255, 0), 255);
+
+        if (ShowBg) tmp = MakeImageWithBackground(Animation[i].Image.copyToImage(), Background);
+        else
+        {
+            tmp = Animation[i].Image.copyToImage();
+            tmp.createMaskFromColor(sf::Color(255, 255, 255, 0), 255);
+        }
         //std::thread(&sf::Image::saveToFile, &tmp, std::string(DirPath) + "\\" + FileName + numeration + ".bmp").detach();
         tmp.saveToFile(std::string(DirPath) + "\\" + FileName + numeration + ".bmp");
         LoadingProgress->SetValue(LoadingProgress->GetValue() + 1);
