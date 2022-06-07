@@ -249,7 +249,7 @@ bool GUIMyFrame::Read3DToVector(const char* FileName)
     
     sf::VertexArray line(sf::Lines, 2);
     sf::Color FirstColor = sf::Color(0, 0, 0), SecColor= sf::Color(0, 0, 0);
-    int a, b, c, d, e, f;
+    double a, b, c, d, e, f;
 
     while (file >> num >> comma >> time)
     {
