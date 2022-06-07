@@ -54,7 +54,7 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
             else if (figure == "elipsa" || figure == "EL")
             {
                 file >> a >> comma >> b >> comma >> c >> comma >> d >> comma >> flag;
-                elipse.setPosition(a - c, h - b + d);
+                elipse.setPosition(a - c, h - b - d);
                 elipse.setRadius(1);
                 elipse.setScale(sf::Vector2f(c, d));
                 elipse.setOutlineThickness(thickness - 1);
@@ -219,5 +219,75 @@ bool GUIMyFrame::ReadImagesToVector(wxArrayString& paths)
     LoadingProgress->Hide();
     Layout();
 
+    return true;
+}
+
+bool GUIMyFrame::Read3DToVector(const char* FileName)
+{
+    std::fstream file;
+    file.open(FileName, std::ios::in);
+    if (!file.is_open()) return false;
+
+    sf::RenderTexture buffer;
+    int w, h, frameNum, time, num;
+    std::string figure;
+    char comma;
+
+    file >> w >> comma >> h >> frameNum;
+    if (w < 600) SetSize(600, h + 130);
+    else SetSize(w + 26, h + 130);
+
+    sf::ContextSettings settings;
+    settings.antialiasingLevel = 8;
+    buffer.create(w, h, settings);
+    Animation.reserve(frameNum);
+
+    LoadingProgress->SetRange(frameNum);
+    LoadingProgress->SetValue(0);
+    LoadingProgress->Show();
+    Layout();
+    
+    sf::VertexArray line(sf::Lines, 2);
+    sf::Color FirstColor = sf::Color(0, 0, 0), SecColor= sf::Color(0, 0, 0);
+    int a, b, c, d;
+    bool flag;
+    float thickness = 1;
+
+    while (file >> num >> comma >> time)
+    {
+        buffer.clear(sf::Color(255, 255, 255, 0));
+
+        while (file >> figure && figure != "stop" && figure != "ST")
+        {
+            if (figure == "linia" || figure == "LN")
+            {
+                file >> a >> comma >> b >> comma >> c >> comma >> d;
+                line[0].position = sf::Vector2f(a, h - b);
+                line[0].color = FirstColor;
+                line[1].position = sf::Vector2f(c, h - d);
+                line[1].color = SecColor;
+                buffer.draw(line);
+            }
+            else if (figure == "kolor_1_konca" || figure == "KP")
+            {
+                file >> a >> b >> c;
+                FirstColor = sf::Color(a, b, c);
+            }
+            else if (figure == "kolor_2_konca" || figure == "KE")
+            {
+                file >> a >> b >> c;
+                SecColor = sf::Color(a, b, c);
+            }
+        }
+        buffer.display();
+
+
+        Animation.push_back(Frame(buffer, time));
+        LoadingProgress->SetValue(LoadingProgress->GetValue() + 1);
+    }
+    file.close();
+
+    LoadingProgress->Hide();
+    wxClientDC(AnimationPanel).DrawText(wxString::Format("%d, %d", AnimationPanel->GetSize().x, AnimationPanel->GetSize().y), w / 2, h / 2);
     return true;
 }

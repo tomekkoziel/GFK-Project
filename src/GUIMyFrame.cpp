@@ -55,19 +55,7 @@ void GUIMyFrame::OnClick_RestartAnimation( wxCommandEvent& event )
 void GUIMyFrame::OnClick_OpenFileOnMenuSelection(wxCommandEvent& event)
 {
 	// TODO: Implement OnClick_OpenFileOnMenuSelection
-	if (ReadingFileOption->FindItemByPosition(0)->IsChecked())
-	{
-		wxFileDialog OpenFileDialog(this, wxT("Choose a file"), wxT(""), wxT(""), wxT("Text file (*.txt)|*.txt"), wxFD_OPEN | wxFD_FILE_MUST_EXIST);
-
-		if (OpenFileDialog.ShowModal() == wxID_OK)
-		{
-			Animation.clear();
-			AnimationState = States::LoadingToBuffer;
-			setButtonsActive();
-			if (ReadDataToVector(OpenFileDialog.GetPath())) AnimationState = States::ReadyToDisplay;
-		}
-	}
-	else
+	if (ReadingFileOption->FindItemByPosition(1)->IsChecked())
 	{
 		wxFileDialog OpenFileDialog(this, wxT("Choose a files"), wxT(""), wxT(""), wxT(""), wxFD_MULTIPLE | wxFD_FILE_MUST_EXIST);
 
@@ -81,6 +69,25 @@ void GUIMyFrame::OnClick_OpenFileOnMenuSelection(wxCommandEvent& event)
 			OpenFileDialog.GetPaths(Images);
 			Images.Sort();
 			if (ReadImagesToVector(Images)) AnimationState = States::ReadyToDisplay;
+		}
+	}
+	else
+	{
+		wxFileDialog OpenFileDialog(this, wxT("Choose a file"), wxT(""), wxT(""), wxT("Text file (*.txt)|*.txt"), wxFD_OPEN | wxFD_FILE_MUST_EXIST);
+
+		if (OpenFileDialog.ShowModal() == wxID_OK)
+		{
+			Animation.clear();
+			AnimationState = States::LoadingToBuffer;
+			setButtonsActive();
+			if (ReadingFileOption->FindItemByPosition(0)->IsChecked())
+			{
+				if (ReadDataToVector(OpenFileDialog.GetPath())) AnimationState = States::ReadyToDisplay;
+			}
+			else
+			{
+				if (Read3DToVector(OpenFileDialog.GetPath())) AnimationState = States::ReadyToDisplay;
+			}
 		}
 	}
 	setButtonsActive();
