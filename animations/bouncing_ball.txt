@@ -1,7 +1,6 @@
 800, 600
 3458
 0, 10
-kolor_wypelnienia 255 0 0
 elipsa 0, 514, 20, 20, 1
 stop
 1, 10
@@ -8189,154 +8188,154 @@ stop
 elipsa 594, 37, 20, 20, 1
 stop
 2729, 10
-elipsa 595, 20, 20, 20, 1
+elipsa 595, 36, 20, 20, 1
 stop
 2730, 10
-elipsa 595, 20, 20, 20, 1
+elipsa 595, 36, 20, 20, 1
 stop
 2731, 10
-elipsa 595, 20, 20, 20, 1
+elipsa 595, 36, 20, 20, 1
 stop
 2732, 10
-elipsa 595, 20, 20, 20, 1
+elipsa 595, 36, 20, 20, 1
 stop
 2733, 10
-elipsa 595, 20, 20, 20, 1
+elipsa 595, 35, 20, 20, 1
 stop
 2734, 10
-elipsa 596, 20, 20, 20, 1
+elipsa 596, 35, 20, 20, 1
 stop
 2735, 10
-elipsa 596, 20, 20, 20, 1
+elipsa 596, 35, 20, 20, 1
 stop
 2736, 10
-elipsa 596, 20, 20, 20, 1
+elipsa 596, 35, 20, 20, 1
 stop
 2737, 10
-elipsa 596, 20, 20, 20, 1
+elipsa 596, 35, 20, 20, 1
 stop
 2738, 10
-elipsa 596, 20, 20, 20, 1
+elipsa 596, 34, 20, 20, 1
 stop
 2739, 10
-elipsa 597, 20, 20, 20, 1
+elipsa 597, 34, 20, 20, 1
 stop
 2740, 10
-elipsa 597, 20, 20, 20, 1
+elipsa 597, 34, 20, 20, 1
 stop
 2741, 10
-elipsa 597, 20, 20, 20, 1
+elipsa 597, 33, 20, 20, 1
 stop
 2742, 10
-elipsa 597, 20, 20, 20, 1
+elipsa 597, 33, 20, 20, 1
 stop
 2743, 10
-elipsa 597, 20, 20, 20, 1
+elipsa 597, 33, 20, 20, 1
 stop
 2744, 10
-elipsa 598, 20, 20, 20, 1
+elipsa 598, 33, 20, 20, 1
 stop
 2745, 10
-elipsa 598, 20, 20, 20, 1
+elipsa 598, 32, 20, 20, 1
 stop
 2746, 10
-elipsa 598, 20, 20, 20, 1
+elipsa 598, 32, 20, 20, 1
 stop
 2747, 10
-elipsa 598, 20, 20, 20, 1
+elipsa 598, 32, 20, 20, 1
 stop
 2748, 10
-elipsa 598, 20, 20, 20, 1
+elipsa 598, 31, 20, 20, 1
 stop
 2749, 10
-elipsa 599, 20, 20, 20, 1
+elipsa 599, 31, 20, 20, 1
 stop
 2750, 10
-elipsa 599, 20, 20, 20, 1
+elipsa 599, 31, 20, 20, 1
 stop
 2751, 10
-elipsa 599, 20, 20, 20, 1
+elipsa 599, 31, 20, 20, 1
 stop
 2752, 10
-elipsa 599, 20, 20, 20, 1
+elipsa 599, 30, 20, 20, 1
 stop
 2753, 10
-elipsa 599, 20, 20, 20, 1
+elipsa 599, 30, 20, 20, 1
 stop
 2754, 10
-elipsa 600, 20, 20, 20, 1
+elipsa 600, 30, 20, 20, 1
 stop
 2755, 10
-elipsa 600, 20, 20, 20, 1
+elipsa 600, 29, 20, 20, 1
 stop
 2756, 10
-elipsa 600, 20, 20, 20, 1
+elipsa 600, 29, 20, 20, 1
 stop
 2757, 10
-elipsa 600, 20, 20, 20, 1
+elipsa 600, 29, 20, 20, 1
 stop
 2758, 10
-elipsa 600, 20, 20, 20, 1
+elipsa 600, 28, 20, 20, 1
 stop
 2759, 10
-elipsa 601, 20, 20, 20, 1
+elipsa 601, 28, 20, 20, 1
 stop
 2760, 10
-elipsa 601, 20, 20, 20, 1
+elipsa 601, 28, 20, 20, 1
 stop
 2761, 10
-elipsa 601, 20, 20, 20, 1
+elipsa 601, 27, 20, 20, 1
 stop
 2762, 10
-elipsa 601, 20, 20, 20, 1
+elipsa 601, 27, 20, 20, 1
 stop
 2763, 10
-elipsa 601, 20, 20, 20, 1
+elipsa 601, 27, 20, 20, 1
 stop
 2764, 10
-elipsa 602, 20, 20, 20, 1
+elipsa 602, 26, 20, 20, 1
 stop
 2765, 10
-elipsa 602, 20, 20, 20, 1
+elipsa 602, 26, 20, 20, 1
 stop
 2766, 10
-elipsa 602, 20, 20, 20, 1
+elipsa 602, 25, 20, 20, 1
 stop
 2767, 10
-elipsa 602, 20, 20, 20, 1
+elipsa 602, 25, 20, 20, 1
 stop
 2768, 10
-elipsa 602, 20, 20, 20, 1
+elipsa 602, 25, 20, 20, 1
 stop
 2769, 10
-elipsa 603, 20, 20, 20, 1
+elipsa 603, 24, 20, 20, 1
 stop
 2770, 10
-elipsa 603, 20, 20, 20, 1
+elipsa 603, 24, 20, 20, 1
 stop
 2771, 10
-elipsa 603, 20, 20, 20, 1
+elipsa 603, 24, 20, 20, 1
 stop
 2772, 10
-elipsa 603, 20, 20, 20, 1
+elipsa 603, 23, 20, 20, 1
 stop
 2773, 10
-elipsa 603, 20, 20, 20, 1
+elipsa 603, 23, 20, 20, 1
 stop
 2774, 10
-elipsa 604, 20, 20, 20, 1
+elipsa 604, 22, 20, 20, 1
 stop
 2775, 10
-elipsa 604, 20, 20, 20, 1
+elipsa 604, 22, 20, 20, 1
 stop
 2776, 10
-elipsa 604, 20, 20, 20, 1
+elipsa 604, 22, 20, 20, 1
 stop
 2777, 10
-elipsa 604, 20, 20, 20, 1
+elipsa 604, 21, 20, 20, 1
 stop
 2778, 10
-elipsa 604, 20, 20, 20, 1
+elipsa 604, 21, 20, 20, 1
 stop
 2779, 10
 elipsa 605, 20, 20, 20, 1

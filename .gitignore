@@ -2,6 +2,7 @@
 !src/
 !include/
 !bin/
+!animations/
 !*.cpp
 !*.h
 !*.dll
