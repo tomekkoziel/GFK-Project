@@ -18,6 +18,7 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
     file >> w >> comma >> h >> frameNum;
     if(w<600) SetSize(600, h + 130);
     else SetSize(w + 26, h + 130);
+    Centre();
 
     buffer.create(w, h);
     Animation.reserve(frameNum);

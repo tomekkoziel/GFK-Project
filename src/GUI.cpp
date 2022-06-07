@@ -22,10 +22,10 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	wxBoxSizer* bSizer5;
 	bSizer5 = new wxBoxSizer( wxVERTICAL );
 
-	AnimationPanel = new wxPanel( this, wxID_ANY, wxDefaultPosition, wxSize( -1,-1 ), wxTAB_TRAVERSAL );
+	AnimationPanel = new wxPanel( this, wxID_ANY, wxDefaultPosition, wxSize( 800,600 ), wxTAB_TRAVERSAL );
 	AnimationPanel->SetBackgroundColour( wxColour( 255, 255, 255 ) );
 
-	bSizer5->Add( AnimationPanel, 1, wxBOTTOM|wxEXPAND|wxFIXED_MINSIZE|wxLEFT|wxRIGHT|wxTOP, 5 );
+	bSizer5->Add( AnimationPanel, 1, wxALIGN_CENTER|wxBOTTOM|wxFIXED_MINSIZE|wxLEFT|wxRIGHT|wxTOP, 5 );
 
 
 	bSizer2->Add( bSizer5, 1, wxEXPAND, 5 );
@@ -113,6 +113,7 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 
 	this->SetSizer( bSizer1 );
 	this->Layout();
+	bSizer1->Fit( this );
 	MenuBar = new wxMenuBar( 0 );
 	FileBar = new wxMenu();
 	wxMenuItem* OpenFile;
