@@ -33,12 +33,6 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	wxBoxSizer* bSizer6;
 	bSizer6 = new wxBoxSizer( wxVERTICAL );
 
-	ProgressSlider = new wxPanel( this, wxID_ANY, wxDefaultPosition, wxSize( -1,40 ), wxTAB_TRAVERSAL );
-	ProgressSlider->SetBackgroundColour( wxColour( 255, 255, 255 ) );
-	ProgressSlider->Hide();
-
-	bSizer6->Add( ProgressSlider, 1, wxEXPAND | wxALL, 5 );
-
 	LoadingProgress = new wxGauge( this, wxID_ANY, 100, wxDefaultPosition, wxSize( 600,-1 ), wxGA_HORIZONTAL );
 	LoadingProgress->SetValue( 0 );
 	LoadingProgress->Hide();
@@ -166,8 +160,6 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	// Connect Events
 	AnimationPanel->Connect( wxEVT_MOVE, wxMoveEventHandler( MyFrame::ChangeSizeOfAnimation ), NULL, this );
 	AnimationPanel->Connect( wxEVT_UPDATE_UI, wxUpdateUIEventHandler( MyFrame::Repaint_AnimationPanel ), NULL, this );
-	ProgressSlider->Connect( wxEVT_MOVE, wxMoveEventHandler( MyFrame::ChangeSizeOfProgressSlider ), NULL, this );
-	ProgressSlider->Connect( wxEVT_UPDATE_UI, wxUpdateUIEventHandler( MyFrame::Repaint_ProgressSlider ), NULL, this );
 	ChoiceSpeed->Connect( wxEVT_SCROLL_TOP, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
 	ChoiceSpeed->Connect( wxEVT_SCROLL_BOTTOM, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
 	ChoiceSpeed->Connect( wxEVT_SCROLL_LINEUP, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
@@ -192,8 +184,6 @@ MyFrame::~MyFrame()
 	// Disconnect Events
 	AnimationPanel->Disconnect( wxEVT_MOVE, wxMoveEventHandler( MyFrame::ChangeSizeOfAnimation ), NULL, this );
 	AnimationPanel->Disconnect( wxEVT_UPDATE_UI, wxUpdateUIEventHandler( MyFrame::Repaint_AnimationPanel ), NULL, this );
-	ProgressSlider->Disconnect( wxEVT_MOVE, wxMoveEventHandler( MyFrame::ChangeSizeOfProgressSlider ), NULL, this );
-	ProgressSlider->Disconnect( wxEVT_UPDATE_UI, wxUpdateUIEventHandler( MyFrame::Repaint_ProgressSlider ), NULL, this );
 	ChoiceSpeed->Disconnect( wxEVT_SCROLL_TOP, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
 	ChoiceSpeed->Disconnect( wxEVT_SCROLL_BOTTOM, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );
 	ChoiceSpeed->Disconnect( wxEVT_SCROLL_LINEUP, wxScrollEventHandler( MyFrame::OnSlide_AnimationSpeed ), NULL, this );

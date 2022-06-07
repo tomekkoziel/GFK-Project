@@ -39,8 +39,6 @@ class GUIMyFrame : public MyFrame
 		// Handlers for MyFrame events.
 		void ChangeSizeOfAnimation( wxMoveEvent& event );
 		void Repaint_AnimationPanel( wxUpdateUIEvent& event );
-		void ChangeSizeOfProgressSlider( wxMoveEvent& event );
-		void Repaint_ProgressSlider( wxUpdateUIEvent& event );
 		void OnSlide_AnimationSpeed( wxScrollEvent& event );
 		void OnClick_RewindAnimation( wxCommandEvent& event );
 		void OnClick_PlayStopAnimation( wxCommandEvent& event );

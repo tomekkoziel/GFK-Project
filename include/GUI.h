@@ -41,7 +41,6 @@ class MyFrame : public wxFrame
 
 	protected:
 		wxPanel* AnimationPanel;
-		wxPanel* ProgressSlider;
 		wxGauge* LoadingProgress;
 		wxSlider* ChoiceSpeed;
 		wxButton* AnimationGoBack;
@@ -56,8 +55,6 @@ class MyFrame : public wxFrame
 		// Virtual event handlers, override them in your derived class
 		virtual void ChangeSizeOfAnimation( wxMoveEvent& event ) { event.Skip(); }
 		virtual void Repaint_AnimationPanel( wxUpdateUIEvent& event ) { event.Skip(); }
-		virtual void ChangeSizeOfProgressSlider( wxMoveEvent& event ) { event.Skip(); }
-		virtual void Repaint_ProgressSlider( wxUpdateUIEvent& event ) { event.Skip(); }
 		virtual void OnSlide_AnimationSpeed( wxScrollEvent& event ) { event.Skip(); }
 		virtual void OnClick_RewindAnimation( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnClick_PlayStopAnimation( wxCommandEvent& event ) { event.Skip(); }
@@ -103,7 +100,7 @@ class OtherSettings : public wxDialog
 
 	public:
 
-		OtherSettings( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxEmptyString, const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 500,320 ), long style = wxDEFAULT_DIALOG_STYLE );
+		OtherSettings( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("Other Settings"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 500,320 ), long style = wxDEFAULT_DIALOG_STYLE );
 
 		~OtherSettings();
 

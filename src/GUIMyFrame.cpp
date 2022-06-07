@@ -17,16 +17,6 @@ void GUIMyFrame::Repaint_AnimationPanel( wxUpdateUIEvent& event )
 // TODO: Implement Repaint_AnimationPanel
 }
 
-void GUIMyFrame::ChangeSizeOfProgressSlider( wxMoveEvent& event )
-{
-// TODO: Implement ChangeSizeOfProgressSlider
-}
-
-void GUIMyFrame::Repaint_ProgressSlider( wxUpdateUIEvent& event )
-{
-// TODO: Implement Repaint_ProgressSlider
-}
-
 void GUIMyFrame::OnSlide_AnimationSpeed( wxScrollEvent& event )
 {
 // TODO: Implement OnSlide_AnimationSpeed
