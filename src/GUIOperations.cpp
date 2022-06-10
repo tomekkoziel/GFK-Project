@@ -157,7 +157,9 @@ sf::Image &MakeImageWithBackground(sf::Image& Animation, const sf::Image& Backgr
 
 void GUIMyFrame::SaveAnimationToDir(const char *DirPath)
 {
-    const unsigned int processor_count = std::thread::hardware_concurrency();
+    unsigned int processor_count = std::thread::hardware_concurrency();
+    if (!processor_count) processor_count = 1;
+
     LoadingProgress->SetRange(Animation.size() / processor_count);
     LoadingProgress->SetValue(0);
     LoadingProgress->Show();
@@ -165,24 +167,24 @@ void GUIMyFrame::SaveAnimationToDir(const char *DirPath)
 
     std::string numeration;
     sf::Image tmp;
-    std::unique_ptr<std::thread[]> thread = std::make_unique<std::thread[]>(4);
-
-    for (int i = 0; i < Animation.size() / 4; i++)
+    std::unique_ptr<std::thread[]> thread = std::make_unique<std::thread[]>(processor_count);
+    int i;
+    for (i = 0; i < Animation.size() / processor_count; i++)
     {
         for (int j = 0; j < processor_count; j++)
         {
             if (FileNumeration)
             {
                 std::stringstream str;
-                str << std::setw(log10(Animation.size()) + 1) << std::setfill('0') << i * 4 + j;
+                str << std::setw(log10(Animation.size()) + 1) << std::setfill('0') << i * processor_count + j;
                 numeration = str.str();
             }
-            else numeration = std::to_string(i * 4 + j);
+            else numeration = std::to_string(i * processor_count + j);
 
-            if (ShowBg) tmp = MakeImageWithBackground(Animation[i * 4 + j].Image.copyToImage(), Background);
+            if (ShowBg) tmp = MakeImageWithBackground(Animation[i * processor_count + j].Image.copyToImage(), Background);
             else
             {
-                tmp = Animation[i * 4 + j].Image.copyToImage();
+                tmp = Animation[i * processor_count + j].Image.copyToImage();
                 tmp.createMaskFromColor(sf::Color(255, 255, 255, 0), 255);
             }
             thread[j]=std::thread(&sf::Image::saveToFile, sf::Image(tmp), std::string(DirPath) + "\\" + FileName + numeration + ".png");
@@ -191,6 +193,27 @@ void GUIMyFrame::SaveAnimationToDir(const char *DirPath)
         for (int j = 0; j < processor_count; j++) thread[j].join();
         LoadingProgress->SetValue(LoadingProgress->GetValue() + 1);
     }
+    i *= processor_count;
+    while (i < Animation.size())
+    {
+        if (FileNumeration)
+        {
+            std::stringstream str;
+            str << std::setw(log10(Animation.size()) + 1) << std::setfill('0') << i;
+            numeration = str.str();
+        }
+        else numeration = std::to_string(i);
+
+        if (ShowBg) tmp = MakeImageWithBackground(Animation[i].Image.copyToImage(), Background);
+        else
+        {
+            tmp = Animation[i].Image.copyToImage();
+            tmp.createMaskFromColor(sf::Color(255, 255, 255, 0), 255);
+        }
+        tmp.saveToFile(std::string(DirPath) + "\\" + FileName + numeration + ".png");
+        i++;
+    }
+
 
     LoadingProgress->Hide();
     Layout();
