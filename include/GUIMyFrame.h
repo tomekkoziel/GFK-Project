@@ -65,7 +65,7 @@ class GUIMyFrame : public MyFrame
 		sf::Image Background;
 		bool FileNumeration;
 		std::string FileName;
-
+		int weight = 800, height = 600;
 
 		void SaveAnimationToDir(const char *DirPath);
 		void setButtonsActive();

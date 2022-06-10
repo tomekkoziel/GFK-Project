@@ -25,10 +25,10 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	AnimationPanel = new wxPanel( this, wxID_ANY, wxDefaultPosition, wxSize( 800,600 ), wxTAB_TRAVERSAL );
 	AnimationPanel->SetBackgroundColour( wxColour( 255, 255, 255 ) );
 
-	bSizer5->Add( AnimationPanel, 1, wxALIGN_CENTER|wxBOTTOM|wxFIXED_MINSIZE|wxLEFT|wxRIGHT|wxTOP, 5 );
+	bSizer5->Add( AnimationPanel, 1, wxALIGN_CENTER_HORIZONTAL|wxBOTTOM|wxLEFT|wxRIGHT|wxTOP, 5 );
 
 
-	bSizer2->Add( bSizer5, 1, wxEXPAND, 5 );
+	bSizer2->Add( bSizer5, 1, wxALIGN_CENTER_HORIZONTAL, 5 );
 
 	wxBoxSizer* bSizer6;
 	bSizer6 = new wxBoxSizer( wxVERTICAL );
@@ -43,7 +43,7 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	bSizer2->Add( bSizer6, 0, wxEXPAND, 5 );
 
 
-	bSizer1->Add( bSizer2, 1, wxEXPAND, 5 );
+	bSizer1->Add( bSizer2, 1, wxALIGN_CENTER_HORIZONTAL, 5 );
 
 	wxBoxSizer* bSizer3;
 	bSizer3 = new wxBoxSizer( wxHORIZONTAL );

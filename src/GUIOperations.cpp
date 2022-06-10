@@ -3,7 +3,7 @@
 #include <wx/dcclient.h>
 Frame::Frame(sf::RenderTexture& buf, int time) : Time{ time }, Image{ buf.getTexture() } {}
 Frame::Frame(sf::Texture& img, int time) : Time{time}, Image{img} {}
-
+#include <wx/log.h>
 bool GUIMyFrame::ReadDataToVector(const char* FileName)
 {
     std::fstream file;
@@ -16,12 +16,9 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
     char comma;
 
     file >> w >> comma >> h >> frameNum;
-    wxSize diff = this->GetSize() - AnimationPanel->GetSize();
-    if (w < 600) SetSize(600 + abs(diff.x), h + abs(diff.y));
-    else SetSize(w + abs(diff.x), h + abs(diff.y));
-    Centre();
-
-
+    weight = w;
+    height = h;
+    
     buffer.create(w, h);
     Animation.reserve(frameNum);
 
@@ -104,9 +101,15 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
         LoadingProgress->SetValue(LoadingProgress->GetValue() + 1);
     }
     file.close();
-
     LoadingProgress->Hide();
-    wxClientDC(AnimationPanel).DrawText(wxString::Format("%d, %d", AnimationPanel->GetSize().x, AnimationPanel->GetSize().y), w / 2, h / 2);
+    Layout();
+
+    wxSize diff = this->GetSize() - AnimationPanel->GetSize();
+    if (w < 600) SetSize(600 + abs(diff.x), h + abs(diff.y));
+    else SetSize(w + abs(diff.x), h + abs(diff.y));
+    AnimationPanel->SetSize(w, h);
+    Centre();
+
     return true;
 }
 
@@ -214,7 +217,6 @@ void GUIMyFrame::SaveAnimationToDir(const char *DirPath)
         i++;
     }
 
-
     LoadingProgress->Hide();
     Layout();
 }
@@ -303,6 +305,5 @@ bool GUIMyFrame::Read3DToVector(const char* FileName)
     file.close();
 
     LoadingProgress->Hide();
-    wxClientDC(AnimationPanel).DrawText(wxString::Format("%d, %d", AnimationPanel->GetSize().x, AnimationPanel->GetSize().y), w / 2, h / 2);
     return true;
 }
