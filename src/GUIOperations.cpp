@@ -16,9 +16,11 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
     char comma;
 
     file >> w >> comma >> h >> frameNum;
-    if(w<600) SetSize(600, h + 130);
-    else SetSize(w + 26, h + 130);
+    wxSize diff = this->GetSize() - AnimationPanel->GetSize();
+    if (w < 600) SetSize(600 + abs(diff.x), h + abs(diff.y));
+    else SetSize(w + abs(diff.x), h + abs(diff.y));
     Centre();
+
 
     buffer.create(w, h);
     Animation.reserve(frameNum);
@@ -36,9 +38,9 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
     int a, b, c, d;
     bool flag;
     float thickness = 1;
-
     while (file >> num >> comma >> time)
     {
+        wxSafeYield();
         buffer.clear(sf::Color(255, 255, 255, 0));
         
         while (file >> figure && figure != "stop" && figure != "ST")
@@ -153,68 +155,45 @@ sf::Image &MakeImageWithBackground(sf::Image& Animation, const sf::Image& Backgr
 }
 
 
-void GUIMyFrame::SaveFrame(const char* DirPath, int start, int end)
-{
-    std::string numeration;
-    sf::Image tmp;
-
-    for (unsigned i = start; i < end; i++)
-    {
-        if (FileNumeration)
-        {
-            std::stringstream str;
-            str << std::setw(log10(Animation.size()) + 1) << std::setfill('0') << i;
-            numeration = str.str();
-        }
-        else numeration = std::to_string(i);
-        tmp = Animation[i].Image.copyToImage();
-        tmp.createMaskFromColor(sf::Color(255, 255, 255, 0), 255);
-        tmp.saveToFile(std::string(DirPath) + "\\" + FileName + numeration + ".bmp");
-        LoadingProgress->SetValue(LoadingProgress->GetValue() + 1);
-    }
-
-    if (LoadingProgress->GetValue() == Animation.size() - 1)
-    {
-        LoadingProgress->Hide();
-        Layout();
-    }
-};
-
 void GUIMyFrame::SaveAnimationToDir(const char *DirPath)
 {
-    LoadingProgress->SetRange(Animation.size());
+    const unsigned int processor_count = std::thread::hardware_concurrency();
+    LoadingProgress->SetRange(Animation.size() / processor_count);
     LoadingProgress->SetValue(0);
     LoadingProgress->Show();
     Layout();
 
     std::string numeration;
     sf::Image tmp;
+    std::unique_ptr<std::thread[]> thread = std::make_unique<std::thread[]>(4);
 
-    for (unsigned i = 0; i < Animation.size(); i++)
+    for (int i = 0; i < Animation.size() / 4; i++)
     {
-        if (FileNumeration)
+        for (int j = 0; j < processor_count; j++)
         {
-            std::stringstream str;
-            str << std::setw(log10(Animation.size()) + 1) << std::setfill('0') << i;
-            numeration = str.str();
-        }
-        else numeration = std::to_string(i);
+            if (FileNumeration)
+            {
+                std::stringstream str;
+                str << std::setw(log10(Animation.size()) + 1) << std::setfill('0') << i * 4 + j;
+                numeration = str.str();
+            }
+            else numeration = std::to_string(i * 4 + j);
 
-        if (ShowBg) tmp = MakeImageWithBackground(Animation[i].Image.copyToImage(), Background);
-        else
-        {
-            tmp = Animation[i].Image.copyToImage();
-            tmp.createMaskFromColor(sf::Color(255, 255, 255, 0), 255);
+            if (ShowBg) tmp = MakeImageWithBackground(Animation[i * 4 + j].Image.copyToImage(), Background);
+            else
+            {
+                tmp = Animation[i * 4 + j].Image.copyToImage();
+                tmp.createMaskFromColor(sf::Color(255, 255, 255, 0), 255);
+            }
+            thread[j]=std::thread(&sf::Image::saveToFile, sf::Image(tmp), std::string(DirPath) + "\\" + FileName + numeration + ".png");
         }
-        //std::thread(&sf::Image::saveToFile, &tmp, std::string(DirPath) + "\\" + FileName + numeration + ".bmp").detach();
-        tmp.saveToFile(std::string(DirPath) + "\\" + FileName + numeration + ".bmp");
+        wxSafeYield();
+        for (int j = 0; j < processor_count; j++) thread[j].join();
         LoadingProgress->SetValue(LoadingProgress->GetValue() + 1);
     }
+
     LoadingProgress->Hide();
     Layout();
-    
-    //std::thread(&GUIMyFrame::SaveFrame, this, DirPath, 0, Animation.size() / 2).detach();
-    //std::thread(&GUIMyFrame::SaveFrame, this, DirPath, Animation.size() / 2, Animation.size()).detach();
 }
 
 
@@ -227,6 +206,7 @@ bool GUIMyFrame::ReadImagesToVector(wxArrayString& paths)
     Layout();
     for (wxString &it : paths)
     {
+        wxSafeYield();
         if (!ReadImage.loadFromFile(std::string(it))) return false;
         Animation.push_back(Frame(ReadImage, 5));
         LoadingProgress->SetValue(LoadingProgress->GetValue() + 1);
@@ -252,9 +232,7 @@ bool GUIMyFrame::Read3DToVector(const char* FileName)
     if (w < 600) SetSize(600, h + 130);
     else SetSize(w + 26, h + 130);
 
-    sf::ContextSettings settings;
-    settings.antialiasingLevel = 8;
-    buffer.create(w, h, settings);
+    buffer.create(w, h);
     Animation.reserve(frameNum);
 
     LoadingProgress->SetRange(frameNum);
@@ -268,6 +246,7 @@ bool GUIMyFrame::Read3DToVector(const char* FileName)
 
     while (file >> num >> comma >> time)
     {
+        wxSafeYield();
         buffer.clear(sf::Color(255, 255, 255, 0));
 
         while (file >> figure && figure != "stop" && figure != "ST")
