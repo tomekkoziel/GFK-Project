@@ -16,7 +16,7 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
     char comma;
 
     file >> w >> comma >> h >> frameNum;
-    weight = w;
+    width = w;
     height = h;
     
     buffer.create(w, h);
