@@ -20,6 +20,7 @@ void GUIMyFrame::Repaint_AnimationPanel( wxUpdateUIEvent& event )
 void GUIMyFrame::OnSlide_AnimationSpeed( wxScrollEvent& event )
 {
 // TODO: Implement OnSlide_AnimationSpeed
+
 }
 
 void GUIMyFrame::OnClick_RewindAnimation( wxCommandEvent& event )
