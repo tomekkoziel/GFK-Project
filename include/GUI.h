@@ -35,6 +35,22 @@
 ///////////////////////////////////////////////////////////////////////////////
 /// Class MyFrame
 ///////////////////////////////////////////////////////////////////////////////
+
+/**
+ * @brief creates the main interface of the application
+ * 
+ * @param AnimationPanel holds wxPanel on which the animation is displayed
+ * @param LoadingProgress shows current saving/reading progress (basically the progress bar)
+ * @param ChoiceSpeed allows user to choose the speed at which the animation should be displayed
+ * @param AnimationGoBack allows user to skip a few frames backwards
+ * @param PlayAndStop allows user to start/pause the animation
+ * @param AnimationGoBack allows user to skip a few frames forwards
+ * @param AnimationReplay allows user to replay the animation
+ * @param MenuBar "File" drop down menu
+ * @param SettingsBar "Settings" drop down menu
+ * @param ReadingFileOption allows the user to choose the preferred file read option
+ * 
+ */
 class MyFrame : public wxFrame
 {
 	private:
@@ -52,7 +68,7 @@ class MyFrame : public wxFrame
 		wxMenu* SettingsBar;
 		wxMenu* ReadingFileOption;
 
-		// Virtual event handlers, override them in your derived class
+		// // methods descriptions in GUIMyFrame.h
 		virtual void ChangeSizeOfAnimation( wxMoveEvent& event ) { event.Skip(); }
 		virtual void Repaint_AnimationPanel( wxUpdateUIEvent& event ) { event.Skip(); }
 		virtual void OnSlide_AnimationSpeed( wxScrollEvent& event ) { event.Skip(); }
@@ -77,6 +93,19 @@ class MyFrame : public wxFrame
 ///////////////////////////////////////////////////////////////////////////////
 /// Class OtherSettings
 ///////////////////////////////////////////////////////////////////////////////
+
+/**
+ * @brief creates the main interface of the "Other settings" dialog box
+ * 
+ * @param EnableAnimationBackground allows the user to set if the background should be shown
+ * @param AnimationBackground allows the user to choose a background which should be displayed
+ * @param m_staticText2 constant text variable
+ * @param FileNum0001 allows the user to set the numeration to "0001" style
+ * @param FileNum1 allows the user to set the numeration to "1" style
+ * @param m_staticText1 constant text variable
+ * @param NameOfSavedFiles allows the user to set the name of saved files
+ * 
+ */
 class OtherSettings : public wxDialog
 {
 	private:
@@ -90,7 +119,7 @@ class OtherSettings : public wxDialog
 		wxStaticText* m_staticText1;
 		wxTextCtrl* NameOfSavedFiles;
 
-		// Virtual event handlers, override them in your derived class
+		// methods descriptions in GUIOtherSettings.h
 		virtual void IfCheck_ShowAnimationBackground( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnButton_ChoseAnimationBackground( wxCommandEvent& event ) { event.Skip(); }
 		virtual void setSavedFileNumeration0001( wxCommandEvent& event ) { event.Skip(); }

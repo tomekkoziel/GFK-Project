@@ -148,7 +148,7 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	SettingsBar->Append( ReadingFileOptionItem );
 
 	wxMenuItem* OtherOptions;
-	OtherOptions = new wxMenuItem( SettingsBar, wxID_ANY, wxString( wxT("Other options") ) , wxEmptyString, wxITEM_NORMAL );
+	OtherOptions = new wxMenuItem( SettingsBar, wxID_ANY, wxString( wxT("Other settings") ) , wxEmptyString, wxITEM_NORMAL );
 	SettingsBar->Append( OtherOptions );
 
 	MenuBar->Append( SettingsBar, wxT("Settings") );
