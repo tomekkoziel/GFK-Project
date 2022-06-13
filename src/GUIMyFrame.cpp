@@ -7,10 +7,14 @@ GUIMyFrame::GUIMyFrame( wxWindow* parent )
 {
 }
 
-void GUIMyFrame::ChangeSizeOfAnimation( wxMoveEvent& event )
+
+void GUIMyFrame::Repaint()
 {
-// TODO: Implement ChangeSizeOfAnimation
+	//renderwindow.draw()
+	//renderwindow.display()
 }
+
+
 
 void GUIMyFrame::Repaint_AnimationPanel( wxUpdateUIEvent& event )
 {
@@ -19,7 +23,7 @@ void GUIMyFrame::Repaint_AnimationPanel( wxUpdateUIEvent& event )
 
 void GUIMyFrame::OnSlide_AnimationSpeed( wxScrollEvent& event )
 {
-// TODO: Implement OnSlide_AnimationSpeed
+// TODO: Implement OnSlide_AnimationSpeeds
 
 }
 
