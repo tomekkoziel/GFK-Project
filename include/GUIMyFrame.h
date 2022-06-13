@@ -58,7 +58,7 @@ struct Frame
  * @param height height of the frame
  * 	
  */
-class GUIMyFrame : public MyFrame
+class GUIMyFrame : public MyFrame, public wxTimer
 {
 	protected:
 		// Handlers for MyFrame events.
@@ -154,6 +154,7 @@ class GUIMyFrame : public MyFrame
 		bool FileNumeration;
 		std::string FileName;
 		int width = 800, height = 600;
+
 
 		/**
 		 * @brief method which saves the animation to a specified folder

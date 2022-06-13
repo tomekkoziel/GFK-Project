@@ -12,13 +12,25 @@ void GUIMyFrame::Repaint()
 {
 	//renderwindow.draw()
 	//renderwindow.display()
+
+	Panel.clear(sf::Color::White);
+
+
+
+
+	Panel.draw(sf::Sprite(Animation[i].Image));
+	Panel.display();
+
 }
+
+
 
 
 
 void GUIMyFrame::Repaint_AnimationPanel( wxUpdateUIEvent& event )
 {
 // TODO: Implement Repaint_AnimationPanel
+	Repaint();
 }
 
 void GUIMyFrame::OnSlide_AnimationSpeed( wxScrollEvent& event )
