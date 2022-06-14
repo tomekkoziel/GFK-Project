@@ -47,7 +47,7 @@ void GUIMyFrame::Repaint()
 	case States::ReadyToDisplay:
 
 		temp.Clear();
-		temp.DrawText("Ready to display, press the \"play\" button", 340, 300);
+		temp.DrawText("Ready to display, press the \"play\" button", 290, 300);
 		
 		break;
 	case States::DuringDisplay:
@@ -69,7 +69,7 @@ void GUIMyFrame::Repaint()
 	case States::AfterDisplay:
 
 		temp.Clear();
-		temp.DrawText("Animation has ended, press the \"replay\" to \nplay it again or select a different one", 340, 300);
+		temp.DrawText("Animation has ended, press the \"replay\" to \nplay it again or select a different one", 310, 300);
 		
 		break;
 	case States::DisplayStopped:
