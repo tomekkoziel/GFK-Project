@@ -11,6 +11,12 @@ GUIMyFrame::GUIMyFrame( wxWindow* parent )
 
 void GUIMyFrame::Notify()
 {
+	if (currentFrame++ == Animation.size())
+	{
+		Stop();
+		AnimationState = States::AfterDisplay;
+	}
+
 	currentFrame++;
 	Start(Animation[currentFrame].Time);
 	Repaint();
@@ -70,18 +76,18 @@ void GUIMyFrame::Repaint()
 		break;
 	case States::DisplayStopped:
 
-		Panel.clear(sf::Color::White);
+		//Panel.clear(sf::Color::White);
 
-		if (ShowBg == true)
-		{
-			sf::Texture temp;
-			temp.loadFromImage(Background);
+		//if (ShowBg == true)
+		//{
+		//	sf::Texture temp;
+		//	temp.loadFromImage(Background);
 
-			Panel.draw(sf::Sprite(temp));
-		}
+		//	Panel.draw(sf::Sprite(temp));
+		//}
 
-		Panel.draw(sf::Sprite(Animation[currentFrame].Image));
-		Panel.display();
+		//Panel.draw(sf::Sprite(Animation[currentFrame].Image));
+		//Panel.display();
 
 		break;
 	}
@@ -112,18 +118,46 @@ void GUIMyFrame::OnClick_RewindAnimation( wxCommandEvent& event )
 void GUIMyFrame::OnClick_PlayStopAnimation( wxCommandEvent& event )
 {
 // TODO: Implement OnClick_PlayStopAnimation
-	AnimationState = States::DuringDisplay;
-	Start(Animation[currentFrame].Time);
-	Repaint();
-	AnimationReplay->Enable(true);
+	//AnimationState = States::DuringDisplay;
+	//Start(Animation[currentFrame].Time);
+	//Repaint();
+	//AnimationReplay->Enable(true);
 
-	PlayAndStop->SetLabel(_T("pause"));
+	//PlayAndStop->SetLabel(_T("pause"));
 	//replay set active
 
-	if (PlayAndStop->GetLabel() == "pause")
+	switch (AnimationState)
 	{
+	case States::ReadyToDisplay:
+
+		AnimationState = States::DuringDisplay;
+		Start(Animation[currentFrame].Time);
+		Repaint();
+		AnimationReplay->Enable(true);
+
+		PlayAndStop->SetLabel(_T("pause"));
+
+		break;
+	case States::DuringDisplay:
+
 		AnimationState = States::DisplayStopped;
+		Stop();
+
+		PlayAndStop->SetLabel(_T("play"));
+
+		break;
+	case States::DisplayStopped:
+
+		AnimationState = States::DuringDisplay;
+		Start(Animation[currentFrame].Time);
+		Repaint();
+		AnimationReplay->Enable(true);
+
+		PlayAndStop->SetLabel(_T("pause"));
+
+		break;
 	}
+
 }
 
 void GUIMyFrame::OnClick_GoForwardAnimation( wxCommandEvent& event )
