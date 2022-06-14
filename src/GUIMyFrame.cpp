@@ -18,7 +18,7 @@ void GUIMyFrame::Notify()
 	}
 
 	currentFrame++;
-	Start(Animation[currentFrame].Time);
+	Start(Animation[currentFrame].Time * speedMultiplier);
 	Repaint();
 }
 
@@ -38,6 +38,9 @@ void GUIMyFrame::Repaint()
 		
 		temp.Clear();
 		temp.DrawText("No animations in buffer, please load one from a file", 280, 300);
+
+		//temp.Clear();
+		//temp.DrawText(std::to_string(speedMultiplier), 100, 100);
 
 		break;
 	case States::LoadingToBuffer:
@@ -106,7 +109,40 @@ void GUIMyFrame::Repaint_AnimationPanel( wxUpdateUIEvent& event )
 void GUIMyFrame::OnSlide_AnimationSpeed( wxScrollEvent& event )
 {
 // TODO: Implement OnSlide_AnimationSpeeds
+	sliderPosition = ChoiceSpeed->GetValue();
 
+	if (sliderPosition == 0)
+	{
+		speedMultiplier = 16;
+	}
+	else if (sliderPosition == 1)
+	{
+		speedMultiplier = 8;
+	}
+	else if (sliderPosition == 2)
+	{
+		speedMultiplier = 4;
+	}
+	else if (sliderPosition == 3)
+	{
+		speedMultiplier = 2;
+	}
+	else if (sliderPosition == 4)
+	{
+		speedMultiplier = 1;
+	}
+	else if (sliderPosition == 5)
+	{
+		speedMultiplier = 0.5;
+	}
+	else if (sliderPosition == 6)
+	{
+		speedMultiplier = 0.25;
+	}
+	else
+	{
+		speedMultiplier = 0.125;
+	}
 }
 
 void GUIMyFrame::OnClick_RewindAnimation( wxCommandEvent& event )

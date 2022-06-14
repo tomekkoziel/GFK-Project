@@ -157,6 +157,8 @@ class GUIMyFrame : public MyFrame, public wxTimer
 		std::string FileName;
 		int width = 800, height = 600;
 		int currentFrame = 0;
+		int sliderPosition = 4;
+		double speedMultiplier = 1;
 
 
 		/**
