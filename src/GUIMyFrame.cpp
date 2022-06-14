@@ -11,12 +11,13 @@ GUIMyFrame::GUIMyFrame( wxWindow* parent )
 
 void GUIMyFrame::Notify()
 {
-	if (currentFrame++ == Animation.size())
+	if (currentFrame >= Animation.size()-1)
 	{
 		Stop();
 		AnimationState = States::AfterDisplay;
+		currentFrame = 0;
+		return;
 	}
-
 	currentFrame++;
 	Start(Animation[currentFrame].Time * speedMultiplier);
 	Repaint();
@@ -24,12 +25,6 @@ void GUIMyFrame::Notify()
 
 void GUIMyFrame::Repaint()
 {
-	//renderwindow.draw()
-	//renderwindow.display()
-
-	//switch animation state	
-	
-
 	wxClientDC temp(AnimationPanel);
 
 	switch (AnimationState)
@@ -167,8 +162,8 @@ void GUIMyFrame::OnClick_PlayStopAnimation( wxCommandEvent& event )
 	case States::ReadyToDisplay:
 
 		AnimationState = States::DuringDisplay;
-		Start(Animation[currentFrame].Time);
 		Repaint();
+		Start(Animation[currentFrame].Time);
 		AnimationReplay->Enable(true);
 
 		PlayAndStop->SetLabel(_T("pause"));
@@ -185,8 +180,8 @@ void GUIMyFrame::OnClick_PlayStopAnimation( wxCommandEvent& event )
 	case States::DisplayStopped:
 
 		AnimationState = States::DuringDisplay;
-		Start(Animation[currentFrame].Time);
 		Repaint();
+		Start(Animation[currentFrame].Time);
 		AnimationReplay->Enable(true);
 
 		PlayAndStop->SetLabel(_T("pause"));
