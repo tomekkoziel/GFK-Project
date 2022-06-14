@@ -8,22 +8,86 @@ GUIMyFrame::GUIMyFrame( wxWindow* parent )
 }
 
 
+
+void GUIMyFrame::Notify()
+{
+	currentFrame++;
+	Start(Animation[currentFrame].Time);
+	Repaint();
+}
+
 void GUIMyFrame::Repaint()
 {
 	//renderwindow.draw()
 	//renderwindow.display()
 
-	Panel.clear(sf::Color::White);
+	//switch animation state	
+	
 
+	wxClientDC temp(AnimationPanel);
 
+	switch (AnimationState)
+	{
+	case States::NoInBuffer:
+		
+		temp.Clear();
+		temp.DrawText("No animations in buffer, please load one from a file", 280, 300);
 
+		break;
+	case States::LoadingToBuffer:
 
-	Panel.draw(sf::Sprite(Animation[i].Image));
-	Panel.display();
+		temp.Clear();
+		temp.DrawText("Loading the animation", 340, 300);
+		
+		break;
+	case States::ReadyToDisplay:
+
+		temp.Clear();
+		temp.DrawText("Ready to display, press the \"play\" button", 340, 300);
+		
+		break;
+	case States::DuringDisplay:
+
+		Panel.clear(sf::Color::White);
+
+		if (ShowBg == true)
+		{
+			sf::Texture temp;
+			temp.loadFromImage(Background);
+
+			Panel.draw(sf::Sprite(temp));
+		}
+
+		Panel.draw(sf::Sprite(Animation[currentFrame].Image));
+		Panel.display();
+
+		break;
+	case States::AfterDisplay:
+
+		temp.Clear();
+		temp.DrawText("Animation has ended, press the \"replay\" to \nplay it again or select a different one", 340, 300);
+		
+		break;
+	case States::DisplayStopped:
+
+		Panel.clear(sf::Color::White);
+
+		if (ShowBg == true)
+		{
+			sf::Texture temp;
+			temp.loadFromImage(Background);
+
+			Panel.draw(sf::Sprite(temp));
+		}
+
+		Panel.draw(sf::Sprite(Animation[currentFrame].Image));
+		Panel.display();
+
+		break;
+	}
+	
 
 }
-
-
 
 
 
@@ -42,21 +106,41 @@ void GUIMyFrame::OnSlide_AnimationSpeed( wxScrollEvent& event )
 void GUIMyFrame::OnClick_RewindAnimation( wxCommandEvent& event )
 {
 // TODO: Implement OnClick_RewindAnimation
+	currentFrame -= 5;
 }
 
 void GUIMyFrame::OnClick_PlayStopAnimation( wxCommandEvent& event )
 {
 // TODO: Implement OnClick_PlayStopAnimation
+	AnimationState = States::DuringDisplay;
+	Start(Animation[currentFrame].Time);
+	Repaint();
+	AnimationReplay->Enable(true);
+
+	PlayAndStop->SetLabel(_T("pause"));
+	//replay set active
+
+	if (PlayAndStop->GetLabel() == "pause")
+	{
+		AnimationState = States::DisplayStopped;
+	}
 }
 
 void GUIMyFrame::OnClick_GoForwardAnimation( wxCommandEvent& event )
 {
 // TODO: Implement OnClick_GoForwardAnimation
+	currentFrame += 5;
 }
 
 void GUIMyFrame::OnClick_RestartAnimation( wxCommandEvent& event )
 {
 // TODO: Implement OnClick_RestartAnimation
+	AnimationState = States::ReadyToDisplay;
+	currentFrame = 0;
+	Start(Animation[currentFrame].Time);
+	Repaint();
+	AnimationReplay->Enable(false);
+	PlayAndStop->SetLabel(_T("play"));
 }
 
 void GUIMyFrame::OnClick_OpenFileOnMenuSelection(wxCommandEvent& event)
