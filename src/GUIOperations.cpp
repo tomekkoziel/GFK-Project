@@ -268,6 +268,7 @@ bool GUIMyFrame::ReadImagesToVector(wxArrayString& paths)
         CW = GetSize() - GetClientSize();
         SetSize(wxSize(w, h) + pC + CW);
     }
+    Center();
 
     return true;
 }
@@ -298,6 +299,7 @@ bool GUIMyFrame::Read3DToVector(const char* FileName)
         CW = GetSize() - GetClientSize();
         SetSize(wxSize(w, h) + pC + CW);
     }
+    Center();
 
     buffer.create(w, h);
     Animation.reserve(frameNum);
