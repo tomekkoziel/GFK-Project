@@ -18,6 +18,26 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
     file >> w >> comma >> h >> frameNum;
     width = w;
     height = h;
+    if (w < 600)
+    {
+        /*wxPoint pos = AnimationPanel->GetPosition();
+        wxSize pC = GetClientSize() - AnimationPanel->GetSize();
+        wxSize CW = GetSize() - GetClientSize();
+        SetSize(wxSize(600, h) + pC + CW);
+        AnimationPanel->SetSize(w, h);
+        AnimationPanel->SetPosition(pos + wxPoint((GetClientSize().GetX() - w) / 2, 0));*/
+        wxSize diff = this->GetSize() - AnimationPanel->GetSize();
+        SetSize(GetBestSize().x + abs(diff.x), h + abs(diff.y));
+    }
+    else
+    {
+        wxSize pC = GetClientSize() - AnimationPanel->GetSize();
+        wxSize CW = GetSize() - GetClientSize();
+        SetSize(wxSize(w, h) + pC + CW);
+        pC = GetClientSize() - AnimationPanel->GetSize();
+        CW = GetSize() - GetClientSize();
+        SetSize(wxSize(w, h) + pC + CW);
+    }
     
     buffer.create(w, h);
     Animation.reserve(frameNum);
@@ -104,12 +124,11 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
     LoadingProgress->Hide();
     Layout();
 
-    wxSize diff = this->GetSize() - AnimationPanel->GetSize();
-    if (w < 600) SetSize(600 + abs(diff.x), h + abs(diff.y));
-    else SetSize(w + abs(diff.x), h + abs(diff.y));
-    AnimationPanel->SetSize(w, h);
-    Centre();
 
+
+    
+    //if (w < 600) SetSize(600 + abs(diff.x), h + abs(diff.y));
+    //else SetSize(w + abs(diff.x), h + abs(diff.y));    
     return true;
 }
 
