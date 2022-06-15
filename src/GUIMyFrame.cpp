@@ -34,18 +34,18 @@ void GUIMyFrame::Repaint()
 	case States::NoInBuffer:
 		
 		temp.Clear();
-		temp.DrawText("No animations in buffer, please load one from a file", 280, 300);
+		temp.DrawText("No animations in buffer, please load one from a file", width / 2 - 120, height / 2 - 10);
 		break;
 	case States::LoadingToBuffer:
 
 		temp.Clear();
-		temp.DrawText("Loading the animation", 340, 300);
+		temp.DrawText("Loading the animation", width / 2 - 80, height / 2 - 10);
 		
 		break;
 	case States::ReadyToDisplay:
 
 		temp.Clear();
-		temp.DrawText("Ready to display, press the \"play\" button", 290, 300);
+		temp.DrawText("Ready to display, press the \"play\" button", width / 2 - 110, height / 2 - 10);
 		
 		break;
 	case States::DuringDisplay:
@@ -68,7 +68,7 @@ void GUIMyFrame::Repaint()
 	case States::AfterDisplay:
 
 		temp.Clear();
-		temp.DrawText("Animation has ended, press the \"replay\" to \nplay it again or select a different one", 310, 300);
+		temp.DrawText("Animation has ended, press the \"replay\" to \nplay it again or select a different one", width / 2 - 100, height / 2 - 20);
 		
 		break;
 	}
