@@ -34,6 +34,7 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
         CW = GetSize() - GetClientSize();
         SetSize(wxSize(w, h) + pC + CW);
     }
+    Center();
     
     buffer.create(w, h);
     Animation.reserve(frameNum);

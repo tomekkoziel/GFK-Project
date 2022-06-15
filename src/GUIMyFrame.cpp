@@ -32,25 +32,22 @@ void GUIMyFrame::Repaint()
 	switch (AnimationState)
 	{
 	case States::NoInBuffer:
-		
 		temp.Clear();
 		temp.DrawText("No animations in buffer, please load one from a file", width / 2 - 120, height / 2 - 10);
 		break;
+
 	case States::LoadingToBuffer:
-
 		temp.Clear();
-		temp.DrawText("Loading the animation", width / 2 - 80, height / 2 - 10);
-		
+		temp.DrawText("Loading the animation", width / 2 - 100, height / 2 - 10);
 		break;
+
 	case States::ReadyToDisplay:
-
 		temp.Clear();
-		temp.DrawText("Ready to display, press the \"play\" button", width / 2 - 110, height / 2 - 10);
-		
+		temp.DrawText("Ready to display, press the \"play\" button", width / 2 - 140, height / 2 - 10);
 		break;
+
 	case States::DuringDisplay:
 	case States::DisplayStopped:
-
 		Panel.clear(sf::Color::White);
 
 		if (ShowBg == true)
@@ -60,16 +57,13 @@ void GUIMyFrame::Repaint()
 
 			Panel.draw(sf::Sprite(temp));
 		}
-
 		Panel.draw(sf::Sprite(Animation[currentFrame].Image));
 		Panel.display();
-
 		break;
-	case States::AfterDisplay:
 
+	case States::AfterDisplay:
 		temp.Clear();
-		temp.DrawText("Animation has ended, press the \"replay\" to \nplay it again or select a different one", width / 2 - 100, height / 2 - 20);
-		
+		temp.DrawText("Animation has ended, press the \"replay\" to \nplay it again or select a different one", width / 2 - 140, height / 2 - 20);
 		break;
 	}
 }

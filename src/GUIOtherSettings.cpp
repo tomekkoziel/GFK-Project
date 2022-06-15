@@ -22,7 +22,7 @@ void GUIOtherSettings::IfCheck_ShowAnimationBackground( wxCommandEvent& event )
 void GUIOtherSettings::OnButton_ChoseAnimationBackground( wxCommandEvent& event )
 {
 // TODO: Implement OnButton_ChoseAnimationBackground
-	wxFileDialog OpenFileDialog(this, wxT("Choose a file"), wxT(""), wxT(""), wxT("Chose image (*.png, *jpg)|*jpg"), wxFD_OPEN | wxFD_FILE_MUST_EXIST);
+	wxFileDialog OpenFileDialog(this, wxT("Choose a file"), wxT(""), wxT(""), wxT("Chose image (*.png)|*png"), wxFD_OPEN | wxFD_FILE_MUST_EXIST);
 
 	if (OpenFileDialog.ShowModal() == wxID_OK) Parent->Background.loadFromFile(OpenFileDialog.GetPath().ToStdString());
 }
