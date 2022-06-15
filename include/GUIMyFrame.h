@@ -47,7 +47,6 @@ struct Frame
 /**
  * @brief class handling the application, user interactions, showing animations on the screen and allowing the user to save the animation to a chosen folder
  * 
- * @param Panel (sf::RenderWindow) linked to AnimationPanel (wxPanel), is responsible for printing images on the screen in much faster and more effective way than wxPanel would ever allow it
  * @param Animation a vector containing all the loaded frames
  * @param ReadingOption w.e
  * @param States an enum container holding various states in which the program can be
@@ -146,7 +145,6 @@ class GUIMyFrame : public MyFrame, public wxTimer
 
 		friend class GUIOtherSettings;
 	private:
-		sf::RenderWindow Panel;
 		std::vector<Frame> Animation;
 		bool ReadingOption;
 		enum class States{ NoInBuffer, LoadingToBuffer, ReadyToDisplay, DuringDisplay, AfterDisplay, DisplayStopped };

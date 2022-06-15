@@ -2,7 +2,7 @@
 
 GUIMyFrame::GUIMyFrame( wxWindow* parent )
 :
-	MyFrame(parent), Panel{ (HWND)AnimationPanel->GetHandle() }, ReadingOption{ false }, AnimationState{ States::NoInBuffer },
+	MyFrame(parent), ReadingOption{ false }, AnimationState{ States::NoInBuffer },
 	ShowBg{ false }, FileNumeration{ false }, FileName{ "output" }
 {
 }
@@ -27,6 +27,7 @@ void GUIMyFrame::Notify()
 void GUIMyFrame::Repaint()
 {
 	wxClientDC temp(AnimationPanel);
+	sf::RenderWindow Panel((HWND)AnimationPanel->GetHandle());
 
 	switch (AnimationState)
 	{
