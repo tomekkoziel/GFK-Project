@@ -8,7 +8,6 @@ GUIMyFrame::GUIMyFrame( wxWindow* parent )
 }
 
 
-
 void GUIMyFrame::Notify()
 {
 	if (currentFrame >= Animation.size()-1)
@@ -23,6 +22,8 @@ void GUIMyFrame::Notify()
 	Repaint();
 }
 
+
+
 void GUIMyFrame::Repaint()
 {
 	wxClientDC temp(AnimationPanel);
@@ -33,10 +34,6 @@ void GUIMyFrame::Repaint()
 		
 		temp.Clear();
 		temp.DrawText("No animations in buffer, please load one from a file", 280, 300);
-
-		//temp.Clear();
-		//temp.DrawText(std::to_string(speedMultiplier), 100, 100);
-
 		break;
 	case States::LoadingToBuffer:
 
@@ -51,6 +48,7 @@ void GUIMyFrame::Repaint()
 		
 		break;
 	case States::DuringDisplay:
+	case States::DisplayStopped:
 
 		Panel.clear(sf::Color::White);
 
@@ -72,25 +70,7 @@ void GUIMyFrame::Repaint()
 		temp.DrawText("Animation has ended, press the \"replay\" to \nplay it again or select a different one", 310, 300);
 		
 		break;
-	case States::DisplayStopped:
-
-		//Panel.clear(sf::Color::White);
-
-		//if (ShowBg == true)
-		//{
-		//	sf::Texture temp;
-		//	temp.loadFromImage(Background);
-
-		//	Panel.draw(sf::Sprite(temp));
-		//}
-
-		//Panel.draw(sf::Sprite(Animation[currentFrame].Image));
-		//Panel.display();
-
-		break;
 	}
-	
-
 }
 
 
@@ -143,19 +123,14 @@ void GUIMyFrame::OnSlide_AnimationSpeed( wxScrollEvent& event )
 void GUIMyFrame::OnClick_RewindAnimation( wxCommandEvent& event )
 {
 // TODO: Implement OnClick_RewindAnimation
-	currentFrame -= 5;
+	if (currentFrame > 4) currentFrame -= 5;
+	else currentFrame = 0;
+	Repaint();
 }
 
 void GUIMyFrame::OnClick_PlayStopAnimation( wxCommandEvent& event )
 {
 // TODO: Implement OnClick_PlayStopAnimation
-	//AnimationState = States::DuringDisplay;
-	//Start(Animation[currentFrame].Time);
-	//Repaint();
-	//AnimationReplay->Enable(true);
-
-	//PlayAndStop->SetLabel(_T("pause"));
-	//replay set active
 
 	switch (AnimationState)
 	{
@@ -194,7 +169,9 @@ void GUIMyFrame::OnClick_PlayStopAnimation( wxCommandEvent& event )
 void GUIMyFrame::OnClick_GoForwardAnimation( wxCommandEvent& event )
 {
 // TODO: Implement OnClick_GoForwardAnimation
-	currentFrame += 5;
+	if (currentFrame < Animation.size() - 6) currentFrame += 5;
+	else currentFrame = Animation.size() - 1;
+	Repaint();
 }
 
 void GUIMyFrame::OnClick_RestartAnimation( wxCommandEvent& event )
@@ -211,6 +188,7 @@ void GUIMyFrame::OnClick_RestartAnimation( wxCommandEvent& event )
 void GUIMyFrame::OnClick_OpenFileOnMenuSelection(wxCommandEvent& event)
 {
 	// TODO: Implement OnClick_OpenFileOnMenuSelection
+	Stop();
 	if (ReadingFileOption->FindItemByPosition(1)->IsChecked())
 	{
 		wxFileDialog OpenFileDialog(this, wxT("Choose a files"), wxT(""), wxT(""), wxT(""), wxFD_MULTIPLE | wxFD_FILE_MUST_EXIST);
@@ -246,6 +224,7 @@ void GUIMyFrame::OnClick_OpenFileOnMenuSelection(wxCommandEvent& event)
 			}
 		}
 	}
+	currentFrame = 0;
 	setButtonsActive();
 }
 

@@ -1,9 +1,11 @@
 #include "GUIMyFrame.h"
-
 #include <wx/dcclient.h>
+#include <wx/log.h>
+
 Frame::Frame(sf::RenderTexture& buf, int time) : Time{ time }, Image{ buf.getTexture() } {}
 Frame::Frame(sf::Texture& img, int time) : Time{time}, Image{img} {}
-#include <wx/log.h>
+
+
 bool GUIMyFrame::ReadDataToVector(const char* FileName)
 {
     std::fstream file;
@@ -18,6 +20,20 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
     file >> w >> comma >> h >> frameNum;
     width = w;
     height = h;
+    if (w < 600)
+    {
+        wxSize diff = this->GetSize() - AnimationPanel->GetSize();
+        SetSize(GetBestSize().x + abs(diff.x), h + abs(diff.y));
+    }
+    else
+    {
+        wxSize pC = GetClientSize() - AnimationPanel->GetSize();
+        wxSize CW = GetSize() - GetClientSize();
+        SetSize(wxSize(w, h) + pC + CW);
+        pC = GetClientSize() - AnimationPanel->GetSize();
+        CW = GetSize() - GetClientSize();
+        SetSize(wxSize(w, h) + pC + CW);
+    }
     
     buffer.create(w, h);
     Animation.reserve(frameNum);
@@ -103,13 +119,7 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
     file.close();
     LoadingProgress->Hide();
     Layout();
-
-    wxSize diff = this->GetSize() - AnimationPanel->GetSize();
-    if (w < 600) SetSize(600 + abs(diff.x), h + abs(diff.y));
-    else SetSize(w + abs(diff.x), h + abs(diff.y));
-    AnimationPanel->SetSize(w, h);
-    Centre();
-
+ 
     return true;
 }
 
@@ -124,6 +134,7 @@ void GUIMyFrame::setButtonsActive()
         PlayAndStop->Enable(false);
         AnimationGoForward->Enable(false);
         AnimationReplay->Enable(false);
+        PlayAndStop->SetLabel("play");
         break;
     case States::ReadyToDisplay:
         AnimationGoBack->Enable(true);
@@ -239,6 +250,24 @@ bool GUIMyFrame::ReadImagesToVector(wxArrayString& paths)
     LoadingProgress->Hide();
     Layout();
 
+    int w = Animation[0].Image.getSize().x, h = Animation[0].Image.getSize().y;
+    width = w;
+    height = h;
+    if (w < 600)
+    {
+        wxSize diff = this->GetSize() - AnimationPanel->GetSize();
+        SetSize(GetBestSize().x + abs(diff.x), h + abs(diff.y));
+    }
+    else
+    {
+        wxSize pC = GetClientSize() - AnimationPanel->GetSize();
+        wxSize CW = GetSize() - GetClientSize();
+        SetSize(wxSize(w, h) + pC + CW);
+        pC = GetClientSize() - AnimationPanel->GetSize();
+        CW = GetSize() - GetClientSize();
+        SetSize(wxSize(w, h) + pC + CW);
+    }
+
     return true;
 }
 
@@ -254,8 +283,20 @@ bool GUIMyFrame::Read3DToVector(const char* FileName)
     char comma;
 
     file >> w >> comma >> h >> frameNum;
-    if (w < 600) SetSize(600, h + 130);
-    else SetSize(w + 26, h + 130);
+    if (w < 600)
+    {
+        wxSize diff = this->GetSize() - AnimationPanel->GetSize();
+        SetSize(GetBestSize().x + abs(diff.x), h + abs(diff.y));
+    }
+    else
+    {
+        wxSize pC = GetClientSize() - AnimationPanel->GetSize();
+        wxSize CW = GetSize() - GetClientSize();
+        SetSize(wxSize(w, h) + pC + CW);
+        pC = GetClientSize() - AnimationPanel->GetSize();
+        CW = GetSize() - GetClientSize();
+        SetSize(wxSize(w, h) + pC + CW);
+    }
 
     buffer.create(w, h);
     Animation.reserve(frameNum);
