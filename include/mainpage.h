@@ -77,14 +77,43 @@
  * <hr>
  *
  * @section analysis Analiza projektu
+ * - danye wejściowe są to pliki .txt zawierające komendy, na podstawie których są rysowane klatki lub zbiór zdjęć, które są wczytywane do wektora.
+Wczytane klatki są zapisywane do kontenera std::vector.
+ * 
+ * - dane wyjściowe są to animacje, które można wyświetlić na ekranie poklatkowo lub zapisać do pliku z rozszerzeniem .png. 
+ * 
+ * - struktury danych - cała animacja jest przechowywana w std::vector, który z kolei przechowuje @Frame. @Frame jest to struktura stworzona na potrzeby programu,
+ * przechowuje ona pojedyńczą klatkę złożoną z czasu odtwarzania tej klatki oraz zdjęcia jakie ma wyświetlić.
  *
- *
- *
- *
+ * 
+ * - interfejs użytkownika pozwala na:
+ *		- wybór pliku do wczytania (File -> Open -> wybór pliku)
+ *		- wybór miejsca, gdzie animacja ma zostać zapisana (File -> Save -> wybór katalogu)
+ *		- wybór koloru tła aplikacji (Settings -> Background color -> wybór koloru)
+ *		- wybór opcji wczytywania animacji 2D / 3D / ze zdjęć (Settings -> Read animation from -> wybór opcji)
+ *		- wybór tła animacji (Settings -> Other settings -> Chose animation background -> wybór pliku .png)
+ *		- zaznaczenie czy tło animacji ma zostać wyświetlone (Settings -> Other settings -> Show animation background)
+ *		- wybranie numeracji zapisanych plików (Settings -> Other settings -> 0001/1)
+ *		- zmiane nazwy zapisywanych plików (Settings -> Other settings -> Name of files)
+ *		- odtworzenie animacji "play" / zatrzymanie animacji "pause"
+ *		- przeskoczenie paru klatek do przodu ">>" / tyłu "<<"
+ *		- odtworzenie animacji od początku "replay"
+ *		- zmiane prędkośći odtwarzania animacji poprzez suwak
+ * 
+ * 
+ * - wyodrębnienie i zdefiniowanie zadań - cały projekt można podzielić na 3 odrębne moduły: tworzenie animacji, odczyt/zapis animacji oraz wyświetlenie animacji.
+ * Z punktu widzenia pozostałych modułów każdy moduł można określić jako dane wejściowe i wyjściowe, gdyż dla pozostałych nie jest istotne w jaki sposób dany moduł wykonuje swoje zadanie.
+ * Dokładny opis modułów jako algorytmy jest przeprowadzony w sekcji "Opracowanie i opis niezbędnych algorytmów".
+ * 
+ * 
+ * - narzędzia programistyczne - zdecydowaliśmy się na połączenie 2 bibliotek SFML i wxWigets. wxWigets odpowiada za ładny interfejs użytkownika oraz interakcje z nim.
+ Z kolei SFML zapewnia nam szybkie rysowanie animacji na wxPanelu oraz szybsze wczytanie danych do programu.
+ * 
+
  *
  * <hr>
  *
- * @section work_division Podział pracy i znaliza czasowa
+ * @section work_division Podział pracy i analiza czasowa
  *
  *
  *
