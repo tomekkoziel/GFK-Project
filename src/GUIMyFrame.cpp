@@ -69,12 +69,12 @@ void GUIMyFrame::Repaint()
 }
 
 
-
 void GUIMyFrame::Repaint_AnimationPanel( wxUpdateUIEvent& event )
 {
 // TODO: Implement Repaint_AnimationPanel
 	Repaint();
 }
+
 
 void GUIMyFrame::OnSlide_AnimationSpeed( wxScrollEvent& event )
 {
