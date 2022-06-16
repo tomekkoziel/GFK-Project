@@ -27,42 +27,10 @@
  *   - kolor_wypelnienia (KW) r g b - ustawia kolor wypełnienia (pędzla)
  * - końca klatki sygnalizowanego instrukcją stop (ST)
  *
- *
-//  * There are 3 examples:
-//  *
-//  * - User-Defined generic C++ class
-//  * -# templates/ClassTemplate.h
-//  * -# src/ClassTemplate.cxx
-//  * - User-Defined Gaudi Algorithm
-//  * -# src/ExampleAlg.cxx
-//  * -# src/Dll/templates_dll.cxx
-//  * -# src/Dll/templates_load.cxx
-//  * - User-Defined Gaudi Service
-//  * -# templates/IExampleSvc.h
-//  * -# templates/ExampleSvc.h
-//  * -# src/ExampleSvc.cxx
-//  * -# src/Dll/templates_dll.cxx
-//  * -# src/Dll/templates_load.cxx
-//  *
-//  *
-//  * Also note the existence of the following directories:
-//  * - cmt
-//  * -# Contains the requirements file
-//  * - doc
-//  * -# Contains the release.notes file
-//  *
-//  * As you prepare to develop code for GLAST SAS, please be sure you are aware
-//  * of our current
-//  * <A HREF="http://www-glast.slac.stanford.edu/software/CodeHowTo/codeStandards.html"> Coding Standards </A>
-//  *
-//  *
-//  * If using the code in this package as an example - please modify the comments
-//  * as appropriate for your own specific code.
- *
  * <hr>
  * @section head_of_terms Założenia wstępne przyjęte w realizacji projektu
- * Program powinien umieć wczytać komendy z pliku oraz zapisać je w postaci tablicy danych przechowującej zdjęcie oraz czas jaki dana klatka będzie trawć. Dozwolone są różne rozmiary animacji.
- Po wczytaniu danych program pozwala na odtworzenie/zatrzymanie animacji, odtworzenie od początku animacji, przewijanie do przodu i do tyłu klatek oraz zmianę szybkości odtwarzania. Istnieje również 
+ * Program powinien umieć wczytać komendy z pliku oraz zapisać je w postaci tablicy danych przechowującej zdjęcie oraz czas jaki dana klatka będzie trwać. Dozwolone są różne rozmiary animacji.
+ Po wczytaniu danych program pozwala na odtworzenie/zatrzymanie animacji, odtworzenie od początku animacji, przewijanie do przodu i do tyłu klatek oraz zmianę szybkości odtwarzania. Istnieje również
  możliwość zapisu poszczególnych klatek w postaci plików .png, które są numerowane w kolejności występowania w tablicy danych. Dodatkowo program ma możliwość:
  * - wyboru różnych opcji wczytywania danych z plików:
  *		- odczyt 3D pozwala na czytanie z pliku .txt 3-wymiarowych wspołrzędnych i rzutowanie tych danych na obraz
@@ -77,15 +45,15 @@
  * <hr>
  *
  * @section analysis Analiza projektu
- * - danye wejściowe są to pliki .txt zawierające komendy, na podstawie których są rysowane klatki lub zbiór zdjęć, które są wczytywane do wektora.
+ * - dane wejściowe są to pliki .txt zawierające komendy, na podstawie których są rysowane klatki lub zbiór zdjęć, które są wczytywane do wektora.
 Wczytane klatki są zapisywane do kontenera std::vector.
- * 
- * - dane wyjściowe są to animacje, które można wyświetlić na ekranie poklatkowo lub zapisać do pliku z rozszerzeniem .png. 
- * 
+ *
+ * - dane wyjściowe są to animacje, które można wyświetlić na ekranie poklatkowo lub zapisać do pliku z rozszerzeniem .png.
+ *
  * - struktury danych - cała animacja jest przechowywana w std::vector, który z kolei przechowuje @Frame. @Frame jest to struktura stworzona na potrzeby programu,
  * przechowuje ona pojedyńczą klatkę złożoną z czasu odtwarzania tej klatki oraz zdjęcia jakie ma wyświetlić.
  *
- * 
+ *
  * - interfejs użytkownika pozwala na:
  *		- wybór pliku do wczytania (File -> Open -> wybór pliku)
  *		- wybór miejsca, gdzie animacja ma zostać zapisana (File -> Save -> wybór katalogu)
@@ -99,16 +67,16 @@ Wczytane klatki są zapisywane do kontenera std::vector.
  *		- przeskoczenie paru klatek do przodu ">>" / tyłu "<<"
  *		- odtworzenie animacji od początku "replay"
  *		- zmiane prędkośći odtwarzania animacji poprzez suwak
- * 
- * 
+ *
+ *
  * - wyodrębnienie i zdefiniowanie zadań - cały projekt można podzielić na 3 odrębne moduły: tworzenie animacji, odczyt/zapis animacji oraz wyświetlenie animacji.
  * Z punktu widzenia pozostałych modułów każdy moduł można określić jako dane wejściowe i wyjściowe, gdyż dla pozostałych nie jest istotne w jaki sposób dany moduł wykonuje swoje zadanie.
  * Dokładny opis modułów jako algorytmy jest przeprowadzony w sekcji "Opracowanie i opis niezbędnych algorytmów".
- * 
- * 
+ *
+ *
  * - narzędzia programistyczne - zdecydowaliśmy się na połączenie 2 bibliotek SFML i wxWigets. wxWigets odpowiada za ładny interfejs użytkownika oraz interakcje z nim.
  Z kolei SFML zapewnia nam szybkie rysowanie animacji na wxPanelu oraz szybsze wczytanie danych do programu.
- * 
+ *
 
  *
  * <hr>
@@ -126,7 +94,7 @@ Wczytane klatki są zapisywane do kontenera std::vector.
  *Program można podzielić na 3 grupy algorytmów:
  * - pierwsza grupa zajmuje się wczytaniem klatek do wektora. Danymi wejściowymi jest ścieżka do pliku
  (bądź plików w przypadku czytania ze zdjęć), który użytkownik wybierze do odczytu. Na początku algorytm czyści wektor z poprzedniej animacji i zmienia stan programu
- na @LoadingToBuffer. Po otwarciu pliku program zczytuje rozmiar i ilość wszystkich klatek. Jest to potrzebne, aby zmienić rozmiar całego okna oraz zarezerowoać 
+ na @LoadingToBuffer. Po otwarciu pliku program zczytuje rozmiar i ilość wszystkich klatek. Jest to potrzebne, aby zmienić rozmiar całego okna oraz zarezerowoać
  pamięć w wektorze. Następnie program czyta kolejne komendy i rysuje odpowiadające im figury na zmiennej tymczasowej typu sf::RenderTexture do momentu napotkania komendy stop (ST).
  Wtedy wyświetla i zapisuje buffer jako sf::Texture. Danymi wyjściowymi jest wektor przechowujący wszystkie klatki.
  * - druga zapisuje klatki z wektora do folderu. Danymi wejściowymi jest folder wybrany przez użytkownika, do którego mają zostać zapisane klatki. Na początku algorytm pobiera z
@@ -144,15 +112,21 @@ Wczytane klatki są zapisywane do kontenera std::vector.
  *
  * @section tests Testowanie
  *
- * Poprawność działania aplikacji testowano za pomocą własnoręcznie napisanych animacji. W tym celu stworzono sześć odrębnych animacji testujących wizualizację obrazów 2D oraz dwie sprawdzające odczyt 3D. Wszystkie animacje zgodnie z poleceniami zapisywano w pliku z rozszerzeniem txt jako szereg instrukcji. Dzięki temu sprawdzono poprawność działania każdego z aspektów aplikacji.
+ * Poprawność działania aplikacji testowano za pomocą własnoręcznie napisanych animacji. W tym celu stworzono sześć odrębnych animacji testujących wizualizację obrazów 2D oraz dwie sprawdzające odczyt 3D. Dzięki temu sprawdzono poprawność działania każdego z aspektów aplikacji. Programy zwracające plik txt z szeregiem instrukcji pisano w języku C++, zadbano o różnorodność animacji, w tym celu skorzytano z wielu algorytmów, między innymi funkcji symulującej działanie siły grawitacji na spadającą piłkę wykonaną z gumy, a także funkcji wizualizującą trajektorię lotu pocisku wystrzelonego z armaty (wykorzystano te dane w animacji "day_night_sky"). Dużym wyzwaniem podczas testowania było stworzenie poklatkowej animacji, które nie zajmowałyby zbyt dużej ilości klatek ale tym samym były płynne, po głębszej analizie dobrano parametry w ten sposób iż każda animacja odtwarza się w zadowalający sposób. Poniżej ukazano, w formacie gif, animacje o których mowa wyżej. W celu poprawy prezentacji wizualnej, do każdej z aniamcji wstawiono tło.
  *
+ * \image html raindrops_on_water_surface.gif "Raindrops on water surface" width=500cm
  *
+ * \image html bouncing_ball.gif "Bouncing ball" width=500cm
  *
- * \image html raindrops_on_water_surface.gif "test" width=500cm
- * \image html malpka.gif "test" width=500cm
+ * \image html bubble_sort.gif "Bubble sort" width=500cm
  *
+ * \image html day_night_sky.gif "Day/night sky" width=500cm
  *
+ * \image html rain_3D.gif "Rain 3D" width=500cm
  *
+ * \image html rolling_circle.gif "Rolling circle" width=500cm
+ *
+ * Dodatkowo w celu sprawdzenia działania poprawności napisanych animacji wielokrotnie dokonywano prób odczytu każdego z trybów (animacja 2D oraz 3D z pliku txt, a także zbiór zdjęć) oraz zapisu do pliku w formie plików png. Na tej podstawie można było wywnioskować bezbłędne działanie zarówno odczytu jak i zapisu.
  *
  * <hr>
  *
