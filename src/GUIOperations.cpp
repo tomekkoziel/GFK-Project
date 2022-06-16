@@ -103,13 +103,13 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
             }
             else if (figure == "kolor_piora" || figure == "KP")
             {
-                file >> a >> b >> c >> d;
-                penColor = sf::Color(a, b, c, d);
+                file >> a >> b >> c;
+                penColor = sf::Color(a, b, c);
             }
             else if (figure == "kolor_wypelnienia" || figure == "KW")
             {
-                file >> a >> b >> c >> d;
-                fillColor = sf::Color(a, b, c, d);
+                file >> a >> b >> c;
+                fillColor = sf::Color(a, b, c);
             }
         }
         buffer.display();
