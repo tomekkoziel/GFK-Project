@@ -95,6 +95,12 @@
  *
  * @section tests Testowanie
  *
+ * Poprawność działania aplikacji testowano za pomocą własnoręcznie napisanych animacji. W tym celu stworzono sześć odrębnych animacji testujących wizualizację obrazów 2D oraz dwie sprawdzające odczyt 3D. Wszystkie animacje zgodnie z poleceniami zapisywano w pliku z rozszerzeniem txt jako szereg instrukcji. Dzięki temu sprawdzono poprawność działania każdego z aspektów aplikacji.
+ *
+ *
+ *
+ * \image html raindrops_on_water_surface.gif "test" width=500cm
+ * \image html malpka.gif "test" width=500cm
  *
  *
  *
