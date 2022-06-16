@@ -20,6 +20,7 @@ bool GUIMyFrame::ReadDataToVector(const char* FileName)
     file >> w >> comma >> h >> frameNum;
     width = w;
     height = h;
+    SetSize(800, 600);
     if (w < 600)
     {
         wxSize diff = this->GetSize() - AnimationPanel->GetSize();
@@ -254,6 +255,7 @@ bool GUIMyFrame::ReadImagesToVector(wxArrayString& paths)
     int w = Animation[0].Image.getSize().x, h = Animation[0].Image.getSize().y;
     width = w;
     height = h;
+    SetSize(800, 600);
     if (w < 600)
     {
         wxSize diff = this->GetSize() - AnimationPanel->GetSize();
@@ -285,6 +287,7 @@ bool GUIMyFrame::Read3DToVector(const char* FileName)
     char comma;
 
     file >> w >> comma >> h >> frameNum;
+    SetSize(800, 600);
     if (w < 600)
     {
         wxSize diff = this->GetSize() - AnimationPanel->GetSize();
