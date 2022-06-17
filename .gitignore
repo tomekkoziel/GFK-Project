@@ -13,3 +13,6 @@
 !*.fbp
 !*.txt
 !.gitignore
+!README.md
+!documentation/
+!documentation/html/*
