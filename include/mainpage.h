@@ -154,16 +154,8 @@ Wczytane klatki są zapisywane do kontenera std::vector.
  * @section conclusion Wdrożenie, raport i wnioski
  *
  * 
- * 
- *	pasek progessu animacji
+ * Udało się zaimplementować wszystkie postawione założenia podstawowe, a także roszerzono możliwości programu o szereg opcji dodatkowych takich jak np. zmiana tła, obsługa animacji 3D, wczytywanie animacji z obrazów. Dodatkowo w przyszłości można by rozszerzyć funkcjonalność programu o obsługę efektów dźwiękowych do animacji czy dodanie progress bar'u, wyświetlanego w trakcie odtwarzania animacji, umożliwiającego przeskoczenie do wybranej klatki poprzez kliknięcie na nią.
+ * Z nie do końca rozwiązanych problemów, przy uruchamianiu niektórych animacji, czasami program nie skaluje jej idealnie do ramek okna, lecz pozostawia szerokie paski. Dodatkowo przy zbyt małych rozmiarach animacji, ucinane są przyciski i nie da się sterować animacją.
  *
- *
- *
- *
-//  * @section requirements requirements
-//  * @verbinclude requirements
-//  * <hr>
-//  * @todo [optionally include text about more work to be done]
-//  * @todo Give each todo item its own line
  *
  */
