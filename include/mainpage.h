@@ -89,17 +89,17 @@ Wczytane klatki są zapisywane do kontenera std::vector.
  * - zaimplementowanie wczytywania animacji z pliku oraz zapisywania ich w postaci serii obrazów w wybranym formacie
  * - zaimplementowanie funkcjonalności interfejsu użytkownika pozwalającego na m.in: zmianę kolorów tła oraz modyfikację zapisu plików
  * - całość można zawrzeć w module odczyt/zapis animacji
- * 
+ *
  * Tomek był odpowiedzialny za:
  * - stworzenie przykładowych animacji do projektu, odczytywanych przez program z plików .txt
  * - stworzenie algorytmów w języku C++, które zapisywały klatki w.w. animacji jako kolejne linie w pliku .txt
  * - ustalenie najbardziej optymalnego czasu wyświetlania pojedynczej klatki animacji
  * - całość można zawrzeć w module tworzenie animacji
- * 
- * 
+ *
+ *
  * Szymon był odpowiedzialny za:
  * - zaimplementowanie wyświetlania obrazów przechowywanych w wektorze @Animation
- * - zaimplementowanie funkcjonalności dla róznych przycisków sterujących 
+ * - zaimplementowanie funkcjonalności dla róznych przycisków sterujących
  *		- przyciski play/pause
  *		- przyciski przewijania klatek przód/tył
  *		- przycisk replay
@@ -147,13 +147,15 @@ Wczytane klatki są zapisywane do kontenera std::vector.
  *
  * \image html rolling_circle.gif "Rolling circle" width=500cm
  *
+ * \image html 3DPlane.gif "Plane 3D" width=500cm
+ *
  * Dodatkowo w celu sprawdzenia działania poprawności napisanych animacji wielokrotnie dokonywano prób odczytu każdego z trybów (animacja 2D oraz 3D z pliku txt, a także zbiór zdjęć) oraz zapisu do pliku w formie plików png. Na tej podstawie można było wywnioskować bezbłędne działanie zarówno odczytu jak i zapisu.
  *
  * <hr>
  *
  * @section conclusion Wdrożenie, raport i wnioski
  *
- * 
+ *
  * Udało się zaimplementować wszystkie postawione założenia podstawowe, a także roszerzono możliwości programu o szereg opcji dodatkowych takich jak np. zmiana tła, obsługa animacji 3D, wczytywanie animacji z obrazów. Dodatkowo w przyszłości można by rozszerzyć funkcjonalność programu o obsługę efektów dźwiękowych do animacji czy dodanie progress bar'u, wyświetlanego w trakcie odtwarzania animacji, umożliwiającego przeskoczenie do wybranej klatki poprzez kliknięcie na nią.
  * Z nie do końca rozwiązanych problemów, przy uruchamianiu niektórych animacji, czasami program nie skaluje jej idealnie do ramek okna, lecz pozostawia szerokie paski. Dodatkowo przy zbyt małych rozmiarach animacji, ucinane są przyciski i nie da się sterować animacją.
  *
