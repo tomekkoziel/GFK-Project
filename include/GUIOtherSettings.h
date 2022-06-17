@@ -8,14 +8,12 @@ class GUIMyFrame;
 
 /**
  * @brief class resposible for the display of wxDialog with various options
- *
- * @param Parent variable resposible for changes made on higher instance window
  */
 class GUIOtherSettings : public OtherSettings
 {
 protected:
 	/**
-	 * @brief based on "Show animation background" check mark, sets @ShowBg variable value
+	 * @brief based on "Show animation background" check mark, sets \link GUIMyFrame::ShowBg ShowBg \endlink variable value
 	 *
 	 * @param event Settings -> Other settings -> "Show animation background" check mark ticked
 	 */
@@ -29,14 +27,14 @@ protected:
 	void OnButton_ChoseAnimationBackground(wxCommandEvent &event);
 
 	/**
-	 * @brief set the @FileNumeration value to true
+	 * @brief set the  \link GUIMyFrame::FileNumeration FileNumeration \endlink value to true
 	 *
 	 * @param event Settings -> Other settings -> "0001" button click
 	 */
 	void setSavedFileNumeration0001(wxCommandEvent &event);
 
 	/**
-	 * @brief set the @FileNumeration value to false
+	 * @brief set the  \link GUIMyFrame::FileNumeration FileNumeration \endlink value to false
 	 *
 	 * @param event Settings -> Other settings -> "1" button click
 	 */
@@ -51,6 +49,11 @@ protected:
 
 public:
 	GUIOtherSettings(wxWindow *parent, GUIMyFrame *parentWindow);
+
+	/**
+	 * @brief variable resposible for changes made on higher instance window
+	 *
+	 */
 	GUIMyFrame *Parent;
 };
 

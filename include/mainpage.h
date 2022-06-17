@@ -50,7 +50,7 @@ Wczytane klatki są zapisywane do kontenera std::vector.
  *
  * - dane wyjściowe są to animacje, które można wyświetlić na ekranie poklatkowo lub zapisać do pliku z rozszerzeniem .png.
  *
- * - struktury danych - cała animacja jest przechowywana w std::vector, który z kolei przechowuje @Frame. @Frame jest to struktura stworzona na potrzeby programu,
+ * - struktury danych - cała animacja jest przechowywana w std::vector, który z kolei przechowuje \ref Frame. \ref Frame jest to struktura stworzona na potrzeby programu,
  * przechowuje ona pojedyńczą klatkę złożoną z czasu odtwarzania tej klatki oraz zdjęcia jakie ma wyświetlić.
  *
  *
@@ -98,7 +98,7 @@ Wczytane klatki są zapisywane do kontenera std::vector.
  *
  *
  * Szymon był odpowiedzialny za:
- * - zaimplementowanie wyświetlania obrazów przechowywanych w wektorze @Animation
+ * - zaimplementowanie wyświetlania obrazów przechowywanych w wektorze \link GUIMyFrame::Animation Animation \endlink
  * - zaimplementowanie funkcjonalności dla róznych przycisków sterujących
  *		- przyciski play/pause
  *		- przyciski przewijania klatek przód/tył
@@ -115,7 +115,7 @@ Wczytane klatki są zapisywane do kontenera std::vector.
  *Program można podzielić na 3 grupy algorytmów:
  * - pierwsza grupa zajmuje się wczytaniem klatek do wektora. Danymi wejściowymi jest ścieżka do pliku
  (bądź plików w przypadku czytania ze zdjęć), który użytkownik wybierze do odczytu. Na początku algorytm czyści wektor z poprzedniej animacji i zmienia stan programu
- na @LoadingToBuffer. Po otwarciu pliku program zczytuje rozmiar i ilość wszystkich klatek. Jest to potrzebne, aby zmienić rozmiar całego okna oraz zarezerowoać
+ na \link GUIMyFrame::States::LoadingToBuffer LoadingToBuffer \endlink. Po otwarciu pliku program zczytuje rozmiar i ilość wszystkich klatek. Jest to potrzebne, aby zmienić rozmiar całego okna oraz zarezerowoać
  pamięć w wektorze. Następnie program czyta kolejne komendy i rysuje odpowiadające im figury na zmiennej tymczasowej typu sf::RenderTexture do momentu napotkania komendy stop (ST).
  Wtedy wyświetla i zapisuje buffer jako sf::Texture. Danymi wyjściowymi jest wektor przechowujący wszystkie klatki.
  * - druga zapisuje klatki z wektora do folderu. Danymi wejściowymi jest folder wybrany przez użytkownika, do którego mają zostać zapisane klatki. Na początku algorytm pobiera z
@@ -123,10 +123,10 @@ Wczytane klatki są zapisywane do kontenera std::vector.
  a następnie wywołuje zapis na osobnym wątku. W ten sposób wewnętrzna pętla rozsyła zapis na różne wątki, z kolei w zewnętrznej czekamy aż wszystkie zapisy się skończą
  i powtarzamy mechanizm. Algorytm zabezpiecza również sytuację, gdy parę klatek nie zostanie zapisanych. Sytuazja ta może wystąpić, kiedy ilość klatek nie jest podzielna przez ilość wątków.
  Danymi wyjściowymi w tym przypadku są zapisane obrazy.
- * - trzecia zajmuje się wyświetleniem animacji. Algorytm ten jest złożonyc z wielu funkcji, które wzajemnie ze sobą współgrają. Całe wyświetlanie jest oparte o metode @Notify
+ * - trzecia zajmuje się wyświetleniem animacji. Algorytm ten jest złożonyc z wielu funkcji, które wzajemnie ze sobą współgrają. Całe wyświetlanie jest oparte o metode \link GUIMyFrame::Notify() Notify() \endlink
  (dziedziczona po wxTimer), która jest wywoływana co czas trwania danej klatki, natomiast w jej ciele znajduje się przejście do kolejnej klatki. Wypisywanie na ekran
- zależy od @AnimationState. W momencie odtwarzania animacji, na ekran wyświetlana jest aktualna klatka wraz z tłem, jeśli jest ustawione. W skład algorytmu wchodzą również metody
- wywoływane po akcji użytkownika, które zmieniają stan animacji - zmienia się z @DuringDisplay na @DisplayStopped, aktualna klatka jest inkrementowana/deinkrementowana,
+ zależy od \link GUIMyFrame::AnimationState AnimationState \endlink. W momencie odtwarzania animacji, na ekran wyświetlana jest aktualna klatka wraz z tłem, jeśli jest ustawione. W skład algorytmu wchodzą również metody
+ wywoływane po akcji użytkownika, które zmieniają stan animacji - zmienia się z \link GUIMyFrame::States::DuringDisplay DuringDisplay \endlink na \link GUIMyFrame::States::DisplayStopped DisplayStopped \endlink, aktualna klatka jest inkrementowana/deinkrementowana,
  aktualna klatka zostaje zmieniona na zerowoą, czas pomiędzy klatkami wydłuża się/skraca.
  *
  *<hr>

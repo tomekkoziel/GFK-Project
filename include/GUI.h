@@ -31,63 +31,100 @@
 
 ///////////////////////////////////////////////////////////////////////////
 
-
 ///////////////////////////////////////////////////////////////////////////////
 /// Class MyFrame
 ///////////////////////////////////////////////////////////////////////////////
 
 /**
  * @brief creates the main interface of the application
- * 
- * @param AnimationPanel holds wxPanel on which the animation is displayed
- * @param LoadingProgress shows current saving/reading progress (basically the progress bar)
- * @param ChoiceSpeed allows user to choose the speed at which the animation should be displayed
- * @param AnimationGoBack allows user to skip a few frames backwards
- * @param PlayAndStop allows user to start/pause the animation
- * @param AnimationGoBack allows user to skip a few frames forwards
- * @param AnimationReplay allows user to replay the animation
- * @param MenuBar "File" drop down menu
- * @param SettingsBar "Settings" drop down menu
- * @param ReadingFileOption allows the user to choose the preferred file read option
- * 
  */
 class MyFrame : public wxFrame
 {
-	private:
+private:
+protected:
+	/**
+	 * @brief holds wxPanel on which the animation is displayed
+	 *
+	 */
+	wxPanel *AnimationPanel;
 
-	protected:
-		wxPanel* AnimationPanel;
-		wxGauge* LoadingProgress;
-		wxSlider* ChoiceSpeed;
-		wxButton* AnimationGoBack;
-		wxButton* PlayAndStop;
-		wxButton* AnimationGoForward;
-		wxButton* AnimationReplay;
-		wxMenuBar* MenuBar;
-		wxMenu* FileBar;
-		wxMenu* SettingsBar;
-		wxMenu* ReadingFileOption;
+	/**
+	 * @brief shows current saving/reading progress (basically the progress bar)
+	 *
+	 */
+	wxGauge *LoadingProgress;
 
-		// // methods descriptions in GUIMyFrame.h
-		virtual void ChangeSizeOfAnimation( wxMoveEvent& event ) { event.Skip(); }
-		virtual void Repaint_AnimationPanel( wxUpdateUIEvent& event ) { event.Skip(); }
-		virtual void OnSlide_AnimationSpeed( wxScrollEvent& event ) { event.Skip(); }
-		virtual void OnClick_RewindAnimation( wxCommandEvent& event ) { event.Skip(); }
-		virtual void OnClick_PlayStopAnimation( wxCommandEvent& event ) { event.Skip(); }
-		virtual void OnClick_GoForwardAnimation( wxCommandEvent& event ) { event.Skip(); }
-		virtual void OnClick_RestartAnimation( wxCommandEvent& event ) { event.Skip(); }
-		virtual void OnClick_OpenFileOnMenuSelection( wxCommandEvent& event ) { event.Skip(); }
-		virtual void OnClick_SaveAnimationToFile( wxCommandEvent& event ) { event.Skip(); }
-		virtual void OnClick_SetBacgroundColor( wxCommandEvent& event ) { event.Skip(); }
-		virtual void OnClick_ShowSavingOptions( wxCommandEvent& event ) { event.Skip(); }
+	/**
+	 * @brief allows user to choose the speed at which the animation should be displayed
+	 *
+	 */
+	wxSlider *ChoiceSpeed;
 
+	/**
+	 * @brief allows user to skip a few frames backwards
+	 *
+	 */
+	wxButton *AnimationGoBack;
 
-	public:
+	/**
+	 * @brief allows user to start/pause the animation
+	 *
+	 */
+	wxButton *PlayAndStop;
 
-		MyFrame( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("GFK Project - Animations"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( -1,-1 ), long style = wxCAPTION|wxCLOSE_BOX|wxMINIMIZE_BOX|wxSYSTEM_MENU|wxTAB_TRAVERSAL );
+	/**
+	 * @brief allows user to skip a few frames forwards
+	 *
+	 */
+	wxButton *AnimationGoForward;
 
-		~MyFrame();
+	/**
+	 * @brief allows user to replay the animation
+	 *
+	 */
+	wxButton *AnimationReplay;
 
+	/**
+	 * @brief menu bar
+	 *
+	 */
+	wxMenuBar *MenuBar;
+
+	/**
+	 * @brief "File" drop down menu
+	 *
+	 */
+	wxMenu *FileBar;
+
+	/**
+	 * @brief "Settings" drop down menu
+	 *
+	 */
+	wxMenu *SettingsBar;
+
+	/**
+	 * @brief allows the user to choose the preferred file read option
+	 *
+	 */
+	wxMenu *ReadingFileOption;
+
+	// // methods descriptions in GUIMyFrame.h
+	virtual void ChangeSizeOfAnimation(wxMoveEvent &event) { event.Skip(); }
+	virtual void Repaint_AnimationPanel(wxUpdateUIEvent &event) { event.Skip(); }
+	virtual void OnSlide_AnimationSpeed(wxScrollEvent &event) { event.Skip(); }
+	virtual void OnClick_RewindAnimation(wxCommandEvent &event) { event.Skip(); }
+	virtual void OnClick_PlayStopAnimation(wxCommandEvent &event) { event.Skip(); }
+	virtual void OnClick_GoForwardAnimation(wxCommandEvent &event) { event.Skip(); }
+	virtual void OnClick_RestartAnimation(wxCommandEvent &event) { event.Skip(); }
+	virtual void OnClick_OpenFileOnMenuSelection(wxCommandEvent &event) { event.Skip(); }
+	virtual void OnClick_SaveAnimationToFile(wxCommandEvent &event) { event.Skip(); }
+	virtual void OnClick_SetBacgroundColor(wxCommandEvent &event) { event.Skip(); }
+	virtual void OnClick_ShowSavingOptions(wxCommandEvent &event) { event.Skip(); }
+
+public:
+	MyFrame(wxWindow *parent, wxWindowID id = wxID_ANY, const wxString &title = wxT("GFK Project - Animations"), const wxPoint &pos = wxDefaultPosition, const wxSize &size = wxSize(-1, -1), long style = wxCAPTION | wxCLOSE_BOX | wxMINIMIZE_BOX | wxSYSTEM_MENU | wxTAB_TRAVERSAL);
+
+	~MyFrame();
 };
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -96,42 +133,62 @@ class MyFrame : public wxFrame
 
 /**
  * @brief creates the main interface of the "Other settings" dialog box
- * 
- * @param EnableAnimationBackground allows the user to set if the background should be shown
- * @param AnimationBackground allows the user to choose a background which should be displayed
- * @param m_staticText2 constant text variable
- * @param FileNum0001 allows the user to set the numeration to "0001" style
- * @param FileNum1 allows the user to set the numeration to "1" style
- * @param m_staticText1 constant text variable
- * @param NameOfSavedFiles allows the user to set the name of saved files
- * 
  */
 class OtherSettings : public wxDialog
 {
-	private:
+private:
+protected:
+	/**
+	 * @brief allows the user to set if the background should be shown
+	 *
+	 */
+	wxCheckBox *EnableAnimationBackground;
 
-	protected:
-		wxCheckBox* EnableAnimationBackground;
-		wxButton* AnimationBackground;
-		wxStaticText* m_staticText2;
-		wxButton* FileNum0001;
-		wxButton* FileNum1;
-		wxStaticText* m_staticText1;
-		wxTextCtrl* NameOfSavedFiles;
+	/**
+	 * @brief allows the user to choose a background which should be displayed
+	 *
+	 */
+	wxButton *AnimationBackground;
 
-		// methods descriptions in GUIOtherSettings.h
-		virtual void IfCheck_ShowAnimationBackground( wxCommandEvent& event ) { event.Skip(); }
-		virtual void OnButton_ChoseAnimationBackground( wxCommandEvent& event ) { event.Skip(); }
-		virtual void setSavedFileNumeration0001( wxCommandEvent& event ) { event.Skip(); }
-		virtual void setSavedFileNumeration1( wxCommandEvent& event ) { event.Skip(); }
-		virtual void ChangeSavedFileName( wxCommandEvent& event ) { event.Skip(); }
+	/**
+	 * @brief constant text variable
+	 *
+	 */
+	wxStaticText *m_staticText2;
 
+	/**
+	 * @brief allows the user to set the numeration to "0001" style
+	 *
+	 */
+	wxButton *FileNum0001;
 
-	public:
+	/**
+	 * @brief allows the user to set the numeration to "1" style
+	 *
+	 */
+	wxButton *FileNum1;
 
-		OtherSettings( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("Other Settings"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 500,320 ), long style = wxDEFAULT_DIALOG_STYLE );
+	/**
+	 * @brief constant text variable
+	 *
+	 */
+	wxStaticText *m_staticText1;
 
-		~OtherSettings();
+	/**
+	 * @brief allows the user to set the name of saved files
+	 *
+	 */
+	wxTextCtrl *NameOfSavedFiles;
 
+	// methods descriptions in GUIOtherSettings.h
+	virtual void IfCheck_ShowAnimationBackground(wxCommandEvent &event) { event.Skip(); }
+	virtual void OnButton_ChoseAnimationBackground(wxCommandEvent &event) { event.Skip(); }
+	virtual void setSavedFileNumeration0001(wxCommandEvent &event) { event.Skip(); }
+	virtual void setSavedFileNumeration1(wxCommandEvent &event) { event.Skip(); }
+	virtual void ChangeSavedFileName(wxCommandEvent &event) { event.Skip(); }
+
+public:
+	OtherSettings(wxWindow *parent, wxWindowID id = wxID_ANY, const wxString &title = wxT("Other Settings"), const wxPoint &pos = wxDefaultPosition, const wxSize &size = wxSize(500, 320), long style = wxDEFAULT_DIALOG_STYLE);
+
+	~OtherSettings();
 };
-

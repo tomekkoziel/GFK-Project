@@ -2,7 +2,7 @@
 
 GUIMyFrame::GUIMyFrame( wxWindow* parent )
 :
-	MyFrame(parent), ReadingOption{ false }, AnimationState{ States::NoInBuffer },
+	MyFrame(parent), AnimationState{ States::NoInBuffer },
 	ShowBg{ false }, FileNumeration{ false }, FileName{ "output" }
 {
 }
@@ -79,7 +79,7 @@ void GUIMyFrame::Repaint_AnimationPanel( wxUpdateUIEvent& event )
 void GUIMyFrame::OnSlide_AnimationSpeed( wxScrollEvent& event )
 {
 // TODO: Implement OnSlide_AnimationSpeeds
-	sliderPosition = ChoiceSpeed->GetValue();
+	int sliderPosition = ChoiceSpeed->GetValue();
 
 	if (sliderPosition == 0)
 	{
