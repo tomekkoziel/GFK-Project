@@ -3,6 +3,8 @@
 !include/
 !bin/
 !animations/
+!animations/2D/
+!animations/3D/
 !documentation/
 !documentation/*
 !*.cpp

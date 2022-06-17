@@ -84,15 +84,17 @@ Wczytane klatki są zapisywane do kontenera std::vector.
  * @section work_division Podział pracy i analiza czasowa
  *
  * Prace przy projekcie zostały podzielone pomiędzy poszczególnych autorów projektu w taki sposób, że każdy z nich był odpowiedzialny za wdrożenie innego obszaru funkcjonalności projektu.
- * Adam był odpowiedzialny za zaimplementowanie:
- *	- 
- *	- 
- *	- 
+ * Adam był odpowiedzialny za:
+ * - stworzenie szkieletu projektu
+ * - zaimplementowanie wczytywania animacji z pliku oraz zapisywania ich w postaci serii obrazów w wybranym formacie
+ * - zaimplementowanie funkcjonalności interfejsu użytkownika pozwalającego na m.in: zmianę kolorów tła oraz modyfikację zapisu plików
+ * - całość można zawrzeć w module odczyt/zapis animacji
  * 
  * Tomek był odpowiedzialny za:
  * - stworzenie przykładowych animacji do projektu, odczytywanych przez program z plików .txt
  * - stworzenie algorytmów w języku C++, które zapisywały klatki w.w. animacji jako kolejne linie w pliku .txt
  * - ustalenie najbardziej optymalnego czasu wyświetlania pojedynczej klatki animacji
+ * - całość można zawrzeć w module tworzenie animacji
  * 
  * 
  * Szymon był odpowiedzialny za:
@@ -103,7 +105,7 @@ Wczytane klatki są zapisywane do kontenera std::vector.
  *		- przycisk replay
  * - zaimplementowanie sterowania prędkością odtwarzania za pomocą slidera
  * - zaimplementowanie wyświetlania odpowiednich komunikatów dla różnych stanów programu
- *
+ * - całość można zawrzeć w module wyświetlanie animacji
  *
  *
  *
@@ -151,16 +153,9 @@ Wczytane klatki są zapisywane do kontenera std::vector.
  *
  * @section conclusion Wdrożenie, raport i wnioski
  *
+ * 
+ * Udało się zaimplementować wszystkie postawione założenia podstawowe, a także roszerzono możliwości programu o szereg opcji dodatkowych takich jak np. zmiana tła, obsługa animacji 3D, wczytywanie animacji z obrazów. Dodatkowo w przyszłości można by rozszerzyć funkcjonalność programu o obsługę efektów dźwiękowych do animacji czy dodanie progress bar'u, wyświetlanego w trakcie odtwarzania animacji, umożliwiającego przeskoczenie do wybranej klatki poprzez kliknięcie na nią.
+ * Z nie do końca rozwiązanych problemów, przy uruchamianiu niektórych animacji, czasami program nie skaluje jej idealnie do ramek okna, lecz pozostawia szerokie paski. Dodatkowo przy zbyt małych rozmiarach animacji, ucinane są przyciski i nie da się sterować animacją.
  *
- *
- *
- *
- *
- *
-//  * @section requirements requirements
-//  * @verbinclude requirements
-//  * <hr>
-//  * @todo [optionally include text about more work to be done]
-//  * @todo Give each todo item its own line
  *
  */
