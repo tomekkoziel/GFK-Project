@@ -3,6 +3,8 @@
 !include/
 !bin/
 !animations/
+!documentation/
+!documentation/*
 !*.cpp
 !*.h
 !*.dll
@@ -14,5 +16,3 @@
 !*.txt
 !.gitignore
 !README.md
-!documentation/
-!documentation/html/*
