@@ -23,5 +23,5 @@ Configuration Properties -> General -> Output Directory zmienić na "$(SolutionD
 Configuration Properties -> VC++ -> Directories -> Include Directories dodać "./include"
 ## Dokumentacja
 
-[Dokumentacja](documentation/html/index.html)
+Ścieżka do dokumentacji: documentation/index.html
 
