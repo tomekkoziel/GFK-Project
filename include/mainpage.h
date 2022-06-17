@@ -83,7 +83,26 @@ Wczytane klatki są zapisywane do kontenera std::vector.
  *
  * @section work_division Podział pracy i analiza czasowa
  *
- *
+ * Prace przy projekcie zostały podzielone pomiędzy poszczególnych autorów projektu w taki sposób, że każdy z nich był odpowiedzialny za wdrożenie innego obszaru funkcjonalności projektu.
+ * Adam był odpowiedzialny za zaimplementowanie:
+ *	- 
+ *	- 
+ *	- 
+ * 
+ * Tomek był odpowiedzialny za:
+ * - stworzenie przykładowych animacji do projektu, odczytywanych przez program z plików .txt
+ * - stworzenie algorytmów w języku C++, które zapisywały klatki w.w. animacji jako kolejne linie w pliku .txt
+ * - ustalenie najbardziej optymalnego czasu wyświetlania pojedynczej klatki animacji
+ * 
+ * 
+ * Szymon był odpowiedzialny za:
+ * - zaimplementowanie wyświetlania obrazów przechowywanych w wektorze @Animation
+ * - zaimplementowanie funkcjonalności dla róznych przycisków sterujących 
+ *		- przyciski play/pause
+ *		- przyciski przewijania klatek przód/tył
+ *		- przycisk replay
+ * - zaimplementowanie sterowania prędkością odtwarzania za pomocą slidera
+ * - zaimplementowanie wyświetlania odpowiednich komunikatów dla różnych stanów programu
  *
  *
  *
