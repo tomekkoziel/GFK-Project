@@ -1,5 +1,0 @@
-/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/raindrops_on_water/build/CMakeFiles/rebuild_cache.dir
-/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/raindrops_on_water/build/CMakeFiles/edit_cache.dir
-/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/raindrops_on_water/build/CMakeFiles/check.dir
-/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/raindrops_on_water/build/CMakeFiles/run.dir
-/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/raindrops_on_water/build/CMakeFiles/main.dir

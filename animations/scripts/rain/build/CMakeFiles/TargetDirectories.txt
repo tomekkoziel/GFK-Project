@@ -1,5 +1,0 @@
-/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/rain/build/CMakeFiles/rebuild_cache.dir
-/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/rain/build/CMakeFiles/edit_cache.dir
-/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/rain/build/CMakeFiles/check.dir
-/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/rain/build/CMakeFiles/run.dir
-/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/rain/build/CMakeFiles/main.dir
