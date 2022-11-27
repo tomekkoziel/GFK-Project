@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/bubble_sort/include/bubble_sort.h
+vector
+-
+ostream
+-
+
+/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/bubble_sort/main.cpp
+iostream
+-
+vector
+-
+fstream
+-
+string
+-
+include/bubble_sort.h
+/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/bubble_sort/include/bubble_sort.h
+

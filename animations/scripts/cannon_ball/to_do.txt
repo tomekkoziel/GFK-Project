@@ -1,0 +1,2 @@
+Add cannon barrel (plan: use line width big pen width value)
+add explosion effect (maybe ?)

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/bounce_ball/include/trajectory.h
+cmath
+-
+iostream
+-
+vector
+-
+
+/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/bounce_ball/main.cpp
+cmath
+-
+iostream
+-
+vector
+-
+fstream
+-
+include/trajectory.h
+/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/bounce_ball/include/trajectory.h
+

@@ -1,0 +1,5 @@
+/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/cannon_ball/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/cannon_ball/build/CMakeFiles/edit_cache.dir
+/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/cannon_ball/build/CMakeFiles/check.dir
+/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/cannon_ball/build/CMakeFiles/run.dir
+/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/cannon_ball/build/CMakeFiles/main.dir

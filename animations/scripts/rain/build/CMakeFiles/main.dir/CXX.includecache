@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/Users/Tomek/Documents/c/wlasneProjekty/grafika_komputerowa/rain/main.cpp
+iostream
+-
+fstream
+-
+cmath
+-
+vector
+-
+algorithm
+-
+random
+-
+
